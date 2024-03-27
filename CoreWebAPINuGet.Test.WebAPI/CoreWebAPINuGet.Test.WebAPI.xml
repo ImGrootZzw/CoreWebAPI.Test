@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreWebAPINuGet.Test.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:CoreWebAPINuGet.Test.WebAPI.Controllers.Basic.BasicController">
+            <summary>
+            Basic
+            </summary>
+        </member>
+        <member name="T:CoreWebAPINuGet.Test.WebAPI.Controllers.Master.CodeMstrController">
+            <summary>
+            通用代码维护
+            </summary>
+        </member>
+        <member name="M:CoreWebAPINuGet.Test.WebAPI.Controllers.Master.CodeMstrController.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Logging.ILogger{CoreWebAPINuGet.Test.WebAPI.Controllers.Master.CodeMstrController},CoreWebAPINuGet.Test.IServices.Master.ICodeMstrService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="codemstrService"></param>
+            <param name="accessor"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:CoreWebAPINuGet.Test.WebAPI.Controllers.Master.CodeMstrController.Get(CoreWebAPINuGet.Test.Models.ViewModels.BasicSearchModel)">
+            <summary>
+            查询
+            </summary>
+            <param name="searchModel">查询参数</param>
+        </member>
+        <member name="M:CoreWebAPINuGet.Test.WebAPI.Controllers.Master.CodeMstrController.Post(CoreWebAPINuGet.Test.Models.Models.CodeMstr)">
+            <summary>
+            新增
+            </summary>
+            <param name="codemstr"></param>
+        </member>
+        <member name="M:CoreWebAPINuGet.Test.WebAPI.Controllers.Master.CodeMstrController.Put(CoreWebAPINuGet.Test.Models.Models.CodeMstr)">
+            <summary>
+            编辑
+            </summary>
+            <param name="codemstr"></param>
+        </member>
+        <member name="M:CoreWebAPINuGet.Test.WebAPI.Controllers.Master.CodeMstrController.Delete(System.Collections.Generic.List{CoreWebAPINuGet.Test.Models.Models.CodeMstr})">
+            <summary>
+            删除
+            </summary>
+            <param name="listCodeMstr"></param>
+        </member>
+        <member name="M:CoreWebAPINuGet.Test.WebAPI.Controllers.Master.CodeMstrController.DownloadTemplate">
+            <summary>
+            下载模板
+            </summary>
+        </member>
+        <member name="M:CoreWebAPINuGet.Test.WebAPI.Controllers.Master.CodeMstrController.Import(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            导入
+            </summary>
+            <param name="file"></param>
+        </member>
+        <member name="M:CoreWebAPINuGet.Test.WebAPI.Controllers.Master.CodeMstrController.Export(CoreWebAPINuGet.Test.Models.ViewModels.BasicSearchModel)">
+            <summary>
+            输出
+            </summary>
+            <param name="searchModel">查询参数</param>
+        </member>
+        <member name="T:CoreWebAPINuGet.Test_WebAPI.Startup">
+            <summary>
+            启动类
+            </summary>
+        </member>
+        <member name="M:CoreWebAPINuGet.Test_WebAPI.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            注册配置
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test_WebAPI.Startup.Configuration">
+            <summary>
+            配置
+            </summary>
+        </member>
+        <member name="M:CoreWebAPINuGet.Test_WebAPI.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CoreWebAPINuGet.Test_WebAPI.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
+            <summary>
+            注意在Program.CreateHostBuilder，注册Autofac服务工厂
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="M:CoreWebAPINuGet.Test_WebAPI.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

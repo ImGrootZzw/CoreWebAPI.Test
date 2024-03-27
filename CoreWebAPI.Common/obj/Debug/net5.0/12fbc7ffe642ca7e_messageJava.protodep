@@ -1,0 +1,2 @@
+obj\Debug\net5.0\Protos/MessageJava.cs \
+obj\Debug\net5.0\Protos/MessageJavaGrpc.cs: Protos/messageJava.proto

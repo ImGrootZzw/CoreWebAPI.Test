@@ -1,0 +1,936 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreWebAPI.Repository</name>
+    </assembly>
+    <members>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryById(System.Object)">
+            <summary>
+            功能描述:根据ID查询一条数据
+            </summary>
+            <param name="objId">id（必须指定主键特性 [SugarColumn(IsPrimaryKey=true)]），如果是联合主键，请使用Where条件</param>
+            <returns>数据实体</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryById(System.Object,System.Boolean)">
+            <summary>
+            功能描述:根据ID查询一条数据
+            </summary>
+            <param name="objId">id（必须指定主键特性 [SugarColumn(IsPrimaryKey=true)]），如果是联合主键，请使用Where条件</param>
+            <param name="blnUseCache">是否使用缓存</param>
+            <returns>数据实体</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryByIDs(System.Object[])">
+            <summary>
+            功能描述:根据ID查询数据
+            </summary>
+            <param name="lstIds">id列表（必须指定主键特性 [SugarColumn(IsPrimaryKey=true)]），如果是联合主键，请使用Where条件</param>
+            <returns>数据实体列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Query">
+            <summary>
+            功能描述:查询所有数据
+            </summary>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Query(System.String)">
+            <summary>
+            功能描述:查询数据列表
+            </summary>
+            <param name="strWhere">条件</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            功能描述:查询数据列表
+            </summary>
+            <param name="whereExpression">whereExpression</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String)">
+            <summary>
+            功能描述:查询一个列表
+            </summary>
+            <param name="whereExpression">条件表达式</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Boolean)">
+            <summary>
+            功能描述:查询一个列表
+            </summary>
+            <param name="whereExpression"></param>
+            <param name="orderByExpression"></param>
+            <param name="isAsc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Query(System.String,System.String)">
+            <summary>
+            功能描述:查询一个列表
+            </summary>
+            <param name="strWhere">条件</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32,System.String)">
+            <summary>
+            功能描述:分页查询
+            </summary>
+            <param name="whereExpression">条件表达式</param>
+            <param name="intPageIndex">页码（下标0）</param>
+            <param name="intPageSize">页大小</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Query(System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            功能描述:分页查询
+            </summary>
+            <param name="strWhere">条件</param>
+            <param name="intPageIndex">页码（下标0）</param>
+            <param name="intPageSize">页大小</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryTable(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String)">
+            <summary>
+            功能描述:查询一个列表
+            </summary>
+            <param name="whereExpression">条件表达式</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryTable(System.String,System.String)">
+            <summary>
+            功能描述:查询一个列表
+            </summary>
+            <param name="whereStr">条件表达式</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryTable(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}},SqlSugar.OrderByType)">
+            <summary>
+            功能描述:查询一个列表
+            </summary>
+            <param name="whereExpression">条件表达式</param>
+            <param name="sortExpression">排序表达式</param>
+            <param name="sortType">排序类型</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryTable``3(System.Linq.Expressions.Expression{System.Func{``0,``1,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2}},System.Linq.Expressions.Expression{System.Func{``0,``1,System.Boolean}},System.String)">
+            <summary>
+            两表联合查询
+            </summary>
+            <typeparam name="T">实体1</typeparam>
+            <typeparam name="T2">实体1</typeparam>
+            <typeparam name="TResult">返回对象</typeparam>
+            <param name="joinExpression">关联表达式</param>
+            <param name="selectExpression">返回表达式</param>
+            <param name="whereExpression">查询表达式</param>
+            <param name="strOrderByFileds">排序字段</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryTable``4(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,System.Boolean}},System.String)">
+            <summary>
+            三表联合查询
+            </summary>
+            <typeparam name="T">实体1</typeparam>
+            <typeparam name="T2">实体2</typeparam>
+            <typeparam name="T3">实体3</typeparam>
+            <typeparam name="TResult">返回对象</typeparam>
+            <param name="joinExpression">关联表达式</param>
+            <param name="selectExpression">返回表达式</param>
+            <param name="whereExpression">查询表达式</param>
+            <param name="strOrderByFileds">排序字段</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryTable``5(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,System.Boolean}},System.String)">
+            <summary>
+            四表联合查询
+            </summary>
+            <typeparam name="T">实体1</typeparam>
+            <typeparam name="T2">实体2</typeparam>
+            <typeparam name="T3">实体3</typeparam>
+            <typeparam name="T4">实体4</typeparam>
+            <typeparam name="TResult">返回对象</typeparam>
+            <param name="joinExpression">关联表达式</param>
+            <param name="selectExpression">返回表达式</param>
+            <param name="whereExpression">查询表达式</param>
+            <param name="strOrderByFileds">排序字段</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryTable``6(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,System.Boolean}},System.String)">
+            <summary>
+            五表联合查询
+            </summary>
+            <typeparam name="T">实体1</typeparam>
+            <typeparam name="T2">实体2</typeparam>
+            <typeparam name="T3">实体3</typeparam>
+            <typeparam name="T4">实体4</typeparam>
+            <typeparam name="T5">实体5</typeparam>
+            <typeparam name="TResult">返回对象</typeparam>
+            <param name="joinExpression">关联表达式</param>
+            <param name="selectExpression">返回表达式</param>
+            <param name="whereExpression">查询表达式</param>
+            <param name="strOrderByFileds">排序字段</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryPage(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32,System.String)">
+            <summary>
+            分页查询
+            </summary>
+            <param name="whereExpression">条件表达式</param>
+            <param name="intPageIndex">页码（下标0）</param>
+            <param name="intPageSize">页大小</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryPage(System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            分页查询
+            </summary>
+            <param name="whereStr">条件表达式</param>
+            <param name="intPageIndex">页码（下标0）</param>
+            <param name="intPageSize">页大小</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryPage(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,System.Object}},SqlSugar.OrderByType)">
+            <summary>
+            分页查询
+            </summary>
+            <param name="whereExpression">条件表达式</param>
+            <param name="intPageIndex">页码（下标0）</param>
+            <param name="intPageSize">页大小</param>
+            <param name="sortExpression">排序方法</param>
+            <param name="sortType">排序类型:OrderByType.Asc，OrderByType.Desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryMuch``3(System.Linq.Expressions.Expression{System.Func{``0,``1,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2}},System.Linq.Expressions.Expression{System.Func{``0,``1,System.Boolean}})">
+             <summary> 
+            查询-两表联合查询
+             </summary> 
+             <typeparam name="T">实体1</typeparam>
+             <typeparam name="T2">实体2</typeparam>
+             <typeparam name="TResult">返回对象</typeparam>
+             <param name="joinExpression">关联表达式 (t1, t2) => new object[] {JoinType.Left, t1.id == t2.id}</param> 
+             <param name="selectExpression">返回表达式 (t1, t2) => new tr{ Id = t1.id, Id1 = t2.name}</param>
+             <param name="whereLambda">查询表达式 (t1, t2, tr) => (t1.name == "")</param> 
+             <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryMuch``4(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,System.Boolean}})">
+             <summary> 
+            查询-三表联合查询
+             </summary> 
+             <typeparam name="T">实体1</typeparam>
+             <typeparam name="T2">实体2</typeparam>
+             <typeparam name="T3">实体3</typeparam>
+             <typeparam name="TResult">返回对象</typeparam>
+             <param name="joinExpression">关联表达式 (t1, t2, t3) => new object[] {JoinType.Left, t1.id == t2.id, JoinType.Left, t1.id == t3.id}</param> 
+             <param name="selectExpression">返回表达式 (t1, t2, t3, tr) => new tr{ id1 = t1.id, id2 = t2.id, id3 = t3.id }</param>
+             <param name="whereLambda">查询表达式 (t1, t2, t3, tr) => (t1.name == "")</param> 
+             <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryMuch``5(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,System.Boolean}})">
+             <summary> 
+            查询-四表联合查询
+             </summary> 
+             <typeparam name="T">实体1</typeparam>
+             <typeparam name="T2">实体2</typeparam>
+             <typeparam name="T3">实体3</typeparam>
+             <typeparam name="T4">实体4</typeparam>
+             <typeparam name="TResult">返回对象</typeparam>
+             <param name="joinExpression">关联表达式 (t1, t2, t3, t4) => new object[] {JoinType.Left, t1.id == t2.id, JoinType.Left, t1.id == t3.id}</param> 
+             <param name="selectExpression">返回表达式 (t1, t2, t3, t4, tr) => new tr{ id1 = t1.id, id2 = t2.id, id3 = t3.id }</param>
+             <param name="whereLambda">查询表达式 (t1, t2, t3, t4, tr) => (t1.name == "")</param> 
+             <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryMuch``6(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,System.Boolean}})">
+             <summary> 
+            查询-五表联合查询
+             </summary> 
+             <typeparam name="T">实体1</typeparam>
+             <typeparam name="T2">实体2</typeparam>
+             <typeparam name="T3">实体3</typeparam>
+             <typeparam name="T4">实体4</typeparam>
+             <typeparam name="T5">实体5</typeparam>
+             <typeparam name="TResult">返回对象</typeparam>
+             <param name="joinExpression">关联表达式 (t1, t2, t3, t4, t5) => new object[] {JoinType.Left, t1.id == t2.id, JoinType.Left, t1.id == t3.id}</param> 
+             <param name="selectExpression">返回表达式 (t1, t2, t3, t4, t5, tr) => new tr{ id1 = t1.id, id2 = t2.id, id3 = t3.id }</param>
+             <param name="whereLambda">查询表达式 (t1, t2, t3, t4, t5, tr) => (t1.name == "")</param> 
+             <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryMuchPage``3(System.Linq.Expressions.Expression{System.Func{``0,``1,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2}},System.Linq.Expressions.Expression{System.Func{``0,``1,System.Boolean}},System.Int32,System.Int32,System.String)">
+            <summary>
+            两表联合查询-分页
+            </summary>
+            <typeparam name="T">实体1</typeparam>
+            <typeparam name="T2">实体1</typeparam>
+            <typeparam name="TResult">返回对象</typeparam>
+            <param name="joinExpression">关联表达式</param>
+            <param name="selectExpression">返回表达式</param>
+            <param name="whereExpression">查询表达式</param>
+            <param name="intPageIndex">页码</param>
+            <param name="intPageSize">页大小</param>
+            <param name="strOrderByFileds">排序字段</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryMuchPage``3(System.Linq.Expressions.Expression{System.Func{``0,``1,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2}},System.Linq.Expressions.Expression{System.Func{``2,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Int32,System.Int32,System.String)">
+            <summary>
+            两表联合查询-分页-分组
+            </summary>
+            <typeparam name="T">实体1</typeparam>
+            <typeparam name="T2">实体1</typeparam>
+            <typeparam name="TResult">返回对象</typeparam>
+            <param name="joinExpression">关联表达式</param>
+            <param name="selectExpression">返回表达式</param>
+            <param name="whereExpression">查询表达式</param>
+            <param name="groupExpression">聚合表达式</param>
+            <param name="intPageIndex">页码</param>
+            <param name="intPageSize">页大小</param>
+            <param name="strOrderByFileds">排序字段</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryMuchPage``4(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,System.Boolean}},System.Int32,System.Int32,System.String)">
+            <summary>
+            三表联合查询-分页
+            </summary>
+            <typeparam name="T">实体1</typeparam>
+            <typeparam name="T2">实体2</typeparam>
+            <typeparam name="T3">实体3</typeparam>
+            <typeparam name="TResult">返回对象</typeparam>
+            <param name="joinExpression">关联表达式</param>
+            <param name="selectExpression">返回表达式</param>
+            <param name="whereExpression">查询表达式</param>
+            <param name="intPageIndex">页码</param>
+            <param name="intPageSize">页大小</param>
+            <param name="strOrderByFileds">排序字段</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryMuchPage``5(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,System.Boolean}},System.Int32,System.Int32,System.String)">
+            <summary>
+            四表联合查询-分页
+            </summary>
+            <typeparam name="T">实体1</typeparam>
+            <typeparam name="T2">实体2</typeparam>
+            <typeparam name="T3">实体3</typeparam>
+            <typeparam name="T4">实体4</typeparam>
+            <typeparam name="TResult">返回对象</typeparam>
+            <param name="joinExpression">关联表达式</param>
+            <param name="selectExpression">返回表达式</param>
+            <param name="whereExpression">查询表达式</param>
+            <param name="intPageIndex">页码</param>
+            <param name="intPageSize">页大小</param>
+            <param name="strOrderByFileds">排序字段</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryMuchPage``6(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,System.Boolean}},System.Int32,System.Int32,System.String)">
+            <summary>
+            五表联合查询-分页
+            </summary>
+            <typeparam name="T">实体1</typeparam>
+            <typeparam name="T2">实体2</typeparam>
+            <typeparam name="T3">实体3</typeparam>
+            <typeparam name="T4">实体4</typeparam>
+            <typeparam name="T5">实体5</typeparam>
+            <typeparam name="TResult">返回对象</typeparam>
+            <param name="joinExpression">关联表达式</param>
+            <param name="selectExpression">返回表达式</param>
+            <param name="whereExpression">查询表达式</param>
+            <param name="intPageIndex">页码</param>
+            <param name="intPageSize">页大小</param>
+            <param name="strOrderByFileds">排序字段</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryTop(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.String)">
+            <summary>
+            功能描述:查询前N条数据
+            </summary>
+            <param name="whereExpression">条件表达式</param>
+            <param name="intTop">前N条</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QueryTop(System.String,System.Int32,System.String)">
+            <summary>
+            功能描述:查询前N条数据
+            </summary>
+            <param name="strWhere">条件</param>
+            <param name="intTop">前N条</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QuerySql(System.String,System.Collections.Generic.List{SqlSugar.SugarParameter})">
+            <summary>
+            根据sql语句查询
+            </summary>
+            <param name="sql">完整的sql语句</param>
+            <param name="parameters">参数</param>
+            <returns>泛型集合</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.QuerySqlTable(System.String,System.Collections.Generic.List{SqlSugar.SugarParameter})">
+            <summary>
+            根据sql语句查询
+            </summary>
+            <param name="sql">完整的sql语句</param>
+            <param name="parameters">参数</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Add(`0)">
+            <summary>
+            写入实体数据
+            </summary>
+            <param name="entity">实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.AddGetRestult(`0)">
+            <summary>
+            写入实体数据
+            </summary>
+            <param name="entity">实体</param>
+            <returns>返回插入后的实体</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Add(`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            写入实体数据
+            </summary>
+            <param name="entity">实体</param>
+            <param name="insertColumns">指定插入列</param>
+            <param name="ingoreColumns">指定忽略插入列</param>
+            <returns>返回影响行数</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Add(System.Collections.Generic.List{`0})">
+            <summary>
+            批量插入实体，500条以下速度最快，兼容所有类型和emoji，500以上就开始慢了
+            </summary>
+            <param name="entities">实体集合</param>
+            <returns>影响行数</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.AddMuch(System.Collections.Generic.List{`0})">
+            <summary>
+            大批量插入实体，1000条以上性能无敌手
+            </summary>
+            <param name="entities">实体集合</param>
+            <returns>影响行数</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Update(`0)">
+            <summary>
+            更新实体数据
+            </summary>
+            <param name="entity">实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Update(`0,System.String)">
+            <summary>
+            更新实体数据
+            </summary>
+            <param name="entity">实体</param>
+            <param name="strWhere">条件字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Update(`0,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            更新实体数据
+            </summary>
+            <param name="entity">实体</param>
+            <param name="updateColumns">更新列</param>
+            <param name="ignoreColumns">忽略列</param>
+            <param name="strWhere">条件语句</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Update(`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary> 
+            更新实体数据(部分更新)
+            </summary> 
+            <param name="entity">实体</param> 
+            <param name="updateExpression"> o => new {TEntity.name}</param> 
+            <param name="ignoreExpression"> o => new {TEntity.password}</param> 
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Update(System.Collections.Generic.List{`0})">
+            <summary>
+            更新实体数据
+            </summary>
+            <param name="entitys">实体集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Update(System.Collections.Generic.List{`0},System.String)">
+            <summary>
+            更新实体数据
+            </summary>
+            <param name="entitys">实体集合</param>
+            <param name="strWhere">条件字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Update(System.Collections.Generic.List{`0},System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            更新实体数据
+            </summary>
+            <param name="entitys">实体</param>
+            <param name="updateColumns">更新列</param>
+            <param name="ignoreColumns">忽略列</param>
+            <param name="strWhere">条件语句</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Update(System.Collections.Generic.List{`0},System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary> 
+            更新实体数据(部分更新)
+            </summary> 
+            <param name="entitys">实体</param> 
+            <param name="updateExpression"> o => new {TEntity.name}</param> 
+            <param name="ignoreExpression"> o => new {TEntity.password}</param> 
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.DeleteById(System.Object)">
+            <summary>
+            删除指定ID的数据
+            </summary>
+            <param name="id">主键ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.DeleteByIds(System.Object[])">
+            <summary>
+            删除指定ID集合的数据(批量删除)
+            </summary>
+            <param name="ids">主键ID集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Delete(`0)">
+            <summary>
+            根据实体删除一条数据
+            </summary>
+            <param name="entity">实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Delete(System.Collections.Generic.List{`0})">
+            <summary>
+            根据实体集合删除多条数据(批量删除)
+            </summary>
+            <param name="entities">实体集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.Delete(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            根据表达式删除数据
+            </summary>
+            <param name="whereExpression">条件表达式</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Base.BaseRepository`1.CommandBySql(System.String,System.Collections.Generic.List{SqlSugar.SugarParameter})">
+            <summary>
+            新增、修改、删除
+            </summary>
+            <param name="sql">完整的sql语句</param>
+            <param name="parameters">参数</param>
+            <returns>影响行数</returns>
+        </member>
+        <member name="T:CoreWebAPI.Repository.PageModel`1">
+            <summary>
+            通用分页信息类
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Repository.PageModel`1.List">
+            <summary>
+            返回数据
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Repository.PageModel`1.Count">
+            <summary>
+            数据总数
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Repository.PageModel`1.PageIndex">
+            <summary>
+            当前页标
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Repository.PageModel`1.PageSize">
+            <summary>
+            每页大小
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Repository.PageModel`1.PageCount">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Repository.PageModelReturn`1">
+            <summary>
+            通用分页信息类
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Repository.PageModelReturn`1.List">
+            <summary>
+            返回数据
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Repository.PageModelReturn`1.Count">
+            <summary>
+            数据总数
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Repository.PageModelReturn`1.PageIndex">
+            <summary>
+            当前页标
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Repository.PageModelReturn`1.PageSize">
+            <summary>
+            每页大小
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Repository.PageModelReturn`1.PageCount">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Repository.Service.BaseService`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TEntity"></typeparam>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.QueryById(System.Object)">
+            <summary>
+            功能描述:根据ID查询一条数据
+            </summary>
+            <param name="objId">id（必须指定主键特性 [SugarColumn(IsPrimaryKey=true)]），如果是联合主键，请使用Where条件</param>
+            <returns>数据实体</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.QueryById(System.Object,System.Boolean)">
+            <summary>
+            功能描述:根据ID查询一条数据
+            </summary>
+            <param name="objId">id（必须指定主键特性 [SugarColumn(IsPrimaryKey=true)]），如果是联合主键，请使用Where条件</param>
+            <param name="blnUseCache">是否使用缓存</param>
+            <returns>数据实体</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.QueryByIDs(System.Object[])">
+            <summary>
+            功能描述:根据ID查询数据
+            </summary>
+            <param name="lstIds">id列表（必须指定主键特性 [SugarColumn(IsPrimaryKey=true)]），如果是联合主键，请使用Where条件</param>
+            <returns>数据实体列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Query">
+            <summary>
+            功能描述:查询所有数据
+            </summary>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Query(System.String)">
+            <summary>
+            功能描述:查询数据列表
+            </summary>
+            <param name="strWhere">条件</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            功能描述:查询数据列表
+            </summary>
+            <param name="whereExpression">whereExpression</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Boolean)">
+            <summary>
+            功能描述:查询一个列表
+            </summary>
+            <param name="whereExpression">条件表达式</param>
+            <param name="orderByExpression">排序字段</param>
+            <param name="isAsc">排序字段</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Query(System.String,System.String)">
+            <summary>
+            功能描述:查询一个列表
+            </summary>
+            <param name="strWhere">条件</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.String)">
+            <summary>
+            功能描述:查询前N条数据
+            </summary>
+            <param name="whereExpression">条件表达式</param>
+            <param name="intTop">前N条</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Query(System.String,System.Int32,System.String)">
+            <summary>
+            功能描述:查询前N条数据
+            </summary>
+            <param name="strWhere">条件</param>
+            <param name="intTop">前N条</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32,System.String)">
+            <summary>
+            功能描述:分页查询
+            </summary>
+            <param name="whereExpression">条件表达式</param>
+            <param name="intPageIndex">页码（下标0）</param>
+            <param name="intPageSize">页大小</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Query(System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            功能描述:分页查询
+            </summary>
+            <param name="strWhere">条件</param>
+            <param name="intPageIndex">页码（下标0）</param>
+            <param name="intPageSize">页大小</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.QueryTable(System.String,System.Collections.Generic.List{SqlSugar.SugarParameter})">
+            <summary>
+            根据sql语句查询
+            </summary>
+            <param name="strSql">完整的sql语句</param>
+            <param name="parameters">参数</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.QueryTable(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String)">
+            <summary>
+            功能描述:查询一个列表
+            </summary>
+            <param name="whereExpression">条件表达式</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.QueryTable(System.String,System.String)">
+            <summary>
+            功能描述:查询一个列表
+            </summary>
+            <param name="whereStr">条件表达式</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.QueryTable(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}},SqlSugar.OrderByType)">
+            <summary>
+            功能描述:查询一个列表
+            </summary>
+            <param name="whereExpression">条件表达式</param>
+            <param name="sortExpression">排序表达式</param>
+            <param name="sortType">排序类型</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.QueryTable``3(System.Linq.Expressions.Expression{System.Func{``0,``1,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2}},System.Linq.Expressions.Expression{System.Func{``0,``1,System.Boolean}},System.String)">
+            <summary>
+            两表联合查询
+            </summary>
+            <typeparam name="T">实体1</typeparam>
+            <typeparam name="T2">实体1</typeparam>
+            <typeparam name="TResult">返回对象</typeparam>
+            <param name="joinExpression">关联表达式</param>
+            <param name="selectExpression">返回表达式</param>
+            <param name="whereExpression">查询表达式</param>
+            <param name="strOrderByFileds">排序字段</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.QueryTable``4(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,System.Boolean}},System.String)">
+            <summary>
+            三表联合查询
+            </summary>
+            <typeparam name="T">实体1</typeparam>
+            <typeparam name="T2">实体2</typeparam>
+            <typeparam name="T3">实体3</typeparam>
+            <typeparam name="TResult">返回对象</typeparam>
+            <param name="joinExpression">关联表达式</param>
+            <param name="selectExpression">返回表达式</param>
+            <param name="whereExpression">查询表达式</param>
+            <param name="strOrderByFileds">排序字段</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.QueryTable``5(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,System.Boolean}},System.String)">
+            <summary>
+            四表联合查询
+            </summary>
+            <typeparam name="T">实体1</typeparam>
+            <typeparam name="T2">实体2</typeparam>
+            <typeparam name="T3">实体3</typeparam>
+            <typeparam name="T4">实体4</typeparam>
+            <typeparam name="TResult">返回对象</typeparam>
+            <param name="joinExpression">关联表达式</param>
+            <param name="selectExpression">返回表达式</param>
+            <param name="whereExpression">查询表达式</param>
+            <param name="strOrderByFileds">排序字段</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.QueryTable``6(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,System.Object[]}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5}},System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,System.Boolean}},System.String)">
+            <summary>
+            五表联合查询
+            </summary>
+            <typeparam name="T">实体1</typeparam>
+            <typeparam name="T2">实体2</typeparam>
+            <typeparam name="T3">实体3</typeparam>
+            <typeparam name="T4">实体4</typeparam>
+            <typeparam name="T5">实体5</typeparam>
+            <typeparam name="TResult">返回对象</typeparam>
+            <param name="joinExpression">关联表达式</param>
+            <param name="selectExpression">返回表达式</param>
+            <param name="whereExpression">查询表达式</param>
+            <param name="strOrderByFileds">排序字段</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.QueryPage(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32,System.String)">
+            <summary>
+            分页查询
+            </summary>
+            <param name="whereExpression">条件表达式</param>
+            <param name="intPageIndex">页码（下标0）</param>
+            <param name="intPageSize">页大小</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.QueryPage(System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            分页查询
+            </summary>
+            <param name="whereStr">条件表达式</param>
+            <param name="intPageIndex">页码（下标0）</param>
+            <param name="intPageSize">页大小</param>
+            <param name="strOrderByFileds">排序字段，如name asc,age desc</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.QuerySql(System.String,System.Collections.Generic.List{SqlSugar.SugarParameter})">
+            <summary>
+            根据sql语句查询
+            </summary>
+            <param name="strSql">完整的sql语句</param>
+            <param name="parameters">参数</param>
+            <returns>泛型集合</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.QuerySqlTable(System.String,System.Collections.Generic.List{SqlSugar.SugarParameter})">
+            <summary>
+            查询
+            </summary>
+            <param name="strSql">完整的sql语句</param>
+            <param name="parameters">参数</param>
+            <returns>结果集</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Add(`0)">
+            <summary>
+            写入实体数据
+            </summary>
+            <param name="entity">实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.AddGetRestult(`0)">
+            <summary>
+            写入实体数据
+            </summary>
+            <param name="entity">实体</param>
+            <returns>插入实体</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Add(`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            写入实体数据
+            </summary>
+            <param name="entity">实体</param>
+            <param name="insertColumns">指定插入列</param>
+            <param name="ingoreColumns">指定忽略插入列</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Add(System.Collections.Generic.List{`0})">
+            <summary>
+            批量插入实体，500条以下速度最快，兼容所有类型和emoji，500以上就开始慢了
+            </summary>
+            <param name="listEntity">实体集合</param>
+            <returns>影响行数</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.AddMuch(System.Collections.Generic.List{`0})">
+            <summary>
+            大批量插入实体，1000条以上性能无敌手
+            </summary>
+            <param name="listEntity">实体集合</param>
+            <returns>影响行数</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Update(`0)">
+            <summary>
+            更新实体数据
+            </summary>
+            <param name="entity">实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Update(`0,System.String)">
+            <summary>
+            更新实体数据
+            </summary>
+            <param name="entity">实体</param>
+            <param name="strWhere">条件字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Update(`0,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            更新实体数据
+            </summary>
+            <param name="entity">实体</param>
+            <param name="updateColumns">更新列</param>
+            <param name="ignoreColumns">忽略列</param>
+            <param name="strWhere">条件语句</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Update(`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary> 
+            更新实体数据(部分更新)
+            </summary> 
+            <param name="entity">实体</param> 
+            <param name="updateExpression"> o => new {TEntity.name}</param> 
+            <param name="ignoreExpression"> o => new {TEntity.password}</param> 
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.DeleteById(System.Object)">
+            <summary>
+            删除指定ID的数据
+            </summary>
+            <param name="id">主键ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.DeleteByIds(System.Object[])">
+            <summary>
+            删除指定ID集合的数据(批量删除)
+            </summary>
+            <param name="ids">主键ID集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Delete(`0)">
+            <summary>
+            根据实体删除一条数据
+            </summary>
+            <param name="entity">实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Delete(System.Collections.Generic.List{`0})">
+            <summary>
+            根据实体删除多条数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.Delete(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            根据表达式删除数据
+            </summary>
+            <param name="whereExpression">条件表达式</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.Service.BaseService`1.CommandBySql(System.String,System.Collections.Generic.List{SqlSugar.SugarParameter})">
+            <summary>
+            新增、修改、删除
+            </summary>
+            <param name="strSql">完整的sql语句</param>
+            <param name="parameters">参数</param>
+            <returns>影响行数</returns>
+        </member>
+        <member name="M:CoreWebAPI.Repository.UnitOfWork.UnitOfWork.GetDbClient">
+            <summary>
+            获取DB，保证唯一性
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

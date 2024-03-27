@@ -1,0 +1,17 @@
+syntax = "proto3";
+option csharp_namespace = "GrpcService1";
+option java_package = "com.esun.service.grpc";
+option java_outer_classname = "MessageGrpcEntity";
+package message;
+service Message {
+    rpc GetMessage (MessageRequest) returns (MessageResponse);
+}
+message MessageRequest {
+    string code = 1;
+    string message_id = 2;
+    string language_id  = 3;
+    bool active = 4;
+}
+message MessageResponse {
+    string result = 1;
+}

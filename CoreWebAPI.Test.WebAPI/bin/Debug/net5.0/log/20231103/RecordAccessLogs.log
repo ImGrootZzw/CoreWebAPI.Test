@@ -1,0 +1,216 @@
+2023-11-03 09:26:21.950 || Error ||  || RecordInfo --- Endpoint CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrController.Get (CoreWebAPI.Test.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...). || System.InvalidOperationException: Endpoint CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrController.Get (CoreWebAPI.Test.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at GZY.Quartz.MUI.Middleware.QuartzUIBasicAuthMiddleware.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Test.WebAPI\Quartz\Middleware\QuartzUIBasicAuthMiddleware.cs:line 53
+   at CoreWebAPI.Extensions.Middlewares.OptionsRequestMildd.Invoke(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\OptionsRequestMildd.cs:line 53
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CoreWebAPI.Middlewares.SwaggerAuthMilddleware.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\SwaggerAuthMilddle.cs:line 66
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 123
+ ||end 
+2023-11-03 09:26:22.122 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/codemstr/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9; __gads=ID=b3a3447774d8fb9b-2241497b07e50096:T=1698119372:RT=1698388734:S=ALNI_MbZFhxSYAWCDuFP2CErysbK3k0Bjg; __gpi=UID=00000c6fd113934a:T=1698119372:RT=1698388734:S=ALNI_MY0F7-hAwxRDzxCzgZCHk0lACKmhg\"],\"Host\":[\"localhost:5055\"],\"Referer\":[\"http://localhost:5055/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5055\"],\"Content-Length\":[\"29\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"118\\\", \\\"Google Chrome\\\";v=\\\"118\\\", \\\"Not=A?Brand\\\";v=\\\"99\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":1,\"pageSize\":10}",
+    "ResponseStatus": "500",
+    "ResponseHeader": "{}",
+    "ResponseData": "",
+    "BeginTime": "2023-11-03T09:26:21.7819028+08:00",
+    "EndTime": "2023-11-03T09:26:21.9806478+08:00",
+    "OPTime": "211ms"
+} ||  ||end 
+2023-11-03 09:27:22.831 || Error ||  || RecordInfo --- Endpoint CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrController.Export (CoreWebAPI.Test.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...). || System.InvalidOperationException: Endpoint CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrController.Export (CoreWebAPI.Test.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at GZY.Quartz.MUI.Middleware.QuartzUIBasicAuthMiddleware.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Test.WebAPI\Quartz\Middleware\QuartzUIBasicAuthMiddleware.cs:line 53
+   at CoreWebAPI.Extensions.Middlewares.OptionsRequestMildd.Invoke(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\OptionsRequestMildd.cs:line 53
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CoreWebAPI.Middlewares.SwaggerAuthMilddleware.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\SwaggerAuthMilddle.cs:line 66
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 123
+ ||end 
+2023-11-03 09:27:22.841 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/codemstr/export",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"*/*\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9; __gads=ID=b3a3447774d8fb9b-2241497b07e50096:T=1698119372:RT=1698388734:S=ALNI_MbZFhxSYAWCDuFP2CErysbK3k0Bjg; __gpi=UID=00000c6fd113934a:T=1698119372:RT=1698388734:S=ALNI_MY0F7-hAwxRDzxCzgZCHk0lACKmhg\"],\"Host\":[\"localhost:5055\"],\"Referer\":[\"http://localhost:5055/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5055\"],\"Content-Length\":[\"29\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"118\\\", \\\"Google Chrome\\\";v=\\\"118\\\", \\\"Not=A?Brand\\\";v=\\\"99\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":1,\"pageSize\":10}",
+    "ResponseStatus": "500",
+    "ResponseHeader": "{}",
+    "ResponseData": "",
+    "BeginTime": "2023-11-03T09:27:22.712407+08:00",
+    "EndTime": "2023-11-03T09:27:22.8389718+08:00",
+    "OPTime": "126ms"
+} ||  ||end 
+2023-11-03 09:27:28.747 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/demo/query",
+    "RequestQuery": "?pageIndex=1",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Accept\":[\"*/*\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9; __gads=ID=b3a3447774d8fb9b-2241497b07e50096:T=1698119372:RT=1698388734:S=ALNI_MbZFhxSYAWCDuFP2CErysbK3k0Bjg; __gpi=UID=00000c6fd113934a:T=1698119372:RT=1698388734:S=ALNI_MY0F7-hAwxRDzxCzgZCHk0lACKmhg\"],\"Host\":[\"localhost:5055\"],\"Referer\":[\"http://localhost:5055/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"118\\\", \\\"Google Chrome\\\";v=\\\"118\\\", \\\"Not=A?Brand\\\";v=\\\"99\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "?pageIndex=1",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"273\"]}",
+    "ResponseData": "{\"innerException\":null,\"stackTrace\":null,\"source\":null,\"sql\":null,\"parametres\":null,\"message\":\"SqlSugarException.ArgumentNullException：Use Cache ConnectionConfig.ConfigureExternalServices.DataInfoCacheService is required \",\"data\":{},\"helpLink\":null,\"hResult\":-2146233088}",
+    "BeginTime": "2023-11-03T09:27:28.431025+08:00",
+    "EndTime": "2023-11-03T09:27:28.7451665+08:00",
+    "OPTime": "314ms"
+} ||  ||end 
+2023-11-03 09:28:27.642 || Error ||  || RecordInfo --- Endpoint CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.Get (CoreWebAPI.Test.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...). || System.InvalidOperationException: Endpoint CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.Get (CoreWebAPI.Test.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at GZY.Quartz.MUI.Middleware.QuartzUIBasicAuthMiddleware.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Test.WebAPI\Quartz\Middleware\QuartzUIBasicAuthMiddleware.cs:line 53
+   at CoreWebAPI.Extensions.Middlewares.OptionsRequestMildd.Invoke(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\OptionsRequestMildd.cs:line 53
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CoreWebAPI.Middlewares.SwaggerAuthMilddleware.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\SwaggerAuthMilddle.cs:line 66
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 123
+ ||end 
+2023-11-03 09:28:27.670 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9; __gads=ID=b3a3447774d8fb9b-2241497b07e50096:T=1698119372:RT=1698388734:S=ALNI_MbZFhxSYAWCDuFP2CErysbK3k0Bjg; __gpi=UID=00000c6fd113934a:T=1698119372:RT=1698388734:S=ALNI_MY0F7-hAwxRDzxCzgZCHk0lACKmhg\"],\"Host\":[\"localhost:5055\"],\"Referer\":[\"http://localhost:5055/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5055\"],\"Content-Length\":[\"29\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"118\\\", \\\"Google Chrome\\\";v=\\\"118\\\", \\\"Not=A?Brand\\\";v=\\\"99\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":1,\"pageSize\":10}",
+    "ResponseStatus": "500",
+    "ResponseHeader": "{}",
+    "ResponseData": "",
+    "BeginTime": "2023-11-03T09:28:27.5104078+08:00",
+    "EndTime": "2023-11-03T09:28:27.6522101+08:00",
+    "OPTime": "141ms"
+} ||  ||end 
+2023-11-03 09:28:43.627 || Error ||  || RecordInfo --- Endpoint CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.Get (CoreWebAPI.Test.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...). || System.InvalidOperationException: Endpoint CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.Get (CoreWebAPI.Test.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at GZY.Quartz.MUI.Middleware.QuartzUIBasicAuthMiddleware.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Test.WebAPI\Quartz\Middleware\QuartzUIBasicAuthMiddleware.cs:line 53
+   at CoreWebAPI.Extensions.Middlewares.OptionsRequestMildd.Invoke(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\OptionsRequestMildd.cs:line 53
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CoreWebAPI.Middlewares.SwaggerAuthMilddleware.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\SwaggerAuthMilddle.cs:line 66
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 123
+ ||end 
+2023-11-03 09:28:43.639 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9; __gads=ID=b3a3447774d8fb9b-2241497b07e50096:T=1698119372:RT=1698388734:S=ALNI_MbZFhxSYAWCDuFP2CErysbK3k0Bjg; __gpi=UID=00000c6fd113934a:T=1698119372:RT=1698388734:S=ALNI_MY0F7-hAwxRDzxCzgZCHk0lACKmhg\"],\"Host\":[\"localhost:5055\"],\"Referer\":[\"http://localhost:5055/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5055\"],\"Content-Length\":[\"29\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"118\\\", \\\"Google Chrome\\\";v=\\\"118\\\", \\\"Not=A?Brand\\\";v=\\\"99\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":1,\"pageSize\":10}",
+    "ResponseStatus": "500",
+    "ResponseHeader": "{}",
+    "ResponseData": "",
+    "BeginTime": "2023-11-03T09:28:43.5599774+08:00",
+    "EndTime": "2023-11-03T09:28:43.6341668+08:00",
+    "OPTime": "74ms"
+} ||  ||end 
+2023-11-03 09:28:50.866 || Error ||  || RecordInfo --- Endpoint CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.Get (CoreWebAPI.Test.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...). || System.InvalidOperationException: Endpoint CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.Get (CoreWebAPI.Test.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at GZY.Quartz.MUI.Middleware.QuartzUIBasicAuthMiddleware.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Test.WebAPI\Quartz\Middleware\QuartzUIBasicAuthMiddleware.cs:line 53
+   at CoreWebAPI.Extensions.Middlewares.OptionsRequestMildd.Invoke(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\OptionsRequestMildd.cs:line 53
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CoreWebAPI.Middlewares.SwaggerAuthMilddleware.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\SwaggerAuthMilddle.cs:line 66
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 123
+ ||end 
+2023-11-03 09:28:50.877 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9; __gads=ID=b3a3447774d8fb9b-2241497b07e50096:T=1698119372:RT=1698388734:S=ALNI_MbZFhxSYAWCDuFP2CErysbK3k0Bjg; __gpi=UID=00000c6fd113934a:T=1698119372:RT=1698388734:S=ALNI_MY0F7-hAwxRDzxCzgZCHk0lACKmhg\"],\"Host\":[\"localhost:5055\"],\"Referer\":[\"http://localhost:5055/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5055\"],\"Content-Length\":[\"29\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"118\\\", \\\"Google Chrome\\\";v=\\\"118\\\", \\\"Not=A?Brand\\\";v=\\\"99\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":1,\"pageSize\":10}",
+    "ResponseStatus": "500",
+    "ResponseHeader": "{}",
+    "ResponseData": "",
+    "BeginTime": "2023-11-03T09:28:50.7439914+08:00",
+    "EndTime": "2023-11-03T09:28:50.87285+08:00",
+    "OPTime": "128ms"
+} ||  ||end 
+2023-11-03 09:30:01.129 || Error ||  || RecordInfo --- Endpoint CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.Get (CoreWebAPI.Test.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...). || System.InvalidOperationException: Endpoint CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.Get (CoreWebAPI.Test.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at GZY.Quartz.MUI.Middleware.QuartzUIBasicAuthMiddleware.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Test.WebAPI\Quartz\Middleware\QuartzUIBasicAuthMiddleware.cs:line 53
+   at CoreWebAPI.Extensions.Middlewares.OptionsRequestMildd.Invoke(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\OptionsRequestMildd.cs:line 53
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CoreWebAPI.Middlewares.SwaggerAuthMilddleware.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\SwaggerAuthMilddle.cs:line 66
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 123
+ ||end 
+2023-11-03 09:30:01.164 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9; __gads=ID=b3a3447774d8fb9b-2241497b07e50096:T=1698119372:RT=1698388734:S=ALNI_MbZFhxSYAWCDuFP2CErysbK3k0Bjg; __gpi=UID=00000c6fd113934a:T=1698119372:RT=1698388734:S=ALNI_MY0F7-hAwxRDzxCzgZCHk0lACKmhg\"],\"Host\":[\"localhost:5055\"],\"Referer\":[\"http://localhost:5055/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5055\"],\"Content-Length\":[\"29\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"118\\\", \\\"Google Chrome\\\";v=\\\"118\\\", \\\"Not=A?Brand\\\";v=\\\"99\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":1,\"pageSize\":10}",
+    "ResponseStatus": "500",
+    "ResponseHeader": "{}",
+    "ResponseData": "",
+    "BeginTime": "2023-11-03T09:29:37.695878+08:00",
+    "EndTime": "2023-11-03T09:30:01.1395134+08:00",
+    "OPTime": "23927ms"
+} ||  ||end 
+2023-11-03 09:31:05.439 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9; __gads=ID=b3a3447774d8fb9b-2241497b07e50096:T=1698119372:RT=1698388734:S=ALNI_MbZFhxSYAWCDuFP2CErysbK3k0Bjg; __gpi=UID=00000c6fd113934a:T=1698119372:RT=1698388734:S=ALNI_MY0F7-hAwxRDzxCzgZCHk0lACKmhg\"],\"Host\":[\"localhost:5055\"],\"Referer\":[\"http://localhost:5055/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5055\"],\"Content-Length\":[\"29\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"118\\\", \\\"Google Chrome\\\";v=\\\"118\\\", \\\"Not=A?Brand\\\";v=\\\"99\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":1,\"pageSize\":10}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"433\"]}",
+    "ResponseData": "{\"resultCode\":\"1000001\",\"resultMsg\":\"中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：3D000: ���ݿ� \\\"tesla\\\" ������DbType=\\\"PostgreSQL\\\";ConfigId=\\\"mydb_pgsql\\\".\\r\\nEnglish Message : Connection open error . 3D000: ���ݿ� \\\"tesla\\\" ������DbType=\\\"PostgreSQL\\\";ConfigId=\\\"mydb_pgsql\\\"\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2023-11-03T09:30:56.3993763+08:00",
+    "EndTime": "2023-11-03T09:31:05.4331501+08:00",
+    "OPTime": "9046ms"
+} ||  ||end 
+2023-11-03 09:31:33.838 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9; __gads=ID=b3a3447774d8fb9b-2241497b07e50096:T=1698119372:RT=1698388734:S=ALNI_MbZFhxSYAWCDuFP2CErysbK3k0Bjg; __gpi=UID=00000c6fd113934a:T=1698119372:RT=1698388734:S=ALNI_MY0F7-hAwxRDzxCzgZCHk0lACKmhg\"],\"Host\":[\"localhost:5055\"],\"Referer\":[\"http://localhost:5055/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5055\"],\"Content-Length\":[\"29\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"118\\\", \\\"Google Chrome\\\";v=\\\"118\\\", \\\"Not=A?Brand\\\";v=\\\"99\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":1,\"pageSize\":10}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"433\"]}",
+    "ResponseData": "{\"resultCode\":\"1000001\",\"resultMsg\":\"中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：3D000: ���ݿ� \\\"tesla\\\" ������DbType=\\\"PostgreSQL\\\";ConfigId=\\\"mydb_pgsql\\\".\\r\\nEnglish Message : Connection open error . 3D000: ���ݿ� \\\"tesla\\\" ������DbType=\\\"PostgreSQL\\\";ConfigId=\\\"mydb_pgsql\\\"\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2023-11-03T09:31:08.872259+08:00",
+    "EndTime": "2023-11-03T09:31:33.8376743+08:00",
+    "OPTime": "24965ms"
+} ||  ||end 

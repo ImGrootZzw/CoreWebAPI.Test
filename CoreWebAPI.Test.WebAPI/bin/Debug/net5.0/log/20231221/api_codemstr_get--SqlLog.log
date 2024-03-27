@@ -1,0 +1,24 @@
+2023-12-21 09:44:35.398 || Information ||  || ErrorLog --- {
+    "Ip": "::1",
+    "Api": "/api/codemstr/get",
+    "User": "",
+    "Class": null,
+    "Method": "ExecuteAction",
+    "Line": 0,
+    "ExecutionTime": -63838748675071.56,
+    "Sql": "@",
+    "Para": null,
+    "BeforeData": null,
+    "AfterData": null,
+    "Ex": {
+        "InnerException": null,
+        "StackTrace": "   at SqlSugar.Check.Exception(Boolean isException, String message, String[] args)\r\n   at SqlSugar.AdoProvider.CheckConnection()\r\n   at SqlSugar.PostgreSQLProvider.GetCommand(String sql, SugarParameter[] parameters)\r\n   at SqlSugar.AdoProvider.GetScalarAsync(String sql, SugarParameter[] parameters)",
+        "Source": "SqlSugar",
+        "Sql": " SELECT COUNT(1) FROM (SELECT \"code_id\",\"code_corp_id\",\"code_domain_id\",\"code_name\",\"code_value\",\"code_desc\",\"code_active\",\"code_crt_datetime\",\"code_crt_prog\",\"code_crt_user\",\"code_mod_datetime\",\"code_mod_prog\",\"code_mod_user\" FROM \"code_mstr\"  ) CountTable ",
+        "Parametres": [],
+        "Message": "中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：3D000: ���ݿ� \"tesla\" ������DbType=\"PostgreSQL\";ConfigId=\"mydb_pgsql\".\r\nEnglish Message : Connection open error . 3D000: ���ݿ� \"tesla\" ������DbType=\"PostgreSQL\";ConfigId=\"mydb_pgsql\"",
+        "Data": {},
+        "HelpLink": null,
+        "HResult": -2146233088
+    }
+} ||  ||end 

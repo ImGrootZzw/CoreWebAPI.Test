@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CoreWebAPI.Common": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

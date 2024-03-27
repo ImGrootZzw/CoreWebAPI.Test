@@ -1,0 +1,401 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreWebAPI.Extensions</name>
+    </assembly>
+    <members>
+        <member name="T:CoreWebAPI.Extensions.AppConfigSetup">
+            <summary>
+            项目 启动服务
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.Authentication_JWTSetup">
+            <summary>
+            JWT权限 认证服务
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.AuthorizationSetup">
+            <summary>
+            系统 授权服务 配置
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.AutoMapperSetup">
+            <summary>
+            Automapper 启动服务
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.CAPSetup">
+            <summary>
+            CAP分布式事务
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.CorsSetup">
+            <summary>
+            Cors 启动服务
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.DbSetup">
+            <summary>
+            Db 启动服务
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.HttpContextSetup">
+            <summary>
+            HttpContext 相关服务
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.NacosSetup">
+            <summary>
+            Nacos
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.RedisCacheSetup">
+            <summary>
+            Redis缓存 启动服务
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.SentinelSetup">
+            <summary>
+            Sentinel
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.SqlsugarSetup">
+            <summary>
+            SqlSugar 启动服务
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.SwaggerSetup">
+            <summary>
+            Swagger 启动服务
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Extensions.SwaggerSetup.AddSwaggerSetup(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.CustomApiVersion">
+            <summary>
+            自定义版本
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.CustomApiVersion.ApiVersions">
+            <summary>
+            Api接口版本 自定义
+            </summary>
+        </member>
+        <member name="F:CoreWebAPI.Extensions.CustomApiVersion.ApiVersions.V1">
+            <summary>
+            V1 版本
+            </summary>
+        </member>
+        <member name="F:CoreWebAPI.Extensions.CustomApiVersion.ApiVersions.V2">
+            <summary>
+            V2 版本
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Extensions.Authorizations.Helpers.JwtHelper.IssueJwt(CoreWebAPI.Extensions.Authorizations.Helpers.TokenModelJwt)">
+            <summary>
+            颁发JWT字符串
+            </summary>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Extensions.Authorizations.Helpers.JwtHelper.SerializeJwt(System.String)">
+            <summary>
+            解析
+            </summary>
+            <param name="jwtStr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.Authorizations.Helpers.TokenModelJwt">
+            <summary>
+            令牌
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Extensions.Authorizations.Helpers.TokenModelJwt.Uid">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Extensions.Authorizations.Helpers.TokenModelJwt.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Extensions.Authorizations.Helpers.TokenModelJwt.Expiration">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Extensions.Authorizations.Helpers.TokenModelJwt.IsPermanent">
+            <summary>
+            永久
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.ConsulMildd">
+            <summary>
+            Consul 注册服务
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Extensions.Middlewares.OptionsRequestMildd">
+            <summary>
+            Options预检请求
+            </summary>
+        </member>
+        <member name="F:CoreWebAPI.Extensions.Middlewares.OptionsRequestMildd._next">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Extensions.Middlewares.OptionsRequestMildd.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger{CoreWebAPI.Extensions.Middlewares.OptionsRequestMildd})">
+            <summary>
+            
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="T:CoreWebAPI.Authorizations.Policys.PermissionHandler">
+            <summary>
+            权限授权处理器
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Authorizations.Policys.PermissionHandler.Schemes">
+            <summary>
+            验证方案提供对象
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Authorizations.Policys.PermissionHandler.#ctor(Microsoft.AspNetCore.Authentication.IAuthenticationSchemeProvider,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            构造函数注入
+            </summary>
+            <param name="schemes"></param>
+            <param name="accessor"></param>
+        </member>
+        <member name="M:CoreWebAPI.Authorizations.Policys.PermissionHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,CoreWebAPI.Authorizations.Policys.PermissionRequirement)">
+            <summary>
+            重写异步处理程序
+            </summary>
+            <param name="context"></param>
+            <param name="requirement"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreWebAPI.Authorizations.Policys.ResultModel">
+            <summary>
+            通用返回信息类
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Authorizations.Policys.ResultModel.Code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Authorizations.Policys.ResultModel.Msg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Authorizations.Policys.ResultModel.Data">
+            <summary>
+            返回数据集合
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Authorizations.Policys.ResultModel.MethodName">
+            <summary>
+            方法名
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Authorizations.Policys.PermissionItem">
+            <summary>
+            用户或角色或其他凭据实体,就像是订单详情一样
+            之前的名字是 Permission
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Authorizations.Policys.PermissionItem.Role">
+            <summary>
+            用户或角色或其他凭据名称
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Authorizations.Policys.PermissionItem.Url">
+            <summary>
+            请求Url
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Authorizations.Policys.PermissionRequirement">
+            <summary>
+            必要参数类，类似一个订单信息
+            继承 IAuthorizationRequirement，用于设计自定义权限处理器PermissionHandler
+            因为AuthorizationHandler 中的泛型参数 TRequirement 必须继承 IAuthorizationRequirement
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Authorizations.Policys.PermissionRequirement.Permissions">
+            <summary>
+            用户权限集合，一个订单包含了很多详情，
+            同理，一个网站的认证发行中，也有很多权限详情(这里是Role和URL的关系)
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Authorizations.Policys.PermissionRequirement.DeniedAction">
+            <summary>
+            无权限action
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Authorizations.Policys.PermissionRequirement.ClaimType">
+            <summary>
+            认证授权类型
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Authorizations.Policys.PermissionRequirement.LoginPath">
+            <summary>
+            请求路径
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Authorizations.Policys.PermissionRequirement.Issuer">
+            <summary>
+            发行人
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Authorizations.Policys.PermissionRequirement.Audience">
+            <summary>
+            订阅人
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Authorizations.Policys.PermissionRequirement.Expiration">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Authorizations.Policys.PermissionRequirement.SigningCredentials">
+            <summary>
+            签名验证
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Authorizations.Policys.PermissionRequirement.#ctor(System.String,System.Collections.Generic.List{CoreWebAPI.Authorizations.Policys.PermissionItem},System.String,System.String,System.String,Microsoft.IdentityModel.Tokens.SigningCredentials,System.TimeSpan)">
+            <summary>
+            构造
+            </summary>
+            <param name="deniedAction">拒约请求的url</param>
+            <param name="permissions">权限集合</param>
+            <param name="claimType">声明类型</param>
+            <param name="issuer">发行人</param>
+            <param name="audience">订阅人</param>
+            <param name="signingCredentials">签名验证实体</param>
+            <param name="expiration">过期时间</param>
+        </member>
+        <member name="T:CoreWebAPI.AutoMapper.AutoMapperConfig">
+            <summary>
+            静态全局 AutoMapper 配置文件
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.AutoMapper.CustomProfile.#ctor">
+            <summary>
+            配置构造函数，用来创建关系映射
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Middlewares.IPLogMildd">
+            <summary>
+            中间件
+            记录IP请求数据
+            </summary>
+        </member>
+        <member name="F:CoreWebAPI.Middlewares.IPLogMildd._next">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Middlewares.IPLogMildd.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:CoreWebAPI.Middlewares.MiddlewareHelpers.UseJwtTokenAuth(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            自定义授权中间件
+            </summary>
+            <param name="app"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Middlewares.MiddlewareHelpers.UseIPLogMildd(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            IP请求中间件
+            </summary>
+            <param name="app"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Middlewares.MiddlewareHelpers.UseRecordAccessLogsMildd(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            用户请求响应中间件
+            </summary>
+            <param name="app"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Middlewares.MiddlewareHelpers.UseOptionsReuestMildd(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Options请求中间件
+            </summary>
+            <param name="app"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreWebAPI.Middlewares.RecordAccessLogsMildd">
+            <summary>
+            中间件
+            记录用户方访问数据
+            </summary>
+        </member>
+        <member name="F:CoreWebAPI.Middlewares.RecordAccessLogsMildd._next">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Middlewares.RecordAccessLogsMildd.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,CoreWebAPI.Common.HttpContextUser.IUser,Microsoft.Extensions.Logging.ILogger{CoreWebAPI.Middlewares.RecordAccessLogsMildd})">
+            <summary>
+            
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:CoreWebAPI.Middlewares.RecordAccessLogsMildd.GetResponse(Microsoft.AspNetCore.Http.HttpResponse)">
+            <summary>
+            获取响应内容
+            </summary>
+            <param name="response"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebAPI.Middlewares.RecordAccessLogsMildd.GetClientIP(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            获取请求IP
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreWebAPI.Middlewares.SwaggerMildd">
+            <summary>
+            Swagger中间件
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.AuthHelper.JwtTokenAuth">
+            <summary>
+            中间件
+            原做为自定义授权中间件
+            先做检查 header token的使用
+            </summary>
+        </member>
+        <member name="F:CoreWebAPI.AuthHelper.JwtTokenAuth._next">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.AuthHelper.JwtTokenAuth.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:CoreWebAPI.AuthHelper.JwtTokenAuth.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,141 @@
+2023-08-30 11:47:55.055 ExecutingLog --- []
+2023-08-30 11:48:00.957 ExecutingLog --- []
+2023-08-30 11:48:06.892 ErrorLog --- {
+    "Ip": "::1",
+    "Api": "/api/threaddemo/query",
+    "User": "",
+    "Class": null,
+    "Method": "ExecuteAction",
+    "Line": 0,
+    "ExecutionTime": -63828992880952.26,
+    "Sql": "@",
+    "Para": null,
+    "BeforeData": null,
+    "AfterData": null,
+    "Ex": {
+        "InnerException": null,
+        "StackTrace": "   at SqlSugar.Check.Exception(Boolean isException, String message, String[] args)\r\n   at SqlSugar.MySqlProvider.GetCommandAsync(String sql, SugarParameter[] parameters)\r\n   at SqlSugar.MySqlProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)",
+        "Source": "SqlSugar",
+        "Sql": "SELECT `code_id`,`code_corp_id`,`code_domain_id`,`code_name`,`code_value`,`code_desc`,`code_active`,`code_crt_datetime`,`code_crt_prog`,`code_crt_user`,`code_mod_datetime`,`code_mod_prog`,`code_mod_user` FROM `code_mstr`  ",
+        "Parametres": [],
+        "Message": "Cannot Open when State is Connecting.",
+        "Data": {},
+        "HelpLink": null,
+        "HResult": -2146233088
+    }
+}
+2023-08-30 11:48:15.991 ExecutLog --- {
+    "Ip": "::1",
+    "Api": "/api/threaddemo/query",
+    "User": "",
+    "Class": null,
+    "Method": "ExecuteAction",
+    "Line": 0,
+    "ExecutionTime": 9324.4583,
+    "Sql": "SELECT `code_id`,`code_corp_id`,`code_domain_id`,`code_name`,`code_value`,`code_desc`,`code_active`,`code_crt_datetime`,`code_crt_prog`,`code_crt_user`,`code_mod_datetime`,`code_mod_prog`,`code_mod_user` FROM `code_mstr`     LIMIT 0,1",
+    "Para": "[]",
+    "BeforeData": null,
+    "AfterData": null,
+    "Ex": null
+}
+2023-08-30 11:48:41.487 ExecutingLog --- []
+2023-08-30 11:48:42.154 ExecutLog --- {
+    "Ip": "::1",
+    "Api": "/api/threaddemo/query",
+    "User": "",
+    "Class": null,
+    "Method": "ExecuteAction",
+    "Line": 0,
+    "ExecutionTime": 606.8114,
+    "Sql": "SELECT `code_id`,`code_corp_id`,`code_domain_id`,`code_name`,`code_value`,`code_desc`,`code_active`,`code_crt_datetime`,`code_crt_prog`,`code_crt_user`,`code_mod_datetime`,`code_mod_prog`,`code_mod_user` FROM `code_mstr`     LIMIT 0,1",
+    "Para": "[]",
+    "BeforeData": null,
+    "AfterData": null,
+    "Ex": null
+}
+2023-08-30 11:48:42.663 ExecutLog --- {
+    "Ip": "::1",
+    "Api": "/api/threaddemo/query",
+    "User": "",
+    "Class": null,
+    "Method": "ExecuteAction",
+    "Line": 0,
+    "ExecutionTime": 450.7287,
+    "Sql": "SELECT `code_id`,`code_corp_id`,`code_domain_id`,`code_name`,`code_value`,`code_desc`,`code_active`,`code_crt_datetime`,`code_crt_prog`,`code_crt_user`,`code_mod_datetime`,`code_mod_prog`,`code_mod_user` FROM `code_mstr`  ",
+    "Para": "[]",
+    "BeforeData": null,
+    "AfterData": null,
+    "Ex": null
+}
+2023-08-30 11:49:14.383 ExecutingLog --- []
+2023-08-30 11:49:14.403 ExecutingLog --- []
+2023-08-30 11:49:14.424 ExecutLog --- {
+    "Ip": "::1",
+    "Api": "/api/threaddemo/query",
+    "User": "",
+    "Class": null,
+    "Method": "ExecuteAction",
+    "Line": 0,
+    "ExecutionTime": 3.1704,
+    "Sql": "SELECT `code_id`,`code_corp_id`,`code_domain_id`,`code_name`,`code_value`,`code_desc`,`code_active`,`code_crt_datetime`,`code_crt_prog`,`code_crt_user`,`code_mod_datetime`,`code_mod_prog`,`code_mod_user` FROM `code_mstr`     LIMIT 0,1",
+    "Para": "[]",
+    "BeforeData": null,
+    "AfterData": null,
+    "Ex": null
+}
+2023-08-30 11:49:26.664 ExecutingLog --- []
+2023-08-30 11:49:26.683 ExecutingLog --- []
+2023-08-30 11:49:26.703 ErrorLog --- {
+    "Ip": "::1",
+    "Api": "/api/threaddemo/query",
+    "User": "",
+    "Class": null,
+    "Method": "ExecuteAction",
+    "Line": 0,
+    "ExecutionTime": 11.3489,
+    "Sql": "@",
+    "Para": null,
+    "BeforeData": null,
+    "AfterData": null,
+    "Ex": {
+        "InnerException": null,
+        "StackTrace": "   at MySqlConnector.Core.ServerSession.StartQuerying(ICancellableCommand command) in /_/src/MySqlConnector/Core/ServerSession.cs:line 283\r\n   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 50\r\n   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 344\r\n   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 337\r\n   at SqlSugar.MySqlProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)",
+        "Source": "MySqlConnector",
+        "Sql": "SELECT `code_id`,`code_corp_id`,`code_domain_id`,`code_name`,`code_value`,`code_desc`,`code_active`,`code_crt_datetime`,`code_crt_prog`,`code_crt_user`,`code_mod_datetime`,`code_mod_prog`,`code_mod_user` FROM `code_mstr`  ",
+        "Parametres": [],
+        "Message": "This MySqlConnection is already in use. See https://fl.vu/mysql-conn-reuse",
+        "Data": {},
+        "HelpLink": null,
+        "HResult": -2146233088
+    }
+}
+2023-08-30 11:49:52.016 ExecutingLog --- []
+2023-08-30 11:49:52.256 ExecutLog --- {
+    "Ip": "::1",
+    "Api": "/api/threaddemo/query",
+    "User": "",
+    "Class": null,
+    "Method": "ExecuteAction",
+    "Line": 0,
+    "ExecutionTime": 774.0763,
+    "Sql": "SELECT `code_id`,`code_corp_id`,`code_domain_id`,`code_name`,`code_value`,`code_desc`,`code_active`,`code_crt_datetime`,`code_crt_prog`,`code_crt_user`,`code_mod_datetime`,`code_mod_prog`,`code_mod_user` FROM `code_mstr`     LIMIT 0,1",
+    "Para": "[]",
+    "BeforeData": null,
+    "AfterData": null,
+    "Ex": null
+}
+2023-08-30 11:49:52.367 ExecutingLog --- []
+2023-08-30 11:49:53.836 ExecutLog --- {
+    "Ip": "::1",
+    "Api": "/api/threaddemo/query",
+    "User": "",
+    "Class": null,
+    "Method": "ExecuteAction",
+    "Line": 0,
+    "ExecutionTime": 1433.0161,
+    "Sql": "SELECT `code_id`,`code_corp_id`,`code_domain_id`,`code_name`,`code_value`,`code_desc`,`code_active`,`code_crt_datetime`,`code_crt_prog`,`code_crt_user`,`code_mod_datetime`,`code_mod_prog`,`code_mod_user` FROM `code_mstr`  ",
+    "Para": "[]",
+    "BeforeData": null,
+    "AfterData": null,
+    "Ex": null
+}

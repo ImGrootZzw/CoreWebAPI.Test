@@ -1,0 +1,70 @@
+2024-03-11 14:30:30.842 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br, zstd\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9; __gads=ID=b3a3447774d8fb9b-2241497b07e50096:T=1698119372:RT=1698388734:S=ALNI_MbZFhxSYAWCDuFP2CErysbK3k0Bjg; __gpi=UID=00000c6fd113934a:T=1698119372:RT=1698388734:S=ALNI_MY0F7-hAwxRDzxCzgZCHk0lACKmhg; tenantId=default; vue_admin_template_token=WodCNFlPt1iqaS08q7or5xklCL4KEfmX7G50483YW6UDU2mjOC51PqEiyW51; TokenName=access-token; vue_admin_template_userName=fine; vue_admin_template_domainId=0ff16f5c-1a90-45a2-9e43-4a33d88a37f1; DomainName=ASG; _dd_s=logs=1&id=51a12082-ca7a-47a0-9ae9-18052309500c&created=1710137239751&expire=1710139529990\"],\"Host\":[\"localhost:5055\"],\"Referer\":[\"http://localhost:5055/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5055\"],\"Content-Length\":[\"29\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"122\\\", \\\"Not(A:Brand\\\";v=\\\"24\\\", \\\"Google Chrome\\\";v=\\\"122\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":1,\"pageSize\":10}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"97\"]}",
+    "ResponseData": "{\"resultCode\":\"1000001\",\"resultMsg\":\"ConfigId was not found doris\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2024-03-11T14:30:30.0496713+08:00",
+    "EndTime": "2024-03-11T14:30:30.6871432+08:00",
+    "OPTime": "645ms"
+} ||  ||end 
+2024-03-11 14:31:06.507 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br, zstd\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9; __gads=ID=b3a3447774d8fb9b-2241497b07e50096:T=1698119372:RT=1698388734:S=ALNI_MbZFhxSYAWCDuFP2CErysbK3k0Bjg; __gpi=UID=00000c6fd113934a:T=1698119372:RT=1698388734:S=ALNI_MY0F7-hAwxRDzxCzgZCHk0lACKmhg; tenantId=default; vue_admin_template_token=WodCNFlPt1iqaS08q7or5xklCL4KEfmX7G50483YW6UDU2mjOC51PqEiyW51; TokenName=access-token; vue_admin_template_userName=fine; vue_admin_template_domainId=0ff16f5c-1a90-45a2-9e43-4a33d88a37f1; DomainName=ASG; _dd_s=logs=1&id=51a12082-ca7a-47a0-9ae9-18052309500c&created=1710137239751&expire=1710139564321\"],\"Host\":[\"localhost:5055\"],\"Referer\":[\"http://localhost:5055/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5055\"],\"Content-Length\":[\"29\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"122\\\", \\\"Not(A:Brand\\\";v=\\\"24\\\", \\\"Google Chrome\\\";v=\\\"122\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":1,\"pageSize\":10}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"97\"]}",
+    "ResponseData": "{\"resultCode\":\"1000001\",\"resultMsg\":\"ConfigId was not found doris\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2024-03-11T14:31:05.3447682+08:00",
+    "EndTime": "2024-03-11T14:31:06.2403314+08:00",
+    "OPTime": "906ms"
+} ||  ||end 
+2024-03-11 14:48:39.999 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br, zstd\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9; __gads=ID=b3a3447774d8fb9b-2241497b07e50096:T=1698119372:RT=1698388734:S=ALNI_MbZFhxSYAWCDuFP2CErysbK3k0Bjg; __gpi=UID=00000c6fd113934a:T=1698119372:RT=1698388734:S=ALNI_MY0F7-hAwxRDzxCzgZCHk0lACKmhg; tenantId=default; vue_admin_template_token=WodCNFlPt1iqaS08q7or5xklCL4KEfmX7G50483YW6UDU2mjOC51PqEiyW51; TokenName=access-token; vue_admin_template_userName=fine; vue_admin_template_domainId=0ff16f5c-1a90-45a2-9e43-4a33d88a37f1; DomainName=ASG; _dd_s=logs=1&id=51a12082-ca7a-47a0-9ae9-18052309500c&created=1710137239751&expire=1710140588998\"],\"Host\":[\"localhost:5055\"],\"Referer\":[\"http://localhost:5055/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5055\"],\"Content-Length\":[\"29\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"122\\\", \\\"Not(A:Brand\\\";v=\\\"24\\\", \\\"Google Chrome\\\";v=\\\"122\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":1,\"pageSize\":10}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"97\"]}",
+    "ResponseData": "{\"resultCode\":\"1000001\",\"resultMsg\":\"ConfigId was not found doris\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2024-03-11T14:48:09.3917727+08:00",
+    "EndTime": "2024-03-11T14:48:39.7778684+08:00",
+    "OPTime": "30398ms"
+} ||  ||end 
+2024-03-11 15:41:50.967 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br, zstd\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9; __gads=ID=b3a3447774d8fb9b-2241497b07e50096:T=1698119372:RT=1698388734:S=ALNI_MbZFhxSYAWCDuFP2CErysbK3k0Bjg; __gpi=UID=00000c6fd113934a:T=1698119372:RT=1698388734:S=ALNI_MY0F7-hAwxRDzxCzgZCHk0lACKmhg; tenantId=default; vue_admin_template_token=WodCNFlPt1iqaS08q7or5xklCL4KEfmX7G50483YW6UDU2mjOC51PqEiyW51; TokenName=access-token; vue_admin_template_userName=fine; vue_admin_template_domainId=0ff16f5c-1a90-45a2-9e43-4a33d88a37f1; DomainName=ASG; _dd_s=logs=1&id=d350041f-6a05-4d9c-86b5-090fc5746868&created=1710142722297&expire=1710143800551\"],\"Host\":[\"localhost:5053\"],\"Referer\":[\"http://localhost:5053/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5053\"],\"Content-Length\":[\"29\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"122\\\", \\\"Not(A:Brand\\\";v=\\\"24\\\", \\\"Google Chrome\\\";v=\\\"122\\\"\"],\"x-token\":[\"123\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":1,\"pageSize\":10}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"126\"]}",
+    "ResponseData": "{\"resultCode\":\"1000001\",\"resultMsg\":\"errCode = 2, detailMessage = Unknown table 'piresult_det'\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2024-03-11T15:41:40.7593158+08:00",
+    "EndTime": "2024-03-11T15:41:50.4744259+08:00",
+    "OPTime": "9845ms"
+} ||  ||end 
+2024-03-11 15:43:11.175 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br, zstd\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9; __gads=ID=b3a3447774d8fb9b-2241497b07e50096:T=1698119372:RT=1698388734:S=ALNI_MbZFhxSYAWCDuFP2CErysbK3k0Bjg; __gpi=UID=00000c6fd113934a:T=1698119372:RT=1698388734:S=ALNI_MY0F7-hAwxRDzxCzgZCHk0lACKmhg; tenantId=default; vue_admin_template_token=WodCNFlPt1iqaS08q7or5xklCL4KEfmX7G50483YW6UDU2mjOC51PqEiyW51; TokenName=access-token; vue_admin_template_userName=fine; vue_admin_template_domainId=0ff16f5c-1a90-45a2-9e43-4a33d88a37f1; DomainName=ASG; _dd_s=logs=1&id=d350041f-6a05-4d9c-86b5-090fc5746868&created=1710142722297&expire=1710143888695\"],\"Host\":[\"localhost:5053\"],\"Referer\":[\"http://localhost:5053/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5053\"],\"Content-Length\":[\"29\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"122\\\", \\\"Not(A:Brand\\\";v=\\\"24\\\", \\\"Google Chrome\\\";v=\\\"122\\\"\"],\"x-token\":[\"123\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":1,\"pageSize\":10}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"147\"]}",
+    "ResponseData": "{\"resultCode\":\"1000001\",\"resultMsg\":\"errCode = 2, detailMessage = Unknown column 'piresult_corp_id' in 'table list'\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2024-03-11T15:43:09.1721642+08:00",
+    "EndTime": "2024-03-11T15:43:10.7716017+08:00",
+    "OPTime": "1723ms"
+} ||  ||end 

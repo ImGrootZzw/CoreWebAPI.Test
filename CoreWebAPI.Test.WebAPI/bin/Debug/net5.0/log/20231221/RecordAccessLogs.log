@@ -1,0 +1,14 @@
+2023-12-21 09:44:35.466 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/codemstr/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9; __gads=ID=b3a3447774d8fb9b-2241497b07e50096:T=1698119372:RT=1698388734:S=ALNI_MbZFhxSYAWCDuFP2CErysbK3k0Bjg; __gpi=UID=00000c6fd113934a:T=1698119372:RT=1698388734:S=ALNI_MY0F7-hAwxRDzxCzgZCHk0lACKmhg; tenantId=default; fine_remember_login=-2; fine_auth_token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInRlbmFudElkIjoiZGVmYXVsdCIsImlzcyI6ImZhbnJ1YW4iLCJkZXNjcmlwdGlvbiI6ImFkbWluKGFkbWluKSIsImV4cCI6MTcwMzIzNzQxOCwiaWF0IjoxNzAyMDI3OTgzLCJqdGkiOiJUN204MzRXcGxrYmlTeDlMZHZyVS9uTjllQkZxWER1K1ExVnJLZm0zdUJDSEp4bGMifQ.udkjDvXbNERo1m-2QYw1Nu0xIfPx5QEZ9FknVWfvYcw; _dd_s=logs=1&id=e0610fdd-cf93-477c-8700-1b65ddd1372a&created=1703123065020&expire=1703123970813\"],\"Host\":[\"localhost:5055\"],\"Referer\":[\"http://localhost:5055/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5055\"],\"Content-Length\":[\"295\"],\"sec-ch-ua\":[\"\\\"Not_A Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"120\\\", \\\"Google Chrome\\\";v=\\\"120\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":0,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}]}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"431\"]}",
+    "ResponseData": "{\"resultCode\":\"10001\",\"resultMsg\":\"中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：3D000: ���ݿ� \\\"tesla\\\" ������DbType=\\\"PostgreSQL\\\";ConfigId=\\\"mydb_pgsql\\\".\\r\\nEnglish Message : Connection open error . 3D000: ���ݿ� \\\"tesla\\\" ������DbType=\\\"PostgreSQL\\\";ConfigId=\\\"mydb_pgsql\\\"\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2023-12-21T09:44:30.890318+08:00",
+    "EndTime": "2023-12-21T09:44:35.4595648+08:00",
+    "OPTime": "4581ms"
+} ||  ||end 

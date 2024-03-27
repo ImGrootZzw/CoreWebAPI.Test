@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CoreWebAPINuGet.Test.Models/1.0.0": {
+        "dependencies": {
+          "SqlSugar": "5.1.3.45"
+        },
+        "runtime": {
+          "CoreWebAPINuGet.Test.Models.dll": {}
+        }
+      },
+      "SqlSugar/5.1.3.45": {
+        "runtime": {
+          "lib/SqlSugar.dll": {
+            "assemblyVersion": "5.1.3.45",
+            "fileVersion": "5.1.3.45"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoreWebAPINuGet.Test.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SqlSugar/5.1.3.45": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-91N3hRaua12JO6LH4c6adkrrFVOVa1zLzW61gy7Pa4DsYqDOlbNxSWV8Pj4btpDMtfHixriPAm58wyXIgOvdsQ==",
+      "path": "sqlsugar/5.1.3.45",
+      "hashPath": "sqlsugar.5.1.3.45.nupkg.sha512"
+    }
+  }
+}

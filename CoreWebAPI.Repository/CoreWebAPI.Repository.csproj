@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<Authors>SHEADUTECHFine</Authors>
+		<Company>SHEADUTECH</Company>
+		<Copyright>SHEADUTECH</Copyright>
+		<Version>1.1.5</Version>
+		<PackageLicenseFile>license.txt</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	  <DocumentationFile></DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Sugar\**" />
+	  <EmbeddedResource Remove="Sugar\**" />
+	  <None Remove="Sugar\**" />
+	  <None Include="..\license.txt">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="SqlSugarCore" Version="5.1.3.45" />
+	</ItemGroup>
+
+</Project>

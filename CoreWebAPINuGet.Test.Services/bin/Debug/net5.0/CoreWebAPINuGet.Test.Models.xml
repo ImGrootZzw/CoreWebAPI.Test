@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreWebAPINuGet.Test.Models</name>
+    </assembly>
+    <members>
+        <member name="T:CoreWebAPINuGet.Test.Models.Models.CodeMstr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.Models.CodeMstr.CodeId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.Models.CodeMstr.CodeCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.Models.CodeMstr.CodeDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.Models.CodeMstr.CodeName">
+            <summary>
+            描述 : 名称 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.Models.CodeMstr.CodeValue">
+            <summary>
+            描述 : 值 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.Models.CodeMstr.CodeDesc">
+            <summary>
+            描述 : 描述 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.Models.CodeMstr.CodeActive">
+            <summary>
+            描述 : 激活 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.Models.CodeMstr.CodeCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.Models.CodeMstr.CodeCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.Models.CodeMstr.CodeCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.Models.CodeMstr.CodeModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.Models.CodeMstr.CodeModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.Models.CodeMstr.CodeModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="T:CoreWebAPINuGet.Test.Models.Models.CodeMstrLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.Models.CodeMstrLoad.Canpass">
+            <summary>
+            执行结果
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.Models.CodeMstrLoad.Errormessage">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="T:CoreWebAPINuGet.Test.Models.ResultModel">
+            <summary>
+            通用返回信息类
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ResultModel.ResultCode">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ResultModel.ResultMsg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ResultModel.Data">
+            <summary>
+            返回数据集合
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ResultModel.MethodName">
+            <summary>
+            方法名
+            </summary>
+        </member>
+        <member name="T:CoreWebAPINuGet.Test.Models.ResultModelReturn`1">
+            <summary>
+            通用返回信息类
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ResultModelReturn`1.ResultCode">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ResultModelReturn`1.ResultMsg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ResultModelReturn`1.Data">
+            <summary>
+            返回数据集合
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ResultModelReturn`1.MethodName">
+            <summary>
+            方法名
+            </summary>
+        </member>
+        <member name="T:CoreWebAPINuGet.Test.Models.ViewModels.CodeMstrSearchModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.CodeMstrSearchModel.CodeName">
+            <summary>
+            描述 : 名称 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.CodeMstrSearchModel.CodeValue">
+            <summary>
+            描述 : 值 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="T:CoreWebAPINuGet.Test.Models.ViewModels.BasicSearchModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.BasicSearchModel.PageIndex">
+            <summary>
+            描述 : 页码
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.BasicSearchModel.PageSize">
+            <summary>
+            描述 : 页大小
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.BasicSearchModel.SortList">
+            <summary>
+            描述 : 排序
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.BasicSearchModel.TableHead">
+            <summary>
+            描述 : 排序
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.BasicSearchModel.FieldList">
+            <summary>
+            描述 : 查询字段列表 当字段列表为空或不填写时，默认查询全部字段
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.BasicSearchModel.ConditionList">
+            <summary>
+            描述 : 查询条件列表 当条件列表为空或不填时，则不设查询条件
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:CoreWebAPINuGet.Test.Models.ViewModels.SortModel">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.SortModel.SortParam">
+            <summary>
+            描述 : 排序字段
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.SortModel.Ascending">
+            <summary>
+            描述 : 正序
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:CoreWebAPINuGet.Test.Models.ViewModels.ConditionFieldModel">
+            <summary>
+            字段条件
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.ConditionFieldModel.Field">
+            <summary>
+            描述 : 字段
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.ConditionFieldModel.Conditions">
+            <summary>
+            描述 : 条件
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:CoreWebAPINuGet.Test.Models.ViewModels.ConditionModel">
+            <summary>
+            条件
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.ConditionModel.Type">
+            <summary>
+            描述 : 条件类型 eq：等于，ne：不等于，lt：小于，lte：小于等于，gt：大于，gte：大于等于，like：模糊匹配，in：包含,between：在...之间
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.ConditionModel.FirstValue">
+            <summary>
+            描述 : 该参数可为任意值，当类型为boolean时，只可以使用eq类型。当类型为in时，需传输Array对象
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.ConditionModel.SecondValue">
+            <summary>
+            描述 : 该参数只在类型为between时使用，为between的第二个值
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.ConditionModel.Operation">
+            <summary>
+            描述 : 该参数设置与上一个条件的连接关系，只要and或or，默认使用and
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:CoreWebAPINuGet.Test.Models.ViewModels.TableHeaderModel">
+            <summary>
+            表格头信息类
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.TableHeaderModel.Label">
+            <summary>
+            描述 : 标签
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.TableHeaderModel.Property">
+            <summary>
+            描述 : 字段
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.TableHeaderModel.IsShow">
+            <summary>
+            描述 : 是否显示
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.TableHeaderModel.Width">
+            <summary>
+            列宽
+            </summary>
+        </member>
+        <member name="P:CoreWebAPINuGet.Test.Models.ViewModels.TableHeaderModel.Type">
+            <summary>
+            字段类型
+            </summary>
+        </member>
+    </members>
+</doc>

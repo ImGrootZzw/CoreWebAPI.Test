@@ -1,0 +1,42 @@
+2023-09-27 13:54:38.185 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api%e2%80%8b/test%e2%80%8b/testjson",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Host\":[\"localhost:5055\"],\"Content-Length\":[\"5\"],\"sw8\":[\"1-OTkxZmY5NzhiYzZiNzE4MmI1YjA1ODg2MjFjYTZhMmIuNDMyLjE2OTU3OTQwNzczNTAwMDA1-OTkxZmY5NzhiYzZiNzE4MmI1YjA1ODg2MjFjYTZhMmIuNDMyLjE2OTU3OTQwNzczNTAwMDA2-0-Q29yZVdlYkFQSS5UZXN0-MTAuMTIzLjAuMjAzQDFhOWY3MmJhY2NiZjRiYjFhNmFmZjI5OTAxZDlhYzc2-aHR0cDovL2xvY2FsaG9zdDo1MDU1L2FwaSVFMiU4MCU4Qi9UZXN0JUUyJTgwJThCL1Rlc3RKc29u-bG9jYWxob3N0OjUwNTU=\"]}",
+    "RequestData": "",
+    "ResponseStatus": "404",
+    "ResponseHeader": "{}",
+    "ResponseData": "",
+    "BeginTime": "2023-09-27T13:54:37.4267774+08:00",
+    "EndTime": "2023-09-27T13:54:37.5414834+08:00",
+    "OPTime": "136ms"
+} ||  ||end 
+2023-09-27 13:54:38.264 || Error ||  || 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'. || System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Method()
+   at CoreWebAPI.Middlewares.RequestHttpLogMiddleware.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Test.WebAPI\Extensions\RequestHttpLogMiddleware.cs:line 151
+ ||end 
+2023-09-27 13:54:47.587 || Information ||  || RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api%e2%80%8b/test%e2%80%8b/testjson",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Host\":[\"localhost:5055\"],\"Content-Length\":[\"5\"],\"sw8\":[\"1-OTkxZmY5NzhiYzZiNzE4MmI1YjA1ODg2MjFjYTZhMmIuNDcxLjE2OTU3OTQwODc0MjEwMDA3-OTkxZmY5NzhiYzZiNzE4MmI1YjA1ODg2MjFjYTZhMmIuNDcxLjE2OTU3OTQwODc0MjEwMDA4-0-Q29yZVdlYkFQSS5UZXN0-MTAuMTIzLjAuMjAzQDFhOWY3MmJhY2NiZjRiYjFhNmFmZjI5OTAxZDlhYzc2-aHR0cDovL2xvY2FsaG9zdDo1MDU1L2FwaSVFMiU4MCU4Qi9UZXN0JUUyJTgwJThCL1Rlc3RKc29u-bG9jYWxob3N0OjUwNTU=\"]}",
+    "RequestData": "",
+    "ResponseStatus": "404",
+    "ResponseHeader": "{}",
+    "ResponseData": "",
+    "BeginTime": "2023-09-27T13:54:47.4601149+08:00",
+    "EndTime": "2023-09-27T13:54:47.4608745+08:00",
+    "OPTime": "0ms"
+} ||  ||end 
+2023-09-27 13:54:47.693 || Error ||  || 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'. || System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Method()
+   at CoreWebAPI.Middlewares.RequestHttpLogMiddleware.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Test.WebAPI\Extensions\RequestHttpLogMiddleware.cs:line 151
+ ||end 

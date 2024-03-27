@@ -1,0 +1,165 @@
+2023-08-30 11:13:15.111 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/threaddemo/query",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Accept\":[\"*/*\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"116\\\", \\\"Not)A;Brand\\\";v=\\\"24\\\", \\\"Google Chrome\\\";v=\\\"116\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"2\"]}",
+    "ResponseData": "[]",
+    "BeginTime": "2023-08-30T11:12:49.9731164+08:00",
+    "EndTime": "2023-08-30T11:13:14.7178339+08:00",
+    "OPTime": "24824ms"
+}
+2023-08-30 11:13:15.142 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'.
+System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.Fetch[TFeature](TFeature& cached, Func`2 factory)
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Method()
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 151
+2023-08-30 11:13:26.832 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/threaddemo/query",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Accept\":[\"*/*\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"116\\\", \\\"Not)A;Brand\\\";v=\\\"24\\\", \\\"Google Chrome\\\";v=\\\"116\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"256\"]}",
+    "ResponseData": "[{\"codeId\":\"q\",\"codeCorpId\":\"q\",\"codeDomainId\":\"q\",\"codeName\":\"q\",\"codeValue\":\"q\",\"codeDesc\":null,\"codeActive\":null,\"codeCrtDatetime\":null,\"codeCrtProg\":null,\"codeCrtUser\":null,\"codeModDatetime\":null,\"codeModProg\":null,\"codeModUser\":null,\"codeSalve\":null}]",
+    "BeginTime": "2023-08-30T11:13:16.9432045+08:00",
+    "EndTime": "2023-08-30T11:13:26.8172021+08:00",
+    "OPTime": "9874ms"
+}
+2023-08-30 11:13:26.856 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'.
+System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Headers()
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 151
+2023-08-30 11:33:24.819 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/threaddemo/query",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Accept\":[\"*/*\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"116\\\", \\\"Not)A;Brand\\\";v=\\\"24\\\", \\\"Google Chrome\\\";v=\\\"116\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"256\"]}",
+    "ResponseData": "[{\"codeId\":\"q\",\"codeCorpId\":\"q\",\"codeDomainId\":\"q\",\"codeName\":\"q\",\"codeValue\":\"q\",\"codeDesc\":null,\"codeActive\":null,\"codeCrtDatetime\":null,\"codeCrtProg\":null,\"codeCrtUser\":null,\"codeModDatetime\":null,\"codeModProg\":null,\"codeModUser\":null,\"codeSalve\":null}]",
+    "BeginTime": "2023-08-30T11:14:12.7421189+08:00",
+    "EndTime": "2023-08-30T11:33:24.7953354+08:00",
+    "OPTime": "1152053ms"
+}
+2023-08-30 11:33:24.860 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'.
+System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.Fetch[TFeature](TFeature& cached, Func`2 factory)
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Body()
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 151
+2023-08-30 11:38:45.895 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/threaddemo/query",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Accept\":[\"*/*\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"116\\\", \\\"Not)A;Brand\\\";v=\\\"24\\\", \\\"Google Chrome\\\";v=\\\"116\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"254\"]}",
+    "ResponseData": "{\"codeId\":\"q\",\"codeCorpId\":\"q\",\"codeDomainId\":\"q\",\"codeName\":\"q\",\"codeValue\":\"q\",\"codeDesc\":null,\"codeActive\":null,\"codeCrtDatetime\":null,\"codeCrtProg\":null,\"codeCrtUser\":null,\"codeModDatetime\":null,\"codeModProg\":null,\"codeModUser\":null,\"codeSalve\":null}",
+    "BeginTime": "2023-08-30T11:38:35.0599579+08:00",
+    "EndTime": "2023-08-30T11:38:45.1792331+08:00",
+    "OPTime": "10228ms"
+}
+2023-08-30 11:38:45.946 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'.
+System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.Fetch[TFeature](TFeature& cached, Func`2 factory)
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Method()
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 151
+2023-08-30 11:48:35.099 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/threaddemo/query",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Accept\":[\"*/*\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"116\\\", \\\"Not)A;Brand\\\";v=\\\"24\\\", \\\"Google Chrome\\\";v=\\\"116\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"182\"]}",
+    "ResponseData": "{\"innerException\":null,\"stackTrace\":null,\"source\":null,\"sql\":null,\"parametres\":null,\"message\":\"Cannot Open when State is Connecting.\",\"data\":{},\"helpLink\":null,\"hResult\":-2146233088}",
+    "BeginTime": "2023-08-30T11:47:44.3892149+08:00",
+    "EndTime": "2023-08-30T11:48:35.0802404+08:00",
+    "OPTime": "50831ms"
+}
+2023-08-30 11:49:01.348 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/threaddemo/query",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Accept\":[\"*/*\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"116\\\", \\\"Not)A;Brand\\\";v=\\\"24\\\", \\\"Google Chrome\\\";v=\\\"116\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"357\"]}",
+    "ResponseData": "{\"codeId\":\"1\",\"codeCorpId\":\"esun\",\"codeDomainId\":\"auth.patridunn.com\",\"codeName\":\"1\",\"codeValue\":\"2VudRYzplZ\",\"codeDesc\":\"1KNLCLHCz7\",\"codeActive\":true,\"codeCrtDatetime\":\"2016-12-27T00:42:40\",\"codeCrtProg\":\"aYb8OX9S21\",\"codeCrtUser\":\"oDiJbe0pdb\",\"codeModDatetime\":\"2015-06-25T20:44:16\",\"codeModProg\":\"KhlgB0InTw\",\"codeModUser\":\"YQIk5ePLHe\",\"codeSalve\":null}",
+    "BeginTime": "2023-08-30T11:48:37.4587952+08:00",
+    "EndTime": "2023-08-30T11:49:01.3460308+08:00",
+    "OPTime": "23887ms"
+}
+2023-08-30 11:49:01.382 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'.
+System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Method()
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 151
+2023-08-30 11:49:21.073 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/threaddemo/query",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Accept\":[\"*/*\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"116\\\", \\\"Not)A;Brand\\\";v=\\\"24\\\", \\\"Google Chrome\\\";v=\\\"116\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"677\"]}",
+    "ResponseData": "{\"ClassName\":\"System.InvalidOperationException\",\"Message\":\"This MySqlConnection is already in use. See https://fl.vu/mysql-conn-reuse\",\"Data\":null,\"InnerException\":null,\"HelpURL\":null,\"StackTraceString\":\"   at SqlSugar.MySqlProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)\\r\\n   at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)\\r\\n   at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()\\r\\n   at CoreWebAPI.Test.WebAPI.Controllers.Master.ThreadDemoController.Query(Int32 pageIndex)\",\"RemoteStackTraceString\":null,\"RemoteStackIndex\":0,\"ExceptionMethod\":null,\"HResult\":-2146233079,\"Source\":\"MySqlConnector\",\"WatsonBuckets\":null}",
+    "BeginTime": "2023-08-30T11:49:08.3718198+08:00",
+    "EndTime": "2023-08-30T11:49:21.0500473+08:00",
+    "OPTime": "12678ms"
+}
+2023-08-30 11:49:21.117 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'.
+System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Method()
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 151
+2023-08-30 11:50:32.630 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/threaddemo/query",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Accept\":[\"*/*\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963; Idea-32321843=14e69ea4-c999-4fa0-96d8-21778a4a57d9\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"116\\\", \\\"Not)A;Brand\\\";v=\\\"24\\\", \\\"Google Chrome\\\";v=\\\"116\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"357\"]}",
+    "ResponseData": "{\"codeId\":\"1\",\"codeCorpId\":\"esun\",\"codeDomainId\":\"auth.patridunn.com\",\"codeName\":\"1\",\"codeValue\":\"2VudRYzplZ\",\"codeDesc\":\"1KNLCLHCz7\",\"codeActive\":true,\"codeCrtDatetime\":\"2016-12-27T00:42:40\",\"codeCrtProg\":\"aYb8OX9S21\",\"codeCrtUser\":\"oDiJbe0pdb\",\"codeModDatetime\":\"2015-06-25T20:44:16\",\"codeModProg\":\"KhlgB0InTw\",\"codeModUser\":\"YQIk5ePLHe\",\"codeSalve\":null}",
+    "BeginTime": "2023-08-30T11:49:50.5161405+08:00",
+    "EndTime": "2023-08-30T11:50:32.6119057+08:00",
+    "OPTime": "42220ms"
+}
+2023-08-30 11:50:32.674 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'.
+System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.Fetch[TFeature](TFeature& cached, Func`2 factory)
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Method()
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 151

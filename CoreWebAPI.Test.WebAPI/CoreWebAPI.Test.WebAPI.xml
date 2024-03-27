@@ -1,0 +1,573 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreWebAPI.Test.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:CoreWebAPI.Test.WebAPI.Controllers.Basic.BasicController">
+            <summary>
+            Basic
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.AOPDemoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.AOPDemoController.AOPDemo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.OutMenu">
+            <summary>  
+            菜单输出表  
+            </summary>  
+        </member>
+        <member name="T:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.Menu">
+            <summary>  
+            菜单表  
+            </summary>  
+        </member>
+        <member name="T:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.CodeMstr">
+            <summary>
+             主表
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.CodeMstr.CodeId">
+            <summary>
+            描述 : ID 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.CodeMstr.CodeCorpId">
+            <summary>
+            描述 : 公司ID 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.CodeMstr.CodeDomainId">
+            <summary>
+            描述 : 域ID 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.CodeMstr.CodeName">
+            <summary>
+            描述 : 名称 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.CodeMstr.CodeValue">
+            <summary>
+            描述 : 值 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.CodeMstr.CodeDesc">
+            <summary>
+            描述 : 描述 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.CodeMstr.CodeActive">
+            <summary>
+            描述 : 激活 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.CodeMstr.CodeCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.CodeMstr.CodeCrtProg">
+            <summary>
+            描述 : 程序名 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.CodeMstr.CodeCrtUser">
+            <summary>
+            描述 : 创建用户 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.CodeMstr.CodeModDatetime">
+            <summary>
+            描述 : 修改日期 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.CodeMstr.CodeModProg">
+            <summary>
+            描述 : 修改程序名 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.AOPDemo.CodeMstr.CodeModUser">
+            <summary>
+            描述 : 修改用户 
+            </summary>        
+        </member>
+        <member name="T:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrController">
+            <summary>
+            通用代码维护
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrController.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Logging.ILogger{CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrController},CoreWebAPI.Test.IServices.Master.ICodeMstrService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="codemstrService"></param>
+            <param name="accessor"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrController.Get(CoreWebAPI.Test.Models.ViewModels.BasicSearchModel)">
+            <summary>
+            查询
+            </summary>
+            <param name="searchModel">查询参数</param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrController.DownloadTemplate">
+            <summary>
+            下载模板
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrController.Import(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            导入
+            </summary>
+            <param name="file"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrController.Export(CoreWebAPI.Test.Models.ViewModels.BasicSearchModel)">
+            <summary>
+            输出
+            </summary>
+            <param name="searchModel">查询参数</param>
+        </member>
+        <member name="T:CoreWebAPI.Test.WebAPI.Controllers.Master.DemoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.DemoController.Query(System.Int32)">
+            <summary>
+            跨库联查
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstr">
+            <summary>
+             主表
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstr.CodeId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstr.CodeCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstr.CodeDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstr.CodeName">
+            <summary>
+            描述 : 名称 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstr.CodeValue">
+            <summary>
+            描述 : 值 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstr.CodeDesc">
+            <summary>
+            描述 : 描述 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstr.CodeActive">
+            <summary>
+            描述 : 激活 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstr.CodeCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstr.CodeCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstr.CodeCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstr.CodeModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstr.CodeModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstr.CodeModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstr.CodeSalve">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrSalve">
+            <summary>
+             子表
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrSalve.CodeSalveId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrSalve.CodeSalveCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrSalve.CodeSalveDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrSalve.CodeSalveName">
+            <summary>
+            描述 : 名称 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrSalve.CodeSalveValue">
+            <summary>
+            描述 : 值 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrSalve.CodeSalveDesc">
+            <summary>
+            描述 : 描述 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrSalve.CodeSalveActive">
+            <summary>
+            描述 : 激活 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrSalve.CodeSalveCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrSalve.CodeSalveCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrSalve.CodeSalveCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrSalve.CodeSalveModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrSalve.CodeSalveModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.WebAPI.Controllers.Master.CodeMstrSalve.CodeSalveModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="T:CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Logging.ILogger{CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController},CoreWebAPI.Test.IServices.Master.IPiresultDetService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="piresultdetService"></param>
+            <param name="accessor"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.Get(CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel)">
+            <summary>
+            查询
+            </summary>
+            <param name="piresultdetSearchModel"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.GetDetail(CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel)">
+            <summary>
+            查询明细
+            </summary>
+            <param name="piresultdetSearchModel"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.GetBomDetail(CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel)">
+            <summary>
+            查询Bom明细
+            </summary>
+            <param name="piresultdetSearchModel"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.GetNGDetail(CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel)">
+            <summary>
+            查询NG检测明细
+            </summary>
+            <param name="piresultdetSearchModel"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.Post(CoreWebAPI.Test.Models.Models.PiresultDet)">
+            <summary>
+            新增
+            </summary>
+            <param name="piresultdet"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.Put(CoreWebAPI.Test.Models.Models.PiresultDet)">
+            <summary>
+            编辑
+            </summary>
+            <param name="piresultdet"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.Delete(System.Collections.Generic.List{CoreWebAPI.Test.Models.Models.PiresultDet})">
+            <summary>
+            删除
+            </summary>
+            <param name="listPiresultDet"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.DownloadTemplate">
+            <summary>
+            下载模板
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.Import(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            导入
+            </summary>
+            <param name="file"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.ImportList(System.Collections.Generic.List{CoreWebAPI.Test.Models.Models.PiresultDet})">
+            <summary>
+            列表导入
+            </summary>
+            <param name="listPiresultDet"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.PiresultDetController.Export(CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel)">
+            <summary>
+            输出
+            </summary>
+            <param name="piresultdetSearchModel"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.ProgressController.GetFile">
+            <summary>
+            Test
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.WebAPI.Controllers.Master.StudentMstrController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.StudentMstrController.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Logging.ILogger{CoreWebAPI.Test.WebAPI.Controllers.Master.StudentMstrController},CoreWebAPI.Test.IServices.Master.IStudentMstrService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="studentmstrService"></param>
+            <param name="accessor"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.StudentMstrController.GetAll(CoreWebAPI.Test.Models.ViewModels.StudentMstrSearchModel)">
+            <summary>
+            查询所有字段
+            </summary>
+            <param name="searchModel"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.StudentMstrController.Get(CoreWebAPI.Test.Models.ViewModels.BasicSearchModel)">
+            <summary>
+            查询
+            </summary>
+            <param name="searchModel"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.StudentMstrController.Post(CoreWebAPI.Test.Models.Models.StudentMstr)">
+            <summary>
+            新增
+            </summary>
+            <param name="studentmstr"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.StudentMstrController.Put(CoreWebAPI.Test.Models.Models.StudentMstr)">
+            <summary>
+            编辑
+            </summary>
+            <param name="studentmstr"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.StudentMstrController.Delete(System.Collections.Generic.List{CoreWebAPI.Test.Models.Models.StudentMstr})">
+            <summary>
+            删除
+            </summary>
+            <param name="listStudentMstr"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.StudentMstrController.DownloadTemplate">
+            <summary>
+            下载模板
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.StudentMstrController.Import(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            导入
+            </summary>
+            <param name="file"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.StudentMstrController.ImportList(System.Collections.Generic.List{CoreWebAPI.Test.Models.Models.StudentMstr})">
+            <summary>
+            列表导入
+            </summary>
+            <param name="listStudentMstr"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.StudentMstrController.Export(CoreWebAPI.Test.Models.ViewModels.BasicSearchModel)">
+            <summary>
+            输出
+            </summary>
+            <param name="searchModel"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.TestController.GetFile">
+            <summary>
+            Test
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.TestController.TestJson(System.String)">
+            <summary>
+            Test
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.TestController.TestFile(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Test
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.WebAPI.Controllers.Master.ThreadDemoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.ThreadDemoController.#ctor(SqlSugar.ISqlSugarClient)">
+            <summary>
+            
+            </summary>
+            <param name="sqlSugarClient"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Controllers.Master.ThreadDemoController.Query(System.Int32)">
+            <summary>
+            跨库联查
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.WebAPI.Listener.KafkaConsumerListener">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Test.WebAPI.Listener.KafkaConsumerListener.ConsumeAsync(CoreWebAPI.Extensions.ServiceExtensions.Kafka.Consumer.RecieveResult)">
+            <summary>
+            
+            </summary>
+            <param name="recieveResult"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreWebAPI.Test_WebAPI.Startup">
+            <summary>
+            启动类
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Test_WebAPI.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            注册配置
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:CoreWebAPI.Test_WebAPI.Startup.Configuration">
+            <summary>
+            配置
+            </summary>
+        </member>
+        <member name="M:CoreWebAPI.Test_WebAPI.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test_WebAPI.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
+            <summary>
+            注意在Program.CreateHostBuilder，注册Autofac服务工厂
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="M:CoreWebAPI.Test_WebAPI.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

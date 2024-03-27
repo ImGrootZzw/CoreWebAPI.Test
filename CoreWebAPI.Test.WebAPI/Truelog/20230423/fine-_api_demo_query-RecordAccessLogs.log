@@ -1,0 +1,60 @@
+2023-04-23 16:35:41.984 RecordInfo
+{
+    "IP": "::1",
+    "User": "fine",
+    "API": "/api/demo/query",
+    "RequestQuery": "?pageIndex=1",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Accept\":[\"*/*\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Authorization\":[\"Basic YWRtaW46YWRtaW5hZG1pbg==\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"112\\\", \\\"Google Chrome\\\";v=\\\"112\\\", \\\"Not:A-Brand\\\";v=\\\"99\\\"\"],\"x-user\":[\"fine\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "?pageIndex=1",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"470\"]}",
+    "ResponseData": "{\"ClassName\":\"System.Exception\",\"Message\":null,\"Data\":null,\"InnerException\":null,\"HelpURL\":null,\"StackTraceString\":\"   at CoreWebAPI.Test.WebAPI.Controllers.Master.DemoController.Query(Int32 pageIndex) in D:\\\\Tools\\\\模板程序\\\\CoreWebAPI.Test\\\\CoreWebAPI.Test.WebAPI\\\\Controllers\\\\Master\\\\DemoController.cs:line 30\",\"RemoteStackTraceString\":null,\"RemoteStackIndex\":0,\"ExceptionMethod\":null,\"HResult\":-2146233088,\"Source\":\"CoreWebAPI.Test.WebAPI\",\"WatsonBuckets\":null}",
+    "BeginTime": "2023-04-23T16:35:41.6830187+08:00",
+    "EndTime": "2023-04-23T16:35:41.9330008+08:00",
+    "OPTime": "2818ms"
+}
+2023-04-23 16:35:51.832 RecordInfo
+{
+    "IP": "::1",
+    "User": "fine",
+    "API": "/api/demo/query",
+    "RequestQuery": "?pageIndex=1",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Accept\":[\"*/*\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Authorization\":[\"Basic YWRtaW46YWRtaW5hZG1pbg==\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"112\\\", \\\"Google Chrome\\\";v=\\\"112\\\", \\\"Not:A-Brand\\\";v=\\\"99\\\"\"],\"x-user\":[\"fine\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "?pageIndex=1",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"470\"]}",
+    "ResponseData": "{\"ClassName\":\"System.Exception\",\"Message\":null,\"Data\":null,\"InnerException\":null,\"HelpURL\":null,\"StackTraceString\":\"   at CoreWebAPI.Test.WebAPI.Controllers.Master.DemoController.Query(Int32 pageIndex) in D:\\\\Tools\\\\模板程序\\\\CoreWebAPI.Test\\\\CoreWebAPI.Test.WebAPI\\\\Controllers\\\\Master\\\\DemoController.cs:line 30\",\"RemoteStackTraceString\":null,\"RemoteStackIndex\":0,\"ExceptionMethod\":null,\"HResult\":-2146233088,\"Source\":\"CoreWebAPI.Test.WebAPI\",\"WatsonBuckets\":null}",
+    "BeginTime": "2023-04-23T16:35:51.7728523+08:00",
+    "EndTime": "2023-04-23T16:35:51.8320996+08:00",
+    "OPTime": "59ms"
+}
+2023-04-23 16:37:42.775 RecordInfo
+{
+    "IP": "::1",
+    "User": "fine",
+    "API": "/api/demo/query",
+    "RequestQuery": "?pageIndex=1",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Accept\":[\"*/*\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Authorization\":[\"Basic YWRtaW46YWRtaW5hZG1pbg==\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"112\\\", \\\"Google Chrome\\\";v=\\\"112\\\", \\\"Not:A-Brand\\\";v=\\\"99\\\"\"],\"x-user\":[\"fine\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "?pageIndex=1",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"470\"]}",
+    "ResponseData": "{\"ClassName\":\"System.Exception\",\"Message\":null,\"Data\":null,\"InnerException\":null,\"HelpURL\":null,\"StackTraceString\":\"   at CoreWebAPI.Test.WebAPI.Controllers.Master.DemoController.Query(Int32 pageIndex) in D:\\\\Tools\\\\模板程序\\\\CoreWebAPI.Test\\\\CoreWebAPI.Test.WebAPI\\\\Controllers\\\\Master\\\\DemoController.cs:line 30\",\"RemoteStackTraceString\":null,\"RemoteStackIndex\":0,\"ExceptionMethod\":null,\"HResult\":-2146233088,\"Source\":\"CoreWebAPI.Test.WebAPI\",\"WatsonBuckets\":null}",
+    "BeginTime": "2023-04-23T16:37:42.5138587+08:00",
+    "EndTime": "2023-04-23T16:37:42.7310611+08:00",
+    "OPTime": "286ms"
+}
+2023-04-23 16:39:07.792 RecordInfo
+{
+    "IP": "::1",
+    "User": "fine",
+    "API": "/api/demo/query",
+    "RequestQuery": "?pageIndex=1",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Accept\":[\"*/*\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Authorization\":[\"Basic YWRtaW46YWRtaW5hZG1pbg==\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"112\\\", \\\"Google Chrome\\\";v=\\\"112\\\", \\\"Not:A-Brand\\\";v=\\\"99\\\"\"],\"x-user\":[\"fine\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "?pageIndex=1",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"470\"]}",
+    "ResponseData": "{\"ClassName\":\"System.Exception\",\"Message\":null,\"Data\":null,\"InnerException\":null,\"HelpURL\":null,\"StackTraceString\":\"   at CoreWebAPI.Test.WebAPI.Controllers.Master.DemoController.Query(Int32 pageIndex) in D:\\\\Tools\\\\模板程序\\\\CoreWebAPI.Test\\\\CoreWebAPI.Test.WebAPI\\\\Controllers\\\\Master\\\\DemoController.cs:line 30\",\"RemoteStackTraceString\":null,\"RemoteStackIndex\":0,\"ExceptionMethod\":null,\"HResult\":-2146233088,\"Source\":\"CoreWebAPI.Test.WebAPI\",\"WatsonBuckets\":null}",
+    "BeginTime": "2023-04-23T16:38:37.7646281+08:00",
+    "EndTime": "2023-04-23T16:39:06.5606445+08:00",
+    "OPTime": "28796ms"
+}

@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1\Protos/MessageJava.cs \
+obj\Debug\netcoreapp3.1\Protos/MessageJavaGrpc.cs: Protos/messageJava.proto

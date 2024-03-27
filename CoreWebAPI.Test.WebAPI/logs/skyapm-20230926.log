@@ -1,0 +1,946 @@
+2023-09-26 15:31:21.430 +08:00 [CoreWebAPI.Test] [Information] SkyApm.InstrumentStartup : Initializing ...
+2023-09-26 15:31:21.484 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2023-09-26 15:31:21.484 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.LogReportService : Loaded instrument service [SkyApm.Service.LogReportService].
+2023-09-26 15:31:21.484 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2023-09-26 15:31:21.484 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2023-09-26 15:31:21.485 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2023-09-26 15:31:21.485 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2023-09-26 15:31:21.485 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.ConnectService].
+2023-09-26 15:31:21.527 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2023-09-26 15:31:21.528 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2023-09-26 15:31:21.528 +08:00 [CoreWebAPI.Test] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2023-09-26 15:31:32.025 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:31:36.554 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:31:46.619 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:31:51.529 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:32:01.617 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:32:06.549 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:32:16.628 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:32:21.528 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:32:31.633 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:32:36.532 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:32:46.620 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:32:51.617 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:33:01.720 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:33:06.548 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:33:16.652 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:33:21.539 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:33:31.636 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:33:36.543 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:33:46.608 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:33:51.509 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:34:01.582 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:34:06.535 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:34:16.615 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:34:21.527 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:34:31.580 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:34:36.518 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:34:46.576 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:34:55.594 +08:00 [CoreWebAPI.Test] [Information] SkyApm.InstrumentStartup : Initializing ...
+2023-09-26 15:34:55.648 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2023-09-26 15:34:55.648 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.LogReportService : Loaded instrument service [SkyApm.Service.LogReportService].
+2023-09-26 15:34:55.648 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2023-09-26 15:34:55.648 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2023-09-26 15:34:55.648 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2023-09-26 15:34:55.648 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2023-09-26 15:34:55.648 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.ConnectService].
+2023-09-26 15:34:55.712 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2023-09-26 15:34:55.714 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2023-09-26 15:34:55.714 +08:00 [CoreWebAPI.Test] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2023-09-26 15:35:05.899 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:35:10.707 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:35:20.791 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:35:25.701 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:35:40.460 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:35:40.908 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:35:52.206 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:35:57.936 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:36:08.016 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:36:10.698 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:36:20.759 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:36:25.734 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:37:14.816 +08:00 [CoreWebAPI.Test] [Information] SkyApm.InstrumentStartup : Initializing ...
+2023-09-26 15:37:14.862 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2023-09-26 15:37:14.862 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.LogReportService : Loaded instrument service [SkyApm.Service.LogReportService].
+2023-09-26 15:37:14.862 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2023-09-26 15:37:14.862 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2023-09-26 15:37:14.862 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2023-09-26 15:37:14.862 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2023-09-26 15:37:14.862 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.ConnectService].
+2023-09-26 15:37:14.902 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2023-09-26 15:37:14.903 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2023-09-26 15:37:14.903 +08:00 [CoreWebAPI.Test] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2023-09-26 15:37:25.028 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:37:29.923 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:37:39.989 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:37:44.916 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:37:54.982 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:37:59.948 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:38:10.046 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:38:14.931 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:38:25.047 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:38:29.934 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:38:40.036 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:38:44.925 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:38:54.992 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:39:04.771 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:39:17.693 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:39:17.747 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:39:27.841 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:39:29.942 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:39:40.054 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:39:44.916 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:39:55.010 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:39:59.921 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:40:10.017 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:40:14.922 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:40:25.019 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:40:29.916 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:40:40.029 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:40:44.925 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:40:55.013 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:40:59.917 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:41:10.028 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:41:14.933 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:41:25.029 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:41:29.905 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:41:39.962 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:41:44.892 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:41:54.974 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:41:59.908 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:42:09.976 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:42:14.907 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:42:24.964 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:42:29.922 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:42:39.983 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:42:44.890 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:42:54.932 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:42:59.889 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:43:09.952 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:43:14.907 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:43:24.969 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:43:29.891 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:43:39.939 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:43:44.906 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:43:54.955 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:43:59.913 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:44:09.975 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:44:14.883 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:44:24.941 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:44:29.917 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:44:39.985 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:44:44.896 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:44:54.941 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:44:59.893 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:45:09.968 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:45:14.919 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:45:25.008 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:45:29.906 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:45:39.975 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:45:44.900 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:45:54.949 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:45:59.890 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:46:09.958 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:46:14.899 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:46:24.952 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:46:29.894 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:46:39.954 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:46:44.899 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:46:54.966 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:46:59.892 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:47:09.932 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:47:14.913 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:47:24.977 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:47:29.910 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:47:39.964 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:47:44.895 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:47:54.943 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:47:59.893 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:48:09.960 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:48:14.891 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:48:24.944 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:48:29.899 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:48:39.965 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:48:44.913 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:48:54.966 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:48:59.892 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:49:09.958 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:49:14.884 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:49:24.943 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:49:29.903 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:49:39.965 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:49:44.896 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:49:54.946 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:49:59.911 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:50:09.967 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:50:14.908 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:50:24.966 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:50:29.886 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:50:39.945 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:50:44.896 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:50:56.093 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:51:04.897 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:51:16.263 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:51:16.758 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:51:54.880 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:51:56.595 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:52:19.201 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:52:20.346 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:53:13.878 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:53:14.760 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:53:25.624 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:53:25.656 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:53:35.726 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:53:35.749 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:53:45.811 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:53:45.835 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:53:55.897 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:53:55.943 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:54:06.000 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:54:06.051 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:54:16.120 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:54:16.167 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:54:26.226 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:54:26.252 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:54:36.337 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:54:36.363 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:54:46.436 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:54:46.480 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:54:56.544 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:54:56.567 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:55:06.637 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:55:06.655 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:55:16.729 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:55:16.761 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:55:26.826 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:55:26.868 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:55:36.934 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:55:36.956 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:55:47.019 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:55:50.178 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:56:00.226 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:56:05.197 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:56:15.265 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:56:20.191 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:56:30.248 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:56:35.195 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:56:45.262 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:56:50.194 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:57:00.245 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:57:05.199 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:57:15.256 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:57:20.193 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:57:30.259 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:57:35.198 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:57:45.273 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:57:50.184 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:58:00.243 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:58:05.190 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:58:15.246 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:58:20.187 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:58:30.243 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:58:35.191 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:58:45.248 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:58:50.189 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:59:00.232 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:59:05.190 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:59:15.254 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:59:20.194 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:59:30.242 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:59:35.195 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 15:59:45.237 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 15:59:50.199 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:00:00.268 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:00:05.182 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:00:15.244 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:00:20.178 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:00:30.225 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:00:35.188 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:00:45.244 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:00:50.188 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:01:00.246 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:01:05.196 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:01:15.237 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:01:20.194 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:01:30.262 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:01:35.218 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:01:45.277 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:01:50.203 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:02:00.266 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:02:05.185 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:02:15.249 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:02:20.182 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:02:30.236 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:02:35.217 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:02:45.281 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:02:50.190 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:03:00.254 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:03:05.205 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:03:15.263 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:03:20.201 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:03:30.257 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:03:35.183 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:03:45.240 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:03:50.202 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:04:00.251 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:04:05.184 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:04:15.252 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:04:20.190 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:04:30.247 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:04:35.199 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:04:45.257 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:04:50.192 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:05:00.248 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:05:05.198 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:05:15.251 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:05:20.208 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:05:30.255 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:05:35.196 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:05:45.253 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:05:50.196 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:40:27.425 +08:00 [CoreWebAPI.Test] [Information] SkyApm.InstrumentStartup : Initializing ...
+2023-09-26 16:40:27.472 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2023-09-26 16:40:27.472 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.LogReportService : Loaded instrument service [SkyApm.Service.LogReportService].
+2023-09-26 16:40:27.472 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2023-09-26 16:40:27.472 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2023-09-26 16:40:27.472 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2023-09-26 16:40:27.472 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2023-09-26 16:40:27.472 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.ConnectService].
+2023-09-26 16:40:27.521 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2023-09-26 16:40:27.522 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2023-09-26 16:40:27.522 +08:00 [CoreWebAPI.Test] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2023-09-26 16:40:37.765 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:40:42.557 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:40:54.310 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:40:57.709 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:41:07.815 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:41:12.547 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:41:22.662 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:41:27.500 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:41:37.572 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:41:42.529 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:41:52.883 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:41:57.526 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:42:44.051 +08:00 [CoreWebAPI.Test] [Information] SkyApm.InstrumentStartup : Initializing ...
+2023-09-26 16:42:44.103 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2023-09-26 16:42:44.104 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.LogReportService : Loaded instrument service [SkyApm.Service.LogReportService].
+2023-09-26 16:42:44.104 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2023-09-26 16:42:44.104 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2023-09-26 16:42:44.104 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2023-09-26 16:42:44.104 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2023-09-26 16:42:44.104 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.ConnectService].
+2023-09-26 16:42:44.154 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2023-09-26 16:42:44.155 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2023-09-26 16:42:44.155 +08:00 [CoreWebAPI.Test] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2023-09-26 16:42:54.283 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:42:59.151 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:43:09.199 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:43:14.157 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:43:24.214 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:44:07.328 +08:00 [CoreWebAPI.Test] [Information] SkyApm.InstrumentStartup : Initializing ...
+2023-09-26 16:44:07.375 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2023-09-26 16:44:07.376 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.LogReportService : Loaded instrument service [SkyApm.Service.LogReportService].
+2023-09-26 16:44:07.376 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2023-09-26 16:44:07.376 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2023-09-26 16:44:07.376 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2023-09-26 16:44:07.376 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2023-09-26 16:44:07.376 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.ConnectService].
+2023-09-26 16:44:07.456 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2023-09-26 16:44:07.458 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2023-09-26 16:44:07.458 +08:00 [CoreWebAPI.Test] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2023-09-26 16:44:17.621 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:44:22.447 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:44:33.839 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:44:37.408 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:44:47.473 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:44:52.411 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].
+2023-09-26 16:45:02.452 +08:00 [CoreWebAPI.Test] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2023-09-26 16:45:07.449 +08:00 [CoreWebAPI.Test] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[10.124.0.108:11800].

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreWebAPI.Repository\CoreWebAPI.Repository.csproj" />
+    <ProjectReference Include="..\CoreWebAPI.Test.Models\CoreWebAPI.Test.Models.csproj" />
+  </ItemGroup>
+
+</Project>

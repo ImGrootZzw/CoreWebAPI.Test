@@ -1,0 +1,24 @@
+2024-01-02 14:56:10.766 || Error ||  || RecordInfo --- Unable to resolve service for type 'Nacos.V2.INacosNamingService' while attempting to activate 'CoreWebAPI.Test.WebAPI.Controllers.Master.NacosController'. || System.InvalidOperationException: Unable to resolve service for type 'Nacos.V2.INacosNamingService' while attempting to activate 'CoreWebAPI.Test.WebAPI.Controllers.Master.NacosController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method634(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at GZY.Quartz.MUI.Middleware.QuartzUIBasicAuthMiddleware.InvokeAsync(HttpContext context)
+   at CoreWebAPI.Extensions.Middlewares.OptionsRequestMildd.Invoke(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\OptionsRequestMildd.cs:line 53
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CoreWebAPI.Middlewares.SwaggerAuthMilddleware.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\SwaggerAuthMilddle.cs:line 66
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.InvokeAsync(HttpContext context) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 123
+ ||end 

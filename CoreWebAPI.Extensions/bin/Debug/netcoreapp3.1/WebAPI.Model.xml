@@ -1,0 +1,5269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI.Model</name>
+    </assembly>
+    <members>
+        <member name="P:WebAPI.Model.CommonModels.BodyModel.jsonDt">
+            <summary>
+            描述 : 参数名
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.CommonModels.CommondDet">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondDomain">
+            <summary>
+            描述 : 域 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondCorp">
+            <summary>
+            描述 : 公司 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondType">
+            <summary>
+            描述 : 类型名称 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondTablename">
+            <summary>
+            描述 : 对应表名 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondFieldId">
+            <summary>
+            描述 : 字段ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondIscombo">
+            <summary>
+            描述 : 是否为下拉框 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondDefaultvalue">
+            <summary>
+            描述 : 默认值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondIsmulti">
+            <summary>
+            描述 : 下拉框是否多选 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondMaxvalue">
+            <summary>
+            描述 : 数字文本框时最大值，空值代表不设置，日期待办 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondFormat">
+            <summary>
+            描述 : 日期文本框时格式，默认yyyy/MM/dd 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondCrtPgrm">
+            <summary>
+            描述 : 创建程序 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondIskey">
+            <summary>
+            描述 : 是否索引 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondChgPgrm">
+            <summary>
+            描述 : 最后修改程序 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondFieldName">
+            <summary>
+            描述 : 字段名称 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondChgDatetime">
+            <summary>
+            描述 : 最后修改时间 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondIscond">
+            <summary>
+            描述 : 是否查询条件 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondMinvalue">
+            <summary>
+            描述 : 数字文本框时最小值，空值代表不设置，日期待办 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondMultival">
+            <summary>
+            描述 : 为下拉框时可选项--分号分隔 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondFieldType">
+            <summary>
+            描述 : 字段类型--1 string/2 integer/3 bool/4 date 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondCrtDatetime">
+            <summary>
+            描述 : 创建时间 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondChgUser">
+            <summary>
+            描述 : 最后修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondRequired">
+            <summary>
+            描述 : 是否必填 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.CommondDet.CommondIsshow">
+            <summary>
+            描述 : 是否必填 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.ParameterModel.property">
+            <summary>
+            描述 : 参数名
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.ParameterModel.value">
+            <summary>
+            描述 : 参数值
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.CommonModels.ParameterModel.type">
+            <summary>
+            描述 : 类型
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.Load">
+            <summary>
+            用户跟角色关联表
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.Load.canpass">
+            <summary>
+            执行结果
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.Load.errormessage">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.CodehHist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.Id">
+            <summary>
+            描述 :  
+            空值 : False
+            默认 : nextval('plat.codeh_hist_id_seq'::regclass)
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehDescNew">
+            <summary>
+            描述 : 描述新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehActive">
+            <summary>
+            描述 : 激活 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehIdNew">
+            <summary>
+            描述 : ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehValueNew">
+            <summary>
+            描述 : 值新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehOperation">
+            <summary>
+            描述 : 执行操作 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehValue">
+            <summary>
+            描述 : 值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehActiveNew">
+            <summary>
+            描述 : 激活新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehDesc">
+            <summary>
+            描述 : 描述 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehNameNew">
+            <summary>
+            描述 : 名称新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehCorpIdNew">
+            <summary>
+            描述 : 公司ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehName">
+            <summary>
+            描述 : 名称 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehId">
+            <summary>
+            描述 : ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodehHist.CodehDomainIdNew">
+            <summary>
+            描述 : 域ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.CodeMstr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodeMstr.CodeId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodeMstr.CodeDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodeMstr.CodeCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodeMstr.CodeName">
+            <summary>
+            描述 : 名称 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodeMstr.CodeCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodeMstr.CodeModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodeMstr.CodeDesc">
+            <summary>
+            描述 : 描述 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodeMstr.CodeCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodeMstr.CodeModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodeMstr.CodeCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodeMstr.CodeModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodeMstr.CodeValue">
+            <summary>
+            描述 : 值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodeMstr.CodeActive">
+            <summary>
+            描述 : 激活 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.CodeMstrLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CodeMstrLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.CodeMstrLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.Models.CorphHist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.Id">
+            <summary>
+            描述 :  
+            空值 : False
+            默认 : nextval('plat.corph_hist_id_seq'::regclass)
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphDesc">
+            <summary>
+            描述 : 描述 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphName">
+            <summary>
+            描述 : 公司名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphMaxUsers">
+            <summary>
+            描述 : 最大用户数 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphId">
+            <summary>
+            描述 : ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphOperation">
+            <summary>
+            描述 : 执行操作 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphNameNew">
+            <summary>
+            描述 : 公司名新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphType">
+            <summary>
+            描述 : 类型 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphMaxUsersNew">
+            <summary>
+            描述 : 最大用户数新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphActive">
+            <summary>
+            描述 : 激活 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphDescNew">
+            <summary>
+            描述 : 描述新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphTypeNew">
+            <summary>
+            描述 : 类型新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphActiveNew">
+            <summary>
+            描述 : 激活新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorphHist.CorphIdNew">
+            <summary>
+            描述 : ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.CorpMstr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorpMstr.CorpId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorpMstr.CorpModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorpMstr.CorpType">
+            <summary>
+            描述 : 类型 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorpMstr.CorpCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorpMstr.CorpName">
+            <summary>
+            描述 : 公司名 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorpMstr.CorpCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorpMstr.CorpModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorpMstr.CorpModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorpMstr.CorpDesc">
+            <summary>
+            描述 : 描述 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorpMstr.CorpActive">
+            <summary>
+            描述 : 激活 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorpMstr.CorpCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorpMstr.CorpMaxUsers">
+            <summary>
+            描述 : 最大用户数 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.CorpMstrLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.CorpMstrLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.CorpMstrLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.Models.DepthHist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.Id">
+            <summary>
+            描述 :  
+            空值 : False
+            默认 : nextval('plat.depth_hist_id_seq'::regclass)
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthCorpIdNew">
+            <summary>
+            描述 : 公司ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthDesc">
+            <summary>
+            描述 : 描述 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthId">
+            <summary>
+            描述 : ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthNameNew">
+            <summary>
+            描述 : 部门名称新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthName">
+            <summary>
+            描述 : 部门名称 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthVirtualNew">
+            <summary>
+            描述 : 虚拟新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthPid">
+            <summary>
+            描述 : 父部门ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthOperation">
+            <summary>
+            描述 : 执行操作 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthIdNew">
+            <summary>
+            描述 : ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthDescNew">
+            <summary>
+            描述 : 描述新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthPidNew">
+            <summary>
+            描述 : 父部门ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthDomainIdNew">
+            <summary>
+            描述 : 域ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DepthHist.DepthVirtual">
+            <summary>
+            描述 : 虚拟 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.DeptMstr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DeptMstr.DeptId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DeptMstr.DeptCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DeptMstr.DeptModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DeptMstr.DeptCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DeptMstr.DeptVirtual">
+            <summary>
+            描述 : 虚拟 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DeptMstr.DeptModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DeptMstr.DeptCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DeptMstr.DeptCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DeptMstr.DeptName">
+            <summary>
+            描述 : 部门名称 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DeptMstr.DeptDesc">
+            <summary>
+            描述 : 描述 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DeptMstr.DeptPid">
+            <summary>
+            描述 : 父部门ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DeptMstr.DeptModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DeptMstr.DeptDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.DeptMstrLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DeptMstrLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.DeptMstrLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.Models.DomainhHist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.Id">
+            <summary>
+            描述 :  
+            空值 : False
+            默认 : nextval('plat.domainh_hist_id_seq'::regclass)
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhTypeNew">
+            <summary>
+            描述 : 类型新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhDesc">
+            <summary>
+            描述 : 描述 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhType">
+            <summary>
+            描述 : 类型 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhActive">
+            <summary>
+            描述 : 激活 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhDescNew">
+            <summary>
+            描述 : 描述新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhName">
+            <summary>
+            描述 : 域名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhNameNew">
+            <summary>
+            描述 : 域名新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhMaxUsers">
+            <summary>
+            描述 : 最大用户数 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhActiveNew">
+            <summary>
+            描述 : 激活新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhOperation">
+            <summary>
+            描述 : 执行操作 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhCorpIdNew">
+            <summary>
+            描述 : 公司ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhIdNew">
+            <summary>
+            描述 : ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhMaxUsersNew">
+            <summary>
+            描述 : 最大用户数新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainhHist.DomainhId">
+            <summary>
+            描述 : ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.DomainMstr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainMstr.DomainId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainMstr.DomainCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainMstr.DomainDesc">
+            <summary>
+            描述 : 描述 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainMstr.DomainActive">
+            <summary>
+            描述 : 激活 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainMstr.DomainType">
+            <summary>
+            描述 : 类型 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainMstr.DomainCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainMstr.DomainName">
+            <summary>
+            描述 : 域名 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainMstr.DomainModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainMstr.DomainMaxUsers">
+            <summary>
+            描述 : 最大用户数 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainMstr.DomainCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainMstr.DomainModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainMstr.DomainModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainMstr.DomainCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.DomainMstrLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainMstrLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.DomainMstrLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.Models.LabelMstr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstr.LabelId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstr.LabelModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstr.LabelCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstr.LabelDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstr.LabelStacked">
+            <summary>
+            描述 : 覆盖 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstr.LabelCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstr.LabelModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstr.LabelLong">
+            <summary>
+            描述 : 长标签值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstr.LabelShort">
+            <summary>
+            描述 : 短标签值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstr.LabelModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstr.LabelCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstr.LabelCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstr.LabelMedium">
+            <summary>
+            描述 : 中标签值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstr.LabelLang">
+            <summary>
+            描述 : 语言 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstr.LabelTerm">
+            <summary>
+            描述 : 标签代码 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.LabelMstrLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstrLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.LabelMstrLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.Models.MenudDet">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudDet.MenudId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudDet.MenudCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudDet.MenudModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudDet.MenudCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudDet.MenudCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudDet.MenudSelect">
+            <summary>
+            描述 : 本级菜单编号 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudDet.MenudLang">
+            <summary>
+            描述 : 语言 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudDet.MenudCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudDet.MenudModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudDet.MenudLabel">
+            <summary>
+            描述 : 标签 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudDet.MenudNbr">
+            <summary>
+            描述 : 上级菜单编号 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudDet.MenudModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.MenudDetLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudDetLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudDetLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.Models.MenudhHist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.Id">
+            <summary>
+            描述 :  
+            空值 : False
+            默认 : nextval('plat.menudh_hist_id_seq'::regclass)
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhLang">
+            <summary>
+            描述 : 语言 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhNbrNew">
+            <summary>
+            描述 : 上级菜单编号新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhCorpIdNew">
+            <summary>
+            描述 : 公司ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhNbr">
+            <summary>
+            描述 : 上级菜单编号 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhSelect">
+            <summary>
+            描述 : 本级菜单编号 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhOperation">
+            <summary>
+            描述 : 执行操作 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhIdNew">
+            <summary>
+            描述 : ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhLabelNew">
+            <summary>
+            描述 : 标签新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhLabel">
+            <summary>
+            描述 : 标签 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhId">
+            <summary>
+            描述 : ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhLangNew">
+            <summary>
+            描述 : 语言新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhSelectNew">
+            <summary>
+            描述 : 本级菜单编号新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenudhHist.MenudhCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.MenuhHist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.Id">
+            <summary>
+            描述 :  
+            空值 : False
+            默认 : nextval('plat.menuh_hist_id_seq'::regclass)
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhProgramNew">
+            <summary>
+            描述 : 程序新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhSelectNew">
+            <summary>
+            描述 : 本级菜单编号新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhNbrNew">
+            <summary>
+            描述 : 上级菜单编号新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhNbr">
+            <summary>
+            描述 : 上级菜单编号 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhHelp">
+            <summary>
+            描述 : 帮助手册 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhIdNew">
+            <summary>
+            描述 : ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhSort">
+            <summary>
+            描述 : 排序 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhSelect">
+            <summary>
+            描述 : 本级菜单编号 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhCorpIdNew">
+            <summary>
+            描述 : 公司ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhHelpNew">
+            <summary>
+            描述 : 帮助手册新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhSortNew">
+            <summary>
+            描述 : 排序新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhOperation">
+            <summary>
+            描述 : 执行操作 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhId">
+            <summary>
+            描述 : ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhProgram">
+            <summary>
+            描述 : 程序 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuhHist.MenuhCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.MenuMstr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuMstr.MenuId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuMstr.MenuNbr">
+            <summary>
+            描述 : 上级菜单编号 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuMstr.MenuModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuMstr.MenuCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuMstr.MenuProgram">
+            <summary>
+            描述 : 程序 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuMstr.MenuSelect">
+            <summary>
+            描述 : 本级菜单编号 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuMstr.MenuCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuMstr.MenuModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuMstr.MenuSort">
+            <summary>
+            描述 : 排序 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuMstr.MenuCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuMstr.MenuModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuMstr.MenuCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuMstr.MenuHelp">
+            <summary>
+            描述 : 帮助手册 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.MenuMstrLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuMstrLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.MenuMstrLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.Models.MesgMstr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MesgMstr.MesgId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MesgMstr.MesgLang">
+            <summary>
+            描述 : 语言 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MesgMstr.MesgDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MesgMstr.MesgCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MesgMstr.MesgNbr">
+            <summary>
+            描述 : 信息编号 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MesgMstr.MesgDesc">
+            <summary>
+            描述 : 信息内容 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MesgMstr.MesgModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MesgMstr.MesgCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MesgMstr.MesgCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MesgMstr.MesgModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MesgMstr.MesgModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MesgMstr.MesgCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.MesgMstrLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.MesgMstrLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.MesgMstrLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.Models.PgrmhHist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.Id">
+            <summary>
+            描述 :  
+            空值 : False
+            默认 : nextval('plat.pgrmh_hist_id_seq'::regclass)
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhExec">
+            <summary>
+            描述 : 程序 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhOperation">
+            <summary>
+            描述 : 执行操作 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhType">
+            <summary>
+            描述 : 类型 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhCorpIdNew">
+            <summary>
+            描述 : 公司ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhId">
+            <summary>
+            描述 : ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhTypeNew">
+            <summary>
+            描述 : 类型新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhProductNew">
+            <summary>
+            描述 : 模块新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhIdNew">
+            <summary>
+            描述 : ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhUrlNew">
+            <summary>
+            描述 : url路径新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhProduct">
+            <summary>
+            描述 : 模块 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhUrl">
+            <summary>
+            描述 : url路径 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmhHist.PgrmhExecNew">
+            <summary>
+            描述 : 程序新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.PgrmMstr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmMstr.PgrmId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmMstr.PgrmModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmMstr.PgrmCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmMstr.PgrmUrl">
+            <summary>
+            描述 : url路径 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmMstr.PgrmType">
+            <summary>
+            描述 : 类型 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmMstr.PgrmCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmMstr.PgrmCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmMstr.PgrmCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmMstr.PgrmModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmMstr.PgrmModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmMstr.PgrmProduct">
+            <summary>
+            描述 : 模块 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmMstr.PgrmExec">
+            <summary>
+            描述 : 程序 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.PgrmMstrLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmMstrLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.PgrmMstrLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.Models.RoledepthHist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledepthHist.Id">
+            <summary>
+            描述 :  
+            空值 : False
+            默认 : nextval('plat.roledepth_hist_id_seq'::regclass)
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledepthHist.RoledepthDomainIdNew">
+            <summary>
+            描述 : 域ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledepthHist.RoledepthDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledepthHist.RoledepthOperation">
+            <summary>
+            描述 : 执行操作 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledepthHist.RoledepthCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledepthHist.RoledepthId">
+            <summary>
+            描述 : ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledepthHist.RoledepthRoleIdNew">
+            <summary>
+            描述 : 角色ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledepthHist.RoledepthDeptId">
+            <summary>
+            描述 : 部门ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledepthHist.RoledepthDeptIdNew">
+            <summary>
+            描述 : 部门ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledepthHist.RoledepthIdNew">
+            <summary>
+            描述 : ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledepthHist.RoledepthCorpIdNew">
+            <summary>
+            描述 : 公司ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledepthHist.RoledepthCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledepthHist.RoledepthCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledepthHist.RoledepthCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledepthHist.RoledepthRoleId">
+            <summary>
+            描述 : 角色ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.RoledeptRef">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledeptRef.RoledeptId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledeptRef.RoledeptCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledeptRef.RoledeptCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledeptRef.RoledeptModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledeptRef.RoledeptCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledeptRef.RoledeptCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledeptRef.RoledeptRoleId">
+            <summary>
+            描述 : 角色ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledeptRef.RoledeptDeptId">
+            <summary>
+            描述 : 部门ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledeptRef.RoledeptModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledeptRef.RoledeptDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledeptRef.RoledeptModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.RoledeptRefLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledeptRefLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.RoledeptRefLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.Models.RolehHist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.Id">
+            <summary>
+            描述 :  
+            空值 : False
+            默认 : nextval('plat.roleh_hist_id_seq'::regclass)
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehName">
+            <summary>
+            描述 : 角色名称 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehDomainIdNew">
+            <summary>
+            描述 : 域ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehDescNew">
+            <summary>
+            描述 : 描述新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehIdNew">
+            <summary>
+            描述 : ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehCorpIdNew">
+            <summary>
+            描述 : 公司ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehNameNew">
+            <summary>
+            描述 : 角色名称新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehId">
+            <summary>
+            描述 : ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehDesc">
+            <summary>
+            描述 : 描述 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehActive">
+            <summary>
+            描述 : 激活 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehActiveNew">
+            <summary>
+            描述 : 激活新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehOperation">
+            <summary>
+            描述 : 执行操作 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolehHist.RolehCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.RolemenuhHist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.Id">
+            <summary>
+            描述 :  
+            空值 : False
+            默认 : nextval('plat.rolemenuh_hist_id_seq'::regclass)
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhNbr">
+            <summary>
+            描述 : 上级菜单编号 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhRoleId">
+            <summary>
+            描述 : 角色ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhSelect">
+            <summary>
+            描述 : 本级菜单编号 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhCorpIdNew">
+            <summary>
+            描述 : 公司ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhSelectNew">
+            <summary>
+            描述 : 本级菜单编号新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhIdNew">
+            <summary>
+            描述 : ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhNbrNew">
+            <summary>
+            描述 : 上级菜单编号新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhDomainIdNew">
+            <summary>
+            描述 : 域ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhOperation">
+            <summary>
+            描述 : 执行操作 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhRoleIdNew">
+            <summary>
+            描述 : 角色ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuhHist.RolemenuhId">
+            <summary>
+            描述 : ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.RolemenuRef">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuRef.RolemenuId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuRef.RolemenuModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuRef.RolemenuModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuRef.RolemenuNbr">
+            <summary>
+            描述 : 上级菜单编号 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuRef.RolemenuModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuRef.RolemenuDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuRef.RolemenuCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuRef.RolemenuCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuRef.RolemenuCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuRef.RolemenuCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuRef.RolemenuRoleId">
+            <summary>
+            描述 : 角色ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuRef.RolemenuSelect">
+            <summary>
+            描述 : 本级菜单编号 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.RolemenuRefLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuRefLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.RolemenuRefLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.Models.RoleMstr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoleMstr.RoleId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoleMstr.RoleDesc">
+            <summary>
+            描述 : 描述 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoleMstr.RoleModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoleMstr.RoleModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoleMstr.RoleName">
+            <summary>
+            描述 : 角色名称 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoleMstr.RoleCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoleMstr.RoleActive">
+            <summary>
+            描述 : 激活 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoleMstr.RoleModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoleMstr.RoleDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoleMstr.RoleCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoleMstr.RoleCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoleMstr.RoleCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.RoleMstrLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.RoleMstrLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.RoleMstrLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.Models.SecurityCtrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityMinNonNumeric">
+            <summary>
+            描述 : 最少包含几个字符 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityMinLength">
+            <summary>
+            描述 : 最小长度 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityPwdCtrl">
+            <summary>
+            描述 : 安全控制等级 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityActiveRsnType">
+            <summary>
+            描述 : 默认激活原因 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityExpirationDays">
+            <summary>
+            描述 : 密码有效天数 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityDeactivationRsn">
+            <summary>
+            描述 : 默认失效原因 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityEmSystemId">
+            <summary>
+            描述 : 邮件发送系统 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityLogonHistLevel">
+            <summary>
+            描述 : 日志等级 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityTimeoutMin">
+            <summary>
+            描述 : 超时时间 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityReuseDays">
+            <summary>
+            描述 : 密码多少天不允许重复 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecuritySessionIdPrefix">
+            <summary>
+            描述 : 进程ID前缀 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityAutoPassword">
+            <summary>
+            描述 :  
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityMaxAccessFails">
+            <summary>
+            描述 : 允许最大失败次数 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityWarningDays">
+            <summary>
+            描述 : 密码过期提前预警天数 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityReuseChanges">
+            <summary>
+            描述 : 密码多少次不允许重复 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrl.SecurityMinNumeric">
+            <summary>
+            描述 : 最少包含几个数字 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.SecurityCtrlLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrlLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityCtrlLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.Models.SecurityhHist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.Id">
+            <summary>
+            描述 :  
+            空值 : False
+            默认 : nextval('plat.securityh_hist_id_seq'::regclass)
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhId">
+            <summary>
+            描述 : ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhMaxAccessFailsNew">
+            <summary>
+            描述 : 允许最大失败次数新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhReuseDaysNew">
+            <summary>
+            描述 : 密码多少天不允许重复新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhAutoPassword">
+            <summary>
+            描述 :  
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhReuseChanges">
+            <summary>
+            描述 : 密码多少次不允许重复 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhMinNonNumeric">
+            <summary>
+            描述 : 最少包含几个字符 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhMinNumeric">
+            <summary>
+            描述 : 最少包含几个数字 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhMinNumericNew">
+            <summary>
+            描述 : 最少包含几个数字新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhDeactivationRsnNew">
+            <summary>
+            描述 : 默认失效原因新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhDomainIdNew">
+            <summary>
+            描述 : 域ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhEmSystemIdNew">
+            <summary>
+            描述 : 邮件发送系统新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhSessionIdPrefix">
+            <summary>
+            描述 : 进程ID前缀 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhLogonHistLevelNew">
+            <summary>
+            描述 : 日志等级新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhAutoPasswordNew">
+            <summary>
+            描述 : 新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhSessionIdPrefixNew">
+            <summary>
+            描述 : 进程ID前缀新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhDeactivationRsn">
+            <summary>
+            描述 : 默认失效原因 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhExpirationDays">
+            <summary>
+            描述 : 过期时间 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhMinLength">
+            <summary>
+            描述 : 最小长度 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhWarningDaysNew">
+            <summary>
+            描述 : 警告日期新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhOperation">
+            <summary>
+            描述 : 执行操作 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhWarningDays">
+            <summary>
+            描述 : 警告日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhMinLengthNew">
+            <summary>
+            描述 : 最小长度新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhIdNew">
+            <summary>
+            描述 : ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhTimeoutMin">
+            <summary>
+            描述 : 超时时间 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhTimeoutMinNew">
+            <summary>
+            描述 : 超时时间新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhMinNonNumericNew">
+            <summary>
+            描述 : 最少包含几个字符新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhReuseDays">
+            <summary>
+            描述 : 密码多少天不允许重复 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhActiveRsnTypeNew">
+            <summary>
+            描述 : 默认激活原因新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhReuseChangesNew">
+            <summary>
+            描述 : 密码多少次不允许重复新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhEmSystemId">
+            <summary>
+            描述 : 邮件发送系统 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhExpirationDaysNew">
+            <summary>
+            描述 : 过期时间新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhCorpIdNew">
+            <summary>
+            描述 : 公司ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhLogonHistLevel">
+            <summary>
+            描述 : 日志等级 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhMaxAccessFails">
+            <summary>
+            描述 : 允许最大失败次数 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.SecurityhHist.SecurityhActiveRsnType">
+            <summary>
+            描述 : 默认激活原因 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.UserdomainhHist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.Id">
+            <summary>
+            描述 :  
+            空值 : False
+            默认 : nextval('plat.userdomainh_hist_id_seq'::regclass)
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhWechat">
+            <summary>
+            描述 : 微信 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhMailAddressNew">
+            <summary>
+            描述 : 邮箱新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhCorpIdNew">
+            <summary>
+            描述 : 公司ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhPrimary">
+            <summary>
+            描述 : 默认域 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhRestrict">
+            <summary>
+            描述 :  
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhRemarkNew">
+            <summary>
+            描述 : 备注新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhCity">
+            <summary>
+            描述 : 城市 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhWechatNew">
+            <summary>
+            描述 : 微信新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhPhoneNew">
+            <summary>
+            描述 : 手机号新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhUserId">
+            <summary>
+            描述 : 登录账号 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhIsDeletedNew">
+            <summary>
+            描述 : 是否删除新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhAddrNew">
+            <summary>
+            描述 : 地址新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhVariantCodeNew">
+            <summary>
+            描述 : 新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhIsDeleted">
+            <summary>
+            描述 : 是否删除 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhRoleListNew">
+            <summary>
+            描述 : 新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhSite">
+            <summary>
+            描述 : 地点 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhContactNew">
+            <summary>
+            描述 : 其他联系方式新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhReportUserId">
+            <summary>
+            描述 : 直接汇报人 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhAddr">
+            <summary>
+            描述 : 地址 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhCityNew">
+            <summary>
+            描述 : 城市新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhQqNew">
+            <summary>
+            描述 : QQ新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhVariantCode">
+            <summary>
+            描述 :  
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhEmpId">
+            <summary>
+            描述 : 员工ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhPrimaryNew">
+            <summary>
+            描述 : 默认域新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhRoleList">
+            <summary>
+            描述 :  
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhCountryNew">
+            <summary>
+            描述 : 国家新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhContact">
+            <summary>
+            描述 : 其他联系方式 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhMailAddress">
+            <summary>
+            描述 : 邮箱 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhDomainIdNew">
+            <summary>
+            描述 : 域ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhCountry">
+            <summary>
+            描述 : 国家 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhPostNew">
+            <summary>
+            描述 : 新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhPhone">
+            <summary>
+            描述 : 手机号 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhEmSystemId">
+            <summary>
+            描述 :  
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhId">
+            <summary>
+            描述 : ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhPost">
+            <summary>
+            描述 :  
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhEmSystemIdNew">
+            <summary>
+            描述 : 新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhSiteNew">
+            <summary>
+            描述 : 地点新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhQq">
+            <summary>
+            描述 : QQ 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhRestrictNew">
+            <summary>
+            描述 : 新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhEmpIdNew">
+            <summary>
+            描述 : 员工ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhOperation">
+            <summary>
+            描述 : 执行操作 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhRemark">
+            <summary>
+            描述 : 备注 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhReportUserIdNew">
+            <summary>
+            描述 : 直接汇报人新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhIdNew">
+            <summary>
+            描述 : ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainhHist.UserdomainhUserIdNew">
+            <summary>
+            描述 : 登录账号新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.UserdomainRef">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainPhone">
+            <summary>
+            描述 : 手机号 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainRemark">
+            <summary>
+            描述 : 备注 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainPrimary">
+            <summary>
+            描述 : 默认域 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainMailAddress">
+            <summary>
+            描述 : 邮箱 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainCountry">
+            <summary>
+            描述 : 国家 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainIsDeleted">
+            <summary>
+            描述 : 是否删除 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainReportUserId">
+            <summary>
+            描述 : 直接汇报人 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainUserId">
+            <summary>
+            描述 : 登录账号 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainWechat">
+            <summary>
+            描述 : 微信 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainContact">
+            <summary>
+            描述 : 其他联系方式 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainPost">
+            <summary>
+            描述 :  
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainSite">
+            <summary>
+            描述 : 地点 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainRoleList">
+            <summary>
+            描述 :  
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainQq">
+            <summary>
+            描述 : QQ 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainVariantCode">
+            <summary>
+            描述 :  
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainEmpId">
+            <summary>
+            描述 : 员工ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainAddr">
+            <summary>
+            描述 : 地址 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainEmSystemId">
+            <summary>
+            描述 :  
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainCity">
+            <summary>
+            描述 : 城市 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainRestrict">
+            <summary>
+            描述 :  
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRef.UserdomainModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.UserdomainRefLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRefLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.UserdomainRefLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.Models.UserhHist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.Id">
+            <summary>
+            描述 :  
+            空值 : False
+            默认 : nextval('plat.userh_hist_id_seq'::regclass)
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhTimezone">
+            <summary>
+            描述 : 时区 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhActiveBy">
+            <summary>
+            描述 : 激活人 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhOperation">
+            <summary>
+            描述 : 执行操作 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhType">
+            <summary>
+            描述 : 类型 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhCorpIdNew">
+            <summary>
+            描述 : 公司ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhTypeNew">
+            <summary>
+            描述 : 类型新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhPasswdEff">
+            <summary>
+            描述 : 有效期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhLogonDatetimeNew">
+            <summary>
+            描述 : 登录时间新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhActiveDatetime">
+            <summary>
+            描述 : 激活时间 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhLastChgDate">
+            <summary>
+            描述 : 最后一次修改时间 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhName">
+            <summary>
+            描述 : 用户名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhLogonTimezone">
+            <summary>
+            描述 : 登录时区 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhIdNew">
+            <summary>
+            描述 : ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhOnlineStat">
+            <summary>
+            描述 : 在线状态 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhUidNew">
+            <summary>
+            描述 : 账号新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhLang">
+            <summary>
+            描述 : 语言 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhFailedAttempts">
+            <summary>
+            描述 : 允许登录失败次数 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhFailedAttemptsNew">
+            <summary>
+            描述 : 允许登录失败次数新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhActiveDatetimeNew">
+            <summary>
+            描述 : 激活时间新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhForceChange">
+            <summary>
+            描述 : 是否更新密码 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhActiveReasonNew">
+            <summary>
+            描述 : 激活原因新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhId">
+            <summary>
+            描述 : ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhLastChgDateNew">
+            <summary>
+            描述 : 最后一次修改时间新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhLangNew">
+            <summary>
+            描述 : 语言新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhPassword">
+            <summary>
+            描述 : 密码 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhPasswdEffNew">
+            <summary>
+            描述 : 有效期新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhActiveByNew">
+            <summary>
+            描述 : 激活人新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhNameNew">
+            <summary>
+            描述 : 用户名新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhActivedNew">
+            <summary>
+            描述 : 激活新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhUid">
+            <summary>
+            描述 : 账号 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhActiveReason">
+            <summary>
+            描述 : 激活原因 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhOnlineStatNew">
+            <summary>
+            描述 : 在线状态新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhLogonDatetime">
+            <summary>
+            描述 : 登录时间 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhPasswordNew">
+            <summary>
+            描述 : 密码新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhForceChangeNew">
+            <summary>
+            描述 : 是否更新密码新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhTimezoneNew">
+            <summary>
+            描述 : 时区新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhLogonTimezoneNew">
+            <summary>
+            描述 : 登录时区新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserhHist.UserhActived">
+            <summary>
+            描述 : 激活 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.UserMstr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserActiveBy">
+            <summary>
+            描述 : 激活人 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserFailedAttempts">
+            <summary>
+            描述 : 允许登录失败次数 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserUid">
+            <summary>
+            描述 : 账号 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserForceChange">
+            <summary>
+            描述 : 是否更新密码 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserPassword">
+            <summary>
+            描述 : 密码 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserLogonDatetime">
+            <summary>
+            描述 : 登录时间 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserLogonTimezone">
+            <summary>
+            描述 : 登录时区 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserTimezone">
+            <summary>
+            描述 : 时区 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserActiveDatetime">
+            <summary>
+            描述 : 激活时间 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserActiveReason">
+            <summary>
+            描述 : 激活原因 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserPasswdEff">
+            <summary>
+            描述 : 有效期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserOnlineStat">
+            <summary>
+            描述 : 在线状态 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserType">
+            <summary>
+            描述 : 类型 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserName">
+            <summary>
+            描述 : 用户名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserLang">
+            <summary>
+            描述 : 语言 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserToken">
+            <summary>
+            描述 : 语言 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserActived">
+            <summary>
+            描述 : 激活 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserLastChgDate">
+            <summary>
+            描述 : 最后一次修改时间 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstr.UserModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.UserMstrLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstrLoad.userRole">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstrLoad.userDomain">
+            <summary>
+            域
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstrLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.UserMstrLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.Models.UserPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserPassword.UserUserUid">
+            <summary>
+            描述 : 用户账号
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserPassword.UserCorpName">
+            <summary>
+            描述 : 公司名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserPassword.UserPasswordOld">
+            <summary>
+            描述 : 原密码 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserPassword.UserPasswordNew">
+            <summary>
+            描述 : 新密码 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.UserrolehHist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserrolehHist.Id">
+            <summary>
+            描述 :  
+            空值 : False
+            默认 : nextval('plat.userroleh_hist_id_seq'::regclass)
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserrolehHist.UserrolehOperation">
+            <summary>
+            描述 : 执行操作 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserrolehHist.UserrolehUserId">
+            <summary>
+            描述 : 用户ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserrolehHist.UserrolehCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserrolehHist.UserrolehCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserrolehHist.UserrolehCorpIdNew">
+            <summary>
+            描述 : 公司ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserrolehHist.UserrolehCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserrolehHist.UserrolehRoleIdNew">
+            <summary>
+            描述 : 角色ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserrolehHist.UserrolehCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserrolehHist.UserrolehIdNew">
+            <summary>
+            描述 : ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserrolehHist.UserrolehUserIdNew">
+            <summary>
+            描述 : 用户ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserrolehHist.UserrolehId">
+            <summary>
+            描述 : ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserrolehHist.UserrolehDomainIdNew">
+            <summary>
+            描述 : 域ID新值 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserrolehHist.UserrolehDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserrolehHist.UserrolehRoleId">
+            <summary>
+            描述 : 角色ID 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.UserroleRef">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserroleRef.UserroleId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserroleRef.UserroleDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserroleRef.UserroleModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserroleRef.UserroleModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserroleRef.UserroleUserId">
+            <summary>
+            描述 : 用户ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserroleRef.UserroleModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserroleRef.UserroleCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserroleRef.UserroleRoleId">
+            <summary>
+            描述 : 角色ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserroleRef.UserroleCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserroleRef.UserroleCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserroleRef.UserroleCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.Models.UserroleRefLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:WebAPI.Model.Models.UserroleRefLoad.canpass">
+            <summary>{
+            执行结果{
+            </summary>{
+        </member>
+        <member name="P:WebAPI.Model.Models.UserroleRefLoad.errormessage">
+            <summary>{
+            错误信息{
+            </summary>{
+        </member>
+        <member name="T:WebAPI.Model.LoginModel">
+            <summary>
+            登录模型
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.LoginModel.UserCorp">
+            <summary>
+            公司
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.LoginModel.UserUid">
+            <summary>
+            登录账号
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.LoginModel.UserPassword">
+            <summary>
+            登录密码
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.LoginModel.IsPermanent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.RootEntityTkey`1.Id">
+            <summary>
+            ID
+            泛型主键Tkey
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.PageModel`1">
+            <summary>
+            通用分页信息类
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.PageModel`1.pageIndex">
+            <summary>
+            当前页标
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.PageModel`1.pageSize">
+            <summary>
+            每页大小
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.PageModel`1.pageCount">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.PageModel`1.list">
+            <summary>
+            返回数据
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.PageModel`1.count">
+            <summary>
+            数据总数
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.ResultModel">
+            <summary>
+            通用返回信息类
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ResultModel.Code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ResultModel.Msg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ResultModel.Data">
+            <summary>
+            返回数据集合
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ResultModel.MethodName">
+            <summary>
+            方法名
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.SortModel">
+            <summary>
+            通用分页信息类
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.SortModel.property">
+            <summary>
+            排序字段
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.SortModel.sort">
+            <summary>
+            排序类型：asc|desc
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.TableHeaderModel">
+            <summary>
+            表格头信息类
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.TableHeaderModel.property">
+            <summary>
+            表字段
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.TableHeaderModel.label">
+            <summary>
+            标签
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.TableHeaderModel.isShow">
+            <summary>
+            是否显示
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.TableHeaderModel.width">
+            <summary>
+            列宽
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.TableHeaderModel.type">
+            <summary>
+            字段类型
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.ViewModels.CheckDomainResult">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.CheckDomainResult.domainId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.CheckDomainResult.domainCorpId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.CheckDomainResult.labelDomainId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.CheckDomainResult.mesgDomainId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.CheckDomainResult.roleDomainId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.CheckDomainResult.userdomainDomainId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.ViewModels.DomainAuth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.DomainAuth.DomainId">
+            <summary>
+            描述 : 域名 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.DomainAuth.DomainName">
+            <summary>
+            描述 : 域名 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.DomainAuth.DomainPrimary">
+            <summary>
+            描述 : 域名 
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.LoginToken.UserSession">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.LoginToken.UserCorpId">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.Menu.MenuNbr">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.Menu.MenuSelect">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.Menu.MenuLabel">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.Menu.MenuProgramExec">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.Menu.MenuProgramUrl">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.Menu.MenuIsChecked">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.MenuTree.Guid">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.MenuTree.MenuNbr">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.MenuTree.MenuSelect">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.MenuTree.MenuName">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.MenuTree.Children">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleMenu.RoledRole">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleMenu.RoledNbr">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleMenu.RoledSelect">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleMenu.RoledMenuProgram">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleMenu.RoledMenuLabel">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleMenu.RoledMenuUrl">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleMenu.RoledIsChecked">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.ViewModels.RolemenuResult">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RolemenuResult.RolemenuDomainId">
+            <summary>
+            描述 : 域ID
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RolemenuResult.RolemenuRoleId">
+            <summary>
+            描述 : 角色ID
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RolemenuResult.RolemenuRoleName">
+            <summary>
+            描述 : 角色名称
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RolemenuResult.RolemenuRoleDesc">
+            <summary>
+            描述 : 角色描述
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RolemenuResult.RolemenuNbr">
+            <summary>
+            描述 : 上级菜单编号
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RolemenuResult.RolemenuSelect">
+            <summary>
+            描述 : 本级菜单编号
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RolemenuResult.RolemenuLabel">
+            <summary>
+            描述 : 标签
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RolemenuResult.RolemenuPgrm">
+            <summary>
+            描述 : 菜单对应程序
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleMenuTree.guid">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleMenuTree.menuNbr">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleMenuTree.menuSelect">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleMenuTree.menuName">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleMenuTree.isChecked">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleMenuTree.children">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.ViewModels.RoleResult">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleResult.RoleDomainId">
+            <summary>
+            描述 : 域ID
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleResult.RoleDomainName">
+            <summary>
+            描述 : 域名
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleResult.RoleId">
+            <summary>
+            描述 : 角色ID
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleResult.RoleName">
+            <summary>
+            描述 : 角色名称
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleResult.RoleDesc">
+            <summary>
+            描述 : 角色描述
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.RoleResult.RoleActive">
+            <summary>
+            描述 : 激活
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.ViewModels.UserdomainResult">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserdomainResult.UserdomainUserId">
+            <summary>
+            描述 : 用户ID
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserdomainResult.UserdomainUserUid">
+            <summary>
+            描述 : 账号
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserdomainResult.UserdomainUserName">
+            <summary>
+            描述 : 用户名
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserdomainResult.UserdomainDomainId">
+            <summary>
+            描述 : 域ID
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserdomainResult.UserdomainDomainName">
+            <summary>
+            描述 : 域名
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserdomainResult.UserdomainDomainDesc">
+            <summary>
+            描述 : 域描述
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserdomainResult.UserdomainDomainPrimary">
+            <summary>
+            描述 : 默认域
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.ViewModels.UsermenuResult">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UsermenuResult.UsermenuUserUid">
+            <summary>
+            描述 : 账号
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UsermenuResult.UsermenuUserName">
+            <summary>
+            描述 : 用户名
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UsermenuResult.UsermenuNbr">
+            <summary>
+            描述 : 上级菜单编号
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UsermenuResult.UsermenuSelect">
+            <summary>
+            描述 : 本级菜单编号
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UsermenuResult.UsermenuLabel">
+            <summary>
+            描述 : 菜单标签
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserMenuRouter.guid">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserMenuRouter.path">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserMenuRouter.name">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserMenuRouter.component">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserMenuRouter.meta">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserMenuRouter.children">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.Meta.title">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.Meta.icon">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.Meta.noCache">
+            <summary>
+            描述 :  
+            </summary>
+        </member>
+        <member name="T:WebAPI.Model.ViewModels.UserroleResult">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserroleResult.UserroleDomainId">
+            <summary>
+            描述 : 域ID
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserroleResult.UserroleUserId">
+            <summary>
+            描述 : 用户ID
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserroleResult.UserroleUserUid">
+            <summary>
+            描述 : 账号
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserroleResult.UserroleUserName">
+            <summary>
+            描述 : 用户名
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserroleResult.UserroleRoleId">
+            <summary>
+            描述 : 角色ID
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserroleResult.UserroleRoleName">
+            <summary>
+            描述 : 角色名
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:WebAPI.Model.ViewModels.UserroleResult.UserroleRoleDesc">
+            <summary>
+            描述 : 角色描述
+            空值 : True
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:Webapi.Core.Model.TableModel`1">
+            <summary>
+            表格数据，支持分页
+            </summary>
+        </member>
+        <member name="P:Webapi.Core.Model.TableModel`1.Code">
+            <summary>
+            返回编码
+            </summary>
+        </member>
+        <member name="P:Webapi.Core.Model.TableModel`1.Msg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:Webapi.Core.Model.TableModel`1.Count">
+            <summary>
+            记录总数
+            </summary>
+        </member>
+        <member name="P:Webapi.Core.Model.TableModel`1.Data">
+            <summary>
+            返回数据集
+            </summary>
+        </member>
+        <member name="T:Webapi.Core.Model.TokenModel">
+            <summary>
+            令牌
+            </summary>
+        </member>
+        <member name="P:Webapi.Core.Model.TokenModel.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+    </members>
+</doc>

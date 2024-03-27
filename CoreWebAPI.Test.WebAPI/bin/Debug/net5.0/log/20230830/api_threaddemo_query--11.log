@@ -1,0 +1,12 @@
+2023-08-30 11:48:34.609 22 --- Cannot Open when State is Connecting.
+SqlSugar.SqlSugarException: Cannot Open when State is Connecting.
+   at SqlSugar.MySqlProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+   at CoreWebAPI.Test.WebAPI.Controllers.Master.ThreadDemoController.Query(Int32 pageIndex)
+2023-08-30 11:49:21.003 22 --- This MySqlConnection is already in use. See https://fl.vu/mysql-conn-reuse
+System.InvalidOperationException: This MySqlConnection is already in use. See https://fl.vu/mysql-conn-reuse
+   at SqlSugar.MySqlProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+   at CoreWebAPI.Test.WebAPI.Controllers.Master.ThreadDemoController.Query(Int32 pageIndex)

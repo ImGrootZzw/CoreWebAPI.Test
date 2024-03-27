@@ -1,0 +1,270 @@
+2023-06-02 09:49:34.275 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'.
+System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.Fetch[TFeature](TFeature& cached, Func`2 factory)
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Method()
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 151
+2023-06-02 09:49:38.262 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/codemstr/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"295\"],\"sec-ch-ua\":[\"\\\"Google Chrome\\\";v=\\\"113\\\", \\\"Chromium\\\";v=\\\"113\\\", \\\"Not-A.Brand\\\";v=\\\"24\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":0,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}]}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"104\"]}",
+    "ResponseData": "{\"resultCode\":\"10001\",\"resultMsg\":\"42P01: 关系 \\\"code_mstr\\\" 不存在\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2023-06-02T09:49:36.3495193+08:00",
+    "EndTime": "2023-06-02T09:49:36.42032+08:00",
+    "OPTime": "70ms"
+}
+2023-06-02 09:49:38.283 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'.
+System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.Fetch[TFeature](TFeature& cached, Func`2 factory)
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Body()
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 151
+2023-06-02 09:50:26.062 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"748\"],\"sec-ch-ua\":[\"\\\"Google Chrome\\\";v=\\\"113\\\", \\\"Chromium\\\";v=\\\"113\\\", \\\"Not-A.Brand\\\";v=\\\"24\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":0,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}],\"piresultCorpId\":\"string\",\"piresultDomainId\":\"string\",\"piresultProdline\":\"string\",\"piresultDept\":\"string\",\"piresultMachine\":\"string\",\"piresultOp\":\"string\",\"piresultPart\":\"string\",\"piresultQrcode\":\"string\",\"piresultLot\":\"string\",\"piresultDatatype\":\"string\",\"piresultDatetimeFrom\":\"2023-06-02T01:50:22.746Z\",\"piresultDatetimeTo\":\"2023-06-02T01:50:22.746Z\",\"piresultResult\":\"string\",\"piresultType\":\"string\",\"piresultIssue\":\"string\",\"piresultReleased\":true}",
+    "ResponseStatus": "401",
+    "ResponseHeader": "{\"WWW-Authenticate\":[\"Bearer\"]}",
+    "ResponseData": "",
+    "BeginTime": "2023-06-02T09:50:23.8221962+08:00",
+    "EndTime": "2023-06-02T09:50:23.8401273+08:00",
+    "OPTime": "18ms"
+}
+2023-06-02 09:50:26.087 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'.
+System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Method()
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 151
+2023-06-02 09:51:02.403 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"748\"],\"sec-ch-ua\":[\"\\\"Google Chrome\\\";v=\\\"113\\\", \\\"Chromium\\\";v=\\\"113\\\", \\\"Not-A.Brand\\\";v=\\\"24\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":0,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}],\"piresultCorpId\":\"string\",\"piresultDomainId\":\"string\",\"piresultProdline\":\"string\",\"piresultDept\":\"string\",\"piresultMachine\":\"string\",\"piresultOp\":\"string\",\"piresultPart\":\"string\",\"piresultQrcode\":\"string\",\"piresultLot\":\"string\",\"piresultDatatype\":\"string\",\"piresultDatetimeFrom\":\"2023-06-02T01:50:22.746Z\",\"piresultDatetimeTo\":\"2023-06-02T01:50:22.746Z\",\"piresultResult\":\"string\",\"piresultType\":\"string\",\"piresultIssue\":\"string\",\"piresultReleased\":true}",
+    "ResponseStatus": "401",
+    "ResponseHeader": "{\"WWW-Authenticate\":[\"Bearer\"]}",
+    "ResponseData": "",
+    "BeginTime": "2023-06-02T09:50:56.9035483+08:00",
+    "EndTime": "2023-06-02T09:50:56.9067214+08:00",
+    "OPTime": "3ms"
+}
+2023-06-02 09:51:02.449 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'.
+System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Method()
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 151
+2023-06-02 09:52:30.726 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"748\"],\"sec-ch-ua\":[\"\\\"Google Chrome\\\";v=\\\"113\\\", \\\"Chromium\\\";v=\\\"113\\\", \\\"Not-A.Brand\\\";v=\\\"24\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":0,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}],\"piresultCorpId\":\"string\",\"piresultDomainId\":\"string\",\"piresultProdline\":\"string\",\"piresultDept\":\"string\",\"piresultMachine\":\"string\",\"piresultOp\":\"string\",\"piresultPart\":\"string\",\"piresultQrcode\":\"string\",\"piresultLot\":\"string\",\"piresultDatatype\":\"string\",\"piresultDatetimeFrom\":\"2023-06-02T01:50:22.746Z\",\"piresultDatetimeTo\":\"2023-06-02T01:50:22.746Z\",\"piresultResult\":\"string\",\"piresultType\":\"string\",\"piresultIssue\":\"string\",\"piresultReleased\":true}",
+    "ResponseStatus": "401",
+    "ResponseHeader": "{\"WWW-Authenticate\":[\"Bearer\"]}",
+    "ResponseData": "",
+    "BeginTime": "2023-06-02T09:51:42.2523788+08:00",
+    "EndTime": "2023-06-02T09:52:21.2105504+08:00",
+    "OPTime": "38742ms"
+}
+2023-06-02 09:55:02.053 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"748\"],\"sec-ch-ua\":[\"\\\"Google Chrome\\\";v=\\\"113\\\", \\\"Chromium\\\";v=\\\"113\\\", \\\"Not-A.Brand\\\";v=\\\"24\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":0,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}],\"piresultCorpId\":\"string\",\"piresultDomainId\":\"string\",\"piresultProdline\":\"string\",\"piresultDept\":\"string\",\"piresultMachine\":\"string\",\"piresultOp\":\"string\",\"piresultPart\":\"string\",\"piresultQrcode\":\"string\",\"piresultLot\":\"string\",\"piresultDatatype\":\"string\",\"piresultDatetimeFrom\":\"2023-06-02T01:50:22.746Z\",\"piresultDatetimeTo\":\"2023-06-02T01:50:22.746Z\",\"piresultResult\":\"string\",\"piresultType\":\"string\",\"piresultIssue\":\"string\",\"piresultReleased\":true}",
+    "ResponseStatus": "401",
+    "ResponseHeader": "{\"WWW-Authenticate\":[\"Bearer\"]}",
+    "ResponseData": "",
+    "BeginTime": "2023-06-02T09:53:49.2008533+08:00",
+    "EndTime": "2023-06-02T09:55:01.113915+08:00",
+    "OPTime": "71913ms"
+}
+2023-06-02 09:55:02.094 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'.
+System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Method()
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 151
+2023-06-02 09:56:16.611 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"749\"],\"sec-ch-ua\":[\"\\\"Google Chrome\\\";v=\\\"113\\\", \\\"Chromium\\\";v=\\\"113\\\", \\\"Not-A.Brand\\\";v=\\\"24\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":10,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}],\"piresultCorpId\":\"string\",\"piresultDomainId\":\"string\",\"piresultProdline\":\"string\",\"piresultDept\":\"string\",\"piresultMachine\":\"string\",\"piresultOp\":\"string\",\"piresultPart\":\"string\",\"piresultQrcode\":\"string\",\"piresultLot\":\"string\",\"piresultDatatype\":\"string\",\"piresultDatetimeFrom\":\"2023-06-02T01:56:06.455Z\",\"piresultDatetimeTo\":\"2023-06-02T01:56:06.455Z\",\"piresultResult\":\"string\",\"piresultType\":\"string\",\"piresultIssue\":\"string\",\"piresultReleased\":true}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"197\"]}",
+    "ResponseData": "{\"resultCode\":\"1000001\",\"resultMsg\":\"SqlSugarException.ArgumentNullException：Use Cache ConnectionConfig.ConfigureExternalServices.DataInfoCacheService is required \",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2023-06-02T09:56:09.4730062+08:00",
+    "EndTime": "2023-06-02T09:56:12.2959702+08:00",
+    "OPTime": "2944ms"
+}
+2023-06-02 09:58:32.782 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"749\"],\"sec-ch-ua\":[\"\\\"Google Chrome\\\";v=\\\"113\\\", \\\"Chromium\\\";v=\\\"113\\\", \\\"Not-A.Brand\\\";v=\\\"24\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":10,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}],\"piresultCorpId\":\"string\",\"piresultDomainId\":\"string\",\"piresultProdline\":\"string\",\"piresultDept\":\"string\",\"piresultMachine\":\"string\",\"piresultOp\":\"string\",\"piresultPart\":\"string\",\"piresultQrcode\":\"string\",\"piresultLot\":\"string\",\"piresultDatatype\":\"string\",\"piresultDatetimeFrom\":\"2023-06-02T01:58:20.107Z\",\"piresultDatetimeTo\":\"2023-06-02T01:58:20.107Z\",\"piresultResult\":\"string\",\"piresultType\":\"string\",\"piresultIssue\":\"string\",\"piresultReleased\":true}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"197\"]}",
+    "ResponseData": "{\"resultCode\":\"1000001\",\"resultMsg\":\"SqlSugarException.ArgumentNullException：Use Cache ConnectionConfig.ConfigureExternalServices.DataInfoCacheService is required \",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2023-06-02T09:58:22.4733047+08:00",
+    "EndTime": "2023-06-02T09:58:32.1326306+08:00",
+    "OPTime": "9777ms"
+}
+2023-06-02 10:00:05.273 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/getdetail",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"749\"],\"sec-ch-ua\":[\"\\\"Google Chrome\\\";v=\\\"113\\\", \\\"Chromium\\\";v=\\\"113\\\", \\\"Not-A.Brand\\\";v=\\\"24\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":10,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}],\"piresultCorpId\":\"string\",\"piresultDomainId\":\"string\",\"piresultProdline\":\"string\",\"piresultDept\":\"string\",\"piresultMachine\":\"string\",\"piresultOp\":\"string\",\"piresultPart\":\"string\",\"piresultQrcode\":\"string\",\"piresultLot\":\"string\",\"piresultDatatype\":\"string\",\"piresultDatetimeFrom\":\"2023-06-02T02:00:00.304Z\",\"piresultDatetimeTo\":\"2023-06-02T02:00:00.304Z\",\"piresultResult\":\"string\",\"piresultType\":\"string\",\"piresultIssue\":\"string\",\"piresultReleased\":true}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"80\"]}",
+    "ResponseData": "{\"resultCode\":\"100000\",\"resultMsg\":\"执行成功\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2023-06-02T10:00:03.6417379+08:00",
+    "EndTime": "2023-06-02T10:00:04.6645357+08:00",
+    "OPTime": "1131ms"
+}
+2023-06-02 10:01:27.668 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/getdetail",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"749\"],\"sec-ch-ua\":[\"\\\"Google Chrome\\\";v=\\\"113\\\", \\\"Chromium\\\";v=\\\"113\\\", \\\"Not-A.Brand\\\";v=\\\"24\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":10,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}],\"piresultCorpId\":\"string\",\"piresultDomainId\":\"string\",\"piresultProdline\":\"string\",\"piresultDept\":\"string\",\"piresultMachine\":\"string\",\"piresultOp\":\"string\",\"piresultPart\":\"string\",\"piresultQrcode\":\"string\",\"piresultLot\":\"string\",\"piresultDatatype\":\"string\",\"piresultDatetimeFrom\":\"2023-06-02T02:01:00.671Z\",\"piresultDatetimeTo\":\"2023-06-02T02:01:00.671Z\",\"piresultResult\":\"string\",\"piresultType\":\"string\",\"piresultIssue\":\"string\",\"piresultReleased\":true}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"80\"]}",
+    "ResponseData": "{\"resultCode\":\"100000\",\"resultMsg\":\"执行成功\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2023-06-02T10:01:03.2495752+08:00",
+    "EndTime": "2023-06-02T10:01:27.0613966+08:00",
+    "OPTime": "23935ms"
+}
+2023-06-02 10:01:41.566 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/getdetail",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"749\"],\"sec-ch-ua\":[\"\\\"Google Chrome\\\";v=\\\"113\\\", \\\"Chromium\\\";v=\\\"113\\\", \\\"Not-A.Brand\\\";v=\\\"24\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":10,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}],\"piresultCorpId\":\"string\",\"piresultDomainId\":\"string\",\"piresultProdline\":\"string\",\"piresultDept\":\"string\",\"piresultMachine\":\"string\",\"piresultOp\":\"string\",\"piresultPart\":\"string\",\"piresultQrcode\":\"string\",\"piresultLot\":\"string\",\"piresultDatatype\":\"string\",\"piresultDatetimeFrom\":\"2023-06-02T02:01:00.671Z\",\"piresultDatetimeTo\":\"2023-06-02T02:01:00.671Z\",\"piresultResult\":\"string\",\"piresultType\":\"string\",\"piresultIssue\":\"string\",\"piresultReleased\":true}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"80\"]}",
+    "ResponseData": "{\"resultCode\":\"100000\",\"resultMsg\":\"执行成功\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2023-06-02T10:01:41.5302337+08:00",
+    "EndTime": "2023-06-02T10:01:41.5627725+08:00",
+    "OPTime": "32ms"
+}
+2023-06-02 10:01:41.619 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'.
+System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.Fetch[TFeature](TFeature& cached, Func`2 factory)
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Body()
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 151
+2023-06-02 10:02:13.703 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/getdetail",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"749\"],\"sec-ch-ua\":[\"\\\"Google Chrome\\\";v=\\\"113\\\", \\\"Chromium\\\";v=\\\"113\\\", \\\"Not-A.Brand\\\";v=\\\"24\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":10,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}],\"piresultCorpId\":\"string\",\"piresultDomainId\":\"string\",\"piresultProdline\":\"string\",\"piresultDept\":\"string\",\"piresultMachine\":\"string\",\"piresultOp\":\"string\",\"piresultPart\":\"string\",\"piresultQrcode\":\"string\",\"piresultLot\":\"string\",\"piresultDatatype\":\"string\",\"piresultDatetimeFrom\":\"2023-06-02T02:02:06.496Z\",\"piresultDatetimeTo\":\"2023-06-02T02:02:06.496Z\",\"piresultResult\":\"string\",\"piresultType\":\"string\",\"piresultIssue\":\"string\",\"piresultReleased\":true}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"80\"]}",
+    "ResponseData": "{\"resultCode\":\"100000\",\"resultMsg\":\"执行成功\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2023-06-02T10:02:09.1813382+08:00",
+    "EndTime": "2023-06-02T10:02:13.1492076+08:00",
+    "OPTime": "3954ms"
+}
+2023-06-02 10:04:33.917 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"749\"],\"sec-ch-ua\":[\"\\\"Google Chrome\\\";v=\\\"113\\\", \\\"Chromium\\\";v=\\\"113\\\", \\\"Not-A.Brand\\\";v=\\\"24\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":10,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}],\"piresultCorpId\":\"string\",\"piresultDomainId\":\"string\",\"piresultProdline\":\"string\",\"piresultDept\":\"string\",\"piresultMachine\":\"string\",\"piresultOp\":\"string\",\"piresultPart\":\"string\",\"piresultQrcode\":\"string\",\"piresultLot\":\"string\",\"piresultDatatype\":\"string\",\"piresultDatetimeFrom\":\"2023-06-02T02:04:14.831Z\",\"piresultDatetimeTo\":\"2023-06-02T02:04:14.831Z\",\"piresultResult\":\"string\",\"piresultType\":\"string\",\"piresultIssue\":\"string\",\"piresultReleased\":true}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"108\"]}",
+    "ResponseData": "{\"resultCode\":\"1000001\",\"resultMsg\":\"Table 'test.piresult_det' doesn't exist\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2023-06-02T10:04:17.2225553+08:00",
+    "EndTime": "2023-06-02T10:04:33.9068189+08:00",
+    "OPTime": "16800ms"
+}
+2023-06-02 10:04:33.958 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'.
+System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.Fetch[TFeature](TFeature& cached, Func`2 factory)
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Method()
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 151
+2023-06-02 10:05:10.012 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"749\"],\"sec-ch-ua\":[\"\\\"Google Chrome\\\";v=\\\"113\\\", \\\"Chromium\\\";v=\\\"113\\\", \\\"Not-A.Brand\\\";v=\\\"24\\\"\"],\"x-corp\":[\"fine\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":10,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}],\"piresultCorpId\":\"string\",\"piresultDomainId\":\"string\",\"piresultProdline\":\"string\",\"piresultDept\":\"string\",\"piresultMachine\":\"string\",\"piresultOp\":\"string\",\"piresultPart\":\"string\",\"piresultQrcode\":\"string\",\"piresultLot\":\"string\",\"piresultDatatype\":\"string\",\"piresultDatetimeFrom\":\"2023-06-02T02:04:14.831Z\",\"piresultDatetimeTo\":\"2023-06-02T02:04:14.831Z\",\"piresultResult\":\"string\",\"piresultType\":\"string\",\"piresultIssue\":\"string\",\"piresultReleased\":true}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"108\"]}",
+    "ResponseData": "{\"resultCode\":\"1000001\",\"resultMsg\":\"Table 'test.piresult_det' doesn't exist\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2023-06-02T10:05:03.6194697+08:00",
+    "EndTime": "2023-06-02T10:05:10.0085047+08:00",
+    "OPTime": "6389ms"
+}
+2023-06-02 10:05:10.038 发送接口请求日志到消息队列 --- IFeatureCollection has been disposed.
+Object name: 'Collection'.
+System.ObjectDisposedException: IFeatureCollection has been disposed.
+Object name: 'Collection'.
+   at Microsoft.AspNetCore.Http.Features.FeatureReferences`1.ThrowContextDisposed()
+   at Microsoft.AspNetCore.Http.DefaultHttpRequest.get_Method()
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2() in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Extensions\Middlewares\RecordAccessLogsMildd.cs:line 151
+2023-06-02 10:05:52.827 RecordInfo --- {
+    "IP": "::1",
+    "User": "",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"749\"],\"sec-ch-ua\":[\"\\\"Google Chrome\\\";v=\\\"113\\\", \\\"Chromium\\\";v=\\\"113\\\", \\\"Not-A.Brand\\\";v=\\\"24\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":10,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}],\"piresultCorpId\":\"string\",\"piresultDomainId\":\"string\",\"piresultProdline\":\"string\",\"piresultDept\":\"string\",\"piresultMachine\":\"string\",\"piresultOp\":\"string\",\"piresultPart\":\"string\",\"piresultQrcode\":\"string\",\"piresultLot\":\"string\",\"piresultDatatype\":\"string\",\"piresultDatetimeFrom\":\"2023-06-02T02:05:42.518Z\",\"piresultDatetimeTo\":\"2023-06-02T02:05:42.518Z\",\"piresultResult\":\"string\",\"piresultType\":\"string\",\"piresultIssue\":\"string\",\"piresultReleased\":true}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"108\"]}",
+    "ResponseData": "{\"resultCode\":\"1000001\",\"resultMsg\":\"Table 'test.piresult_det' doesn't exist\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2023-06-02T10:05:45.8110652+08:00",
+    "EndTime": "2023-06-02T10:05:52.8206253+08:00",
+    "OPTime": "7123ms"
+}
+2023-06-02 10:06:17.226 RecordInfo --- {
+    "IP": "::1",
+    "User": "test",
+    "API": "/api/piresultdet/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"Hm_lvt_f01aed84be01ca9a011d10678b9c3b90=1683531963\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"749\"],\"sec-ch-ua\":[\"\\\"Google Chrome\\\";v=\\\"113\\\", \\\"Chromium\\\";v=\\\"113\\\", \\\"Not-A.Brand\\\";v=\\\"24\\\"\"],\"x-user\":[\"test\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":10,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"string\",\"conditions\":[{\"type\":\"string\",\"operation\":\"string\"}]}],\"piresultCorpId\":\"string\",\"piresultDomainId\":\"string\",\"piresultProdline\":\"string\",\"piresultDept\":\"string\",\"piresultMachine\":\"string\",\"piresultOp\":\"string\",\"piresultPart\":\"string\",\"piresultQrcode\":\"string\",\"piresultLot\":\"string\",\"piresultDatatype\":\"string\",\"piresultDatetimeFrom\":\"2023-06-02T02:05:42.518Z\",\"piresultDatetimeTo\":\"2023-06-02T02:05:42.518Z\",\"piresultResult\":\"string\",\"piresultType\":\"string\",\"piresultIssue\":\"string\",\"piresultReleased\":true}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"108\"]}",
+    "ResponseData": "{\"resultCode\":\"1000001\",\"resultMsg\":\"Table 'test.piresult_det' doesn't exist\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2023-06-02T10:06:12.9755268+08:00",
+    "EndTime": "2023-06-02T10:06:17.2243933+08:00",
+    "OPTime": "4248ms"
+}

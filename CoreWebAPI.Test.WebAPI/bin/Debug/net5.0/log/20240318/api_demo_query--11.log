@@ -1,0 +1,5 @@
+2024-03-18 11:07:07.083 || Error ||  || 22 --- SqlSugarException.ArgumentNullException：Use Cache ConnectionConfig.ConfigureExternalServices.DataInfoCacheService is required  || SqlSugar.SqlSugarException: SqlSugarException.ArgumentNullException：Use Cache ConnectionConfig.ConfigureExternalServices.DataInfoCacheService is required 
+   at SqlSugar.Check.ArgumentNullException(Object checkObj, String message)
+   at SqlSugar.QueryableProvider`1.WithCache(Int32 cacheDurationInSeconds)
+   at CoreWebAPI.Test.WebAPI.Controllers.Master.DemoController.Query(Int32 pageIndex) in D:\Tools\模板程序\CoreWebAPI.Test\CoreWebAPI.Test.WebAPI\Controllers\Master\DemoController.cs:line 59
+ ||end 

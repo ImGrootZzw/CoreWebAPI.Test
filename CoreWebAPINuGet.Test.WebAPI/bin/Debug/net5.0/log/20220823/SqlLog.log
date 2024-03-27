@@ -1,0 +1,249 @@
+2022-08-23 14:36:47.845 ErrorLog
+{
+    "Ip": "IHttpContextAccessor未注册，请在startup中添加app.UseStaticHttpContext();",
+    "Api": "IHttpContextAccessor未注册，请在startup中添加app.UseStaticHttpContext();",
+    "User": "IHttpContextAccessor未注册，请在startup中添加app.UseStaticHttpContext();",
+    "Class": null,
+    "Method": "ExecuteAction",
+    "Line": 0,
+    "ExecutionTime": -63796862207082.945,
+    "Sql": "@",
+    "Para": null,
+    "BeforeData": null,
+    "AfterData": null,
+    "Ex": {
+        "InnerException": null,
+        "StackTrace": "   at lambda_method580(Closure , NpgsqlTypeHandler , Object , NpgsqlLengthCache& , NpgsqlParameter )\r\n   at Npgsql.TypeHandling.NpgsqlTypeHandler`1.ValidateObjectAndGetLength(Object value, NpgsqlLengthCache& lengthCache, NpgsqlParameter parameter)\r\n   at Npgsql.NpgsqlParameter.ValidateAndGetLength()\r\n   at Npgsql.NpgsqlCommand.ValidateParameters(ConnectorTypeMapper typeMapper)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)",
+        "Source": "Anonymously Hosted DynamicMethods Assembly",
+        "Sql": "SELECT \"code_id\",\"code_corp_id\",\"code_domain_id\",\"code_name\",\"code_value\",\"code_desc\",\"code_active\",\"code_crt_datetime\",\"code_crt_prog\",\"code_crt_user\",\"code_mod_datetime\",\"code_mod_prog\",\"code_mod_user\" FROM \"plat\".\"code_mstr\"  WHERE ( lower(code_name) in (@code_nameIn0) )   ",
+        "Parametres": [
+            {
+                "_Size": 4000,
+                "IsRefCursor": false,
+                "IsClob": false,
+                "DbType": 0,
+                "Direction": 0,
+                "IsNullable": false,
+                "ParameterName": "@code_name0",
+                "Size": 4000,
+                "SourceColumn": null,
+                "SourceColumnNullMapping": false,
+                "UdtTypeName": null,
+                "Value": [
+                    "string"
+                ],
+                "TempDate": null,
+                "SourceVersion": 0,
+                "TypeName": null,
+                "IsJson": false,
+                "IsArray": false,
+                "Precision": 0,
+                "Scale": 0
+            },
+            {
+                "_Size": 4000,
+                "IsRefCursor": false,
+                "IsClob": false,
+                "DbType": 16,
+                "Direction": 0,
+                "IsNullable": false,
+                "ParameterName": "@code_nameIn0",
+                "Size": 4000,
+                "SourceColumn": null,
+                "SourceColumnNullMapping": false,
+                "UdtTypeName": null,
+                "Value": "string",
+                "TempDate": null,
+                "SourceVersion": 0,
+                "TypeName": null,
+                "IsJson": false,
+                "IsArray": false,
+                "Precision": 0,
+                "Scale": 0
+            }
+        ],
+        "Message": "Can't write CLR type Newtonsoft.Json.Linq.JArray with handler type TextHandler",
+        "Data": {},
+        "HelpLink": null,
+        "HResult": -2146233088
+    }
+}
+2022-08-23 14:46:46.527 ErrorLog
+{
+    "Ip": "IHttpContextAccessor未注册，请在startup中添加app.UseStaticHttpContext();",
+    "Api": "IHttpContextAccessor未注册，请在startup中添加app.UseStaticHttpContext();",
+    "User": "IHttpContextAccessor未注册，请在startup中添加app.UseStaticHttpContext();",
+    "Class": null,
+    "Method": "ExecuteAction",
+    "Line": 0,
+    "ExecutionTime": -63796862804863.96,
+    "Sql": "@",
+    "Para": null,
+    "BeforeData": null,
+    "AfterData": null,
+    "Ex": {
+        "InnerException": null,
+        "StackTrace": "   at lambda_method538(Closure , NpgsqlTypeHandler , Object , NpgsqlLengthCache& , NpgsqlParameter )\r\n   at Npgsql.TypeHandling.NpgsqlTypeHandler`1.ValidateObjectAndGetLength(Object value, NpgsqlLengthCache& lengthCache, NpgsqlParameter parameter)\r\n   at Npgsql.NpgsqlParameter.ValidateAndGetLength()\r\n   at Npgsql.NpgsqlCommand.ValidateParameters(ConnectorTypeMapper typeMapper)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)",
+        "Source": "Anonymously Hosted DynamicMethods Assembly",
+        "Sql": "SELECT \"code_id\",\"code_corp_id\",\"code_domain_id\",\"code_name\",\"code_value\",\"code_desc\",\"code_active\",\"code_crt_datetime\",\"code_crt_prog\",\"code_crt_user\",\"code_mod_datetime\",\"code_mod_prog\",\"code_mod_user\" FROM \"plat\".\"code_mstr\"  WHERE ( lower(code_name) in (@code_nameIn0) )   ",
+        "Parametres": [
+            {
+                "_Size": 4000,
+                "IsRefCursor": false,
+                "IsClob": false,
+                "DbType": 0,
+                "Direction": 0,
+                "IsNullable": false,
+                "ParameterName": "@code_name0",
+                "Size": 4000,
+                "SourceColumn": null,
+                "SourceColumnNullMapping": false,
+                "UdtTypeName": null,
+                "Value": [
+                    "string"
+                ],
+                "TempDate": null,
+                "SourceVersion": 0,
+                "TypeName": null,
+                "IsJson": false,
+                "IsArray": false,
+                "Precision": 0,
+                "Scale": 0
+            },
+            {
+                "_Size": 4000,
+                "IsRefCursor": false,
+                "IsClob": false,
+                "DbType": 16,
+                "Direction": 0,
+                "IsNullable": false,
+                "ParameterName": "@code_nameIn0",
+                "Size": 4000,
+                "SourceColumn": null,
+                "SourceColumnNullMapping": false,
+                "UdtTypeName": null,
+                "Value": "string",
+                "TempDate": null,
+                "SourceVersion": 0,
+                "TypeName": null,
+                "IsJson": false,
+                "IsArray": false,
+                "Precision": 0,
+                "Scale": 0
+            }
+        ],
+        "Message": "Can't write CLR type Newtonsoft.Json.Linq.JArray with handler type TextHandler",
+        "Data": {},
+        "HelpLink": null,
+        "HResult": -2146233088
+    }
+}
+2022-08-23 15:14:39.063 ErrorLog
+{
+    "Ip": "IHttpContextAccessor未注册，请在startup中添加app.UseStaticHttpContext();",
+    "Api": "IHttpContextAccessor未注册，请在startup中添加app.UseStaticHttpContext();",
+    "User": "IHttpContextAccessor未注册，请在startup中添加app.UseStaticHttpContext();",
+    "Class": null,
+    "Method": "ExecuteAction",
+    "Line": 0,
+    "ExecutionTime": -63796864477506.33,
+    "Sql": "@",
+    "Para": null,
+    "BeforeData": null,
+    "AfterData": null,
+    "Ex": {
+        "InnerException": null,
+        "StackTrace": "   at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)\r\n   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)",
+        "Source": "Npgsql",
+        "Sql": "SELECT \"code_id\",\"code_corp_id\",\"code_domain_id\",\"code_name\",\"code_value\",\"code_desc\",\"code_active\",\"code_crt_datetime\",\"code_crt_prog\",\"code_crt_user\",\"code_mod_datetime\",\"code_mod_prog\",\"code_mod_user\" FROM \"plat\".\"code_mstr\"  WHERE ( lower(code_name) in (@code_nameIn0) )   ",
+        "Parametres": [
+            {
+                "_Size": 4000,
+                "IsRefCursor": false,
+                "IsClob": false,
+                "DbType": 16,
+                "Direction": 0,
+                "IsNullable": false,
+                "ParameterName": "@code_nameIn0",
+                "Size": 4000,
+                "SourceColumn": null,
+                "SourceColumnNullMapping": false,
+                "UdtTypeName": null,
+                "Value": "string",
+                "TempDate": null,
+                "SourceVersion": 0,
+                "TypeName": null,
+                "IsJson": false,
+                "IsArray": false,
+                "Precision": 0,
+                "Scale": 0
+            }
+        ],
+        "Message": "42P01: 关系 \"plat.code_mstr\" 不存在",
+        "Data": {},
+        "HelpLink": null,
+        "HResult": -2146233088
+    }
+}
+2022-08-23 15:15:40.643 ErrorLog
+{
+    "Ip": "IHttpContextAccessor未注册，请在startup中添加app.UseStaticHttpContext();",
+    "Api": "IHttpContextAccessor未注册，请在startup中添加app.UseStaticHttpContext();",
+    "User": "IHttpContextAccessor未注册，请在startup中添加app.UseStaticHttpContext();",
+    "Class": null,
+    "Method": "ExecuteAction",
+    "Line": 0,
+    "ExecutionTime": -63796864539135.44,
+    "Sql": "@",
+    "Para": null,
+    "BeforeData": null,
+    "AfterData": null,
+    "Ex": {
+        "InnerException": null,
+        "StackTrace": "   at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)\r\n   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)",
+        "Source": "Npgsql",
+        "Sql": "SELECT \"code_id\",\"code_corp_id\",\"code_domain_id\",\"code_name\",\"code_value\",\"code_desc\",\"code_active\",\"code_crt_datetime\",\"code_crt_prog\",\"code_crt_user\",\"code_mod_datetime\",\"code_mod_prog\",\"code_mod_user\" FROM \"code_mstr\"  WHERE ( lower(code_name) in (@code_nameIn0) )   ",
+        "Parametres": [
+            {
+                "_Size": 4000,
+                "IsRefCursor": false,
+                "IsClob": false,
+                "DbType": 16,
+                "Direction": 0,
+                "IsNullable": false,
+                "ParameterName": "@code_nameIn0",
+                "Size": 4000,
+                "SourceColumn": null,
+                "SourceColumnNullMapping": false,
+                "UdtTypeName": null,
+                "Value": "string",
+                "TempDate": null,
+                "SourceVersion": 0,
+                "TypeName": null,
+                "IsJson": false,
+                "IsArray": false,
+                "Precision": 0,
+                "Scale": 0
+            }
+        ],
+        "Message": "42P01: 关系 \"code_mstr\" 不存在",
+        "Data": {},
+        "HelpLink": null,
+        "HResult": -2146233088
+    }
+}
+2022-08-23 15:16:21.603 ExecutLog
+{
+    "Ip": "IHttpContextAccessor未注册，请在startup中添加app.UseStaticHttpContext();",
+    "Api": "IHttpContextAccessor未注册，请在startup中添加app.UseStaticHttpContext();",
+    "User": "IHttpContextAccessor未注册，请在startup中添加app.UseStaticHttpContext();",
+    "Class": null,
+    "Method": "ExecuteAction",
+    "Line": 0,
+    "ExecutionTime": 20.8742,
+    "Sql": "SELECT \"code_id\",\"code_corp_id\",\"code_domain_id\",\"code_name\",\"code_value\",\"code_desc\",\"code_active\",\"code_crt_datetime\",\"code_crt_prog\",\"code_crt_user\",\"code_mod_datetime\",\"code_mod_prog\",\"code_mod_user\" FROM \"code_mstr\"  WHERE ( lower(code_name) in (@code_nameIn0) )   ",
+    "Para": "[{\"_Size\":4000,\"IsRefCursor\":false,\"IsClob\":false,\"DbType\":16,\"Direction\":0,\"IsNullable\":false,\"ParameterName\":\"@code_nameIn0\",\"Size\":4000,\"SourceColumn\":null,\"SourceColumnNullMapping\":false,\"UdtTypeName\":null,\"Value\":\"string\",\"TempDate\":null,\"SourceVersion\":0,\"TypeName\":null,\"IsJson\":false,\"IsArray\":false,\"Precision\":0,\"Scale\":0}]",
+    "BeforeData": null,
+    "AfterData": null,
+    "Ex": null
+}

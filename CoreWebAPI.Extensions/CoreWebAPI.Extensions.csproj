@@ -1,0 +1,113 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>esunfinekey.pfx</AssemblyOriginatorKeyFile>
+    <Company>SHEADUTECH</Company>
+    <Authors>SHEADUTECHFine</Authors>
+    <Version>1.1.0</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Copyright>SHEADUTECH</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AOP\**" />
+    <Compile Remove="Authorizations\**" />
+    <Compile Remove="AutoMapper\**" />
+    <Compile Remove="EventHandling\**" />
+    <Compile Remove="Middlewares\**" />
+    <EmbeddedResource Remove="AOP\**" />
+    <EmbeddedResource Remove="Authorizations\**" />
+    <EmbeddedResource Remove="AutoMapper\**" />
+    <EmbeddedResource Remove="EventHandling\**" />
+    <EmbeddedResource Remove="Middlewares\**" />
+    <None Remove="AOP\**" />
+    <None Remove="Authorizations\**" />
+    <None Remove="AutoMapper\**" />
+    <None Remove="EventHandling\**" />
+    <None Remove="Middlewares\**" />
+    <None Include="..\license.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="Filters\GlobalHttpHeaderFilter.cs" />
+    <Compile Remove="HttpContext\StaticHttpContext.cs" />
+    <Compile Remove="ServiceExtensions\Authentication_Ids4Setup.cs" />
+    <Compile Remove="ServiceExtensions\EventBusSetup.cs" />
+    <Compile Remove="ServiceExtensions\GenericTypeExtensions.cs" />
+    <Compile Remove="ServiceExtensions\IpPolicyRateLimitSetup.cs" />
+    <Compile Remove="ServiceExtensions\JobSetup.cs" />
+    <Compile Remove="ServiceExtensions\MemoryCacheSetup.cs" />
+    <Compile Remove="ServiceExtensions\MiniProfilerSetup.cs" />
+    <Compile Remove="ServiceExtensions\RabbitMQSetup.cs" />
+    <Compile Remove="ServiceExtensions\RedisInitMqSetup.cs" />
+    <Compile Remove="ServiceExtensions\WebApiClientSetup.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Authorizations\Helpers\JwtHelper.cs" />
+    <Compile Include="Authorizations\Helpers\JwtTokenModel.cs" />
+    <Compile Include="Authorizations\Policys\JwtTokenHandler.cs" />
+    <Compile Include="Authorizations\Policys\PermissionHandler.cs" />
+    <Compile Include="Authorizations\Policys\PermissionItem.cs" />
+    <Compile Include="Authorizations\Policys\PermissionRequirement.cs" />
+    <Compile Include="AutoMapper\AutoMapperConfig.cs" />
+    <Compile Include="AutoMapper\CustomProfile.cs" />
+    <Compile Include="Middlewares\AllServicesMildd.cs" />
+    <Compile Include="Middlewares\ConsulMildd.cs" />
+    <Compile Include="Middlewares\IPLogMildd.cs" />
+    <Compile Include="Middlewares\JwtTokenAuth.cs" />
+    <Compile Include="Middlewares\MiddlewareHelpers.cs" />
+    <Compile Include="Middlewares\OptionsRequestMildd.cs" />
+    <Compile Include="Middlewares\RecordAccessLogsMildd.cs" />
+    <Compile Include="Middlewares\SwaggerAuthMilddle.cs" />
+    <Compile Include="Middlewares\SwaggerMildd.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.1.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.0" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Consul" Version="1.6.1.1" />
+    <PackageReference Include="CSRedisCore" Version="3.6.6" />
+    <PackageReference Include="DotNetCore.CAP" Version="5.1.3" />
+    <PackageReference Include="DotNetCore.CAP.Dashboard" Version="5.1.3" />
+    <PackageReference Include="DotNetCore.CAP.Kafka" Version="5.1.3" />
+    <PackageReference Include="DotNetCore.CAP.RabbitMQ" Version="5.1.3" />
+    <PackageReference Include="HttpReports" Version="2.6.3" />
+    <PackageReference Include="HttpReports.Dashboard" Version="2.6.3" />
+    <PackageReference Include="HttpReports.Transport.Http" Version="2.6.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+    <PackageReference Include="nacos-sdk-csharp" Version="1.3.4" />
+    <PackageReference Include="nacos-sdk-csharp.AspNetCore" Version="1.3.4" />
+    <PackageReference Include="nacos-sdk-csharp.Extensions.Configuration" Version="1.3.4" />
+    <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+    <PackageReference Include="Serilog.Sinks.Async" Version="1.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="6.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.0.7" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreWebAPI.Common\CoreWebAPI.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MQListener\" />
+  </ItemGroup>
+
+</Project>

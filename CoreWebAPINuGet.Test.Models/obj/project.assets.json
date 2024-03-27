@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "SqlSugar/5.1.3.45": {
+        "type": "package",
+        "compile": {
+          "lib/SqlSugar.dll": {}
+        },
+        "runtime": {
+          "lib/SqlSugar.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SqlSugar/5.1.3.45": {
+      "sha512": "91N3hRaua12JO6LH4c6adkrrFVOVa1zLzW61gy7Pa4DsYqDOlbNxSWV8Pj4btpDMtfHixriPAm58wyXIgOvdsQ==",
+      "type": "package",
+      "path": "sqlsugar/5.1.3.45",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/SqlSugar.dll",
+        "sqlsugar.5.1.3.45.nupkg.sha512",
+        "sqlsugar.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "SqlSugar >= 5.1.3.45"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ESUN-Fine\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Tools\\模板程序\\CoreWebAPI.Test\\CoreWebAPINuGet.Test.Models\\CoreWebAPINuGet.Test.Models.csproj",
+      "projectName": "CoreWebAPINuGet.Test.Models",
+      "projectPath": "D:\\Tools\\模板程序\\CoreWebAPI.Test\\CoreWebAPINuGet.Test.Models\\CoreWebAPINuGet.Test.Models.csproj",
+      "packagesPath": "C:\\Users\\ESUN-Fine\\.nuget\\packages\\",
+      "outputPath": "D:\\Tools\\模板程序\\CoreWebAPI.Test\\CoreWebAPINuGet.Test.Models\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ESUN-Fine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "SqlSugar": {
+            "target": "Package",
+            "version": "[5.1.3.45, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net5.0”还原包“SqlSugar 5.1.3.45”。此包可能与项目不完全兼容。",
+      "libraryId": "SqlSugar",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

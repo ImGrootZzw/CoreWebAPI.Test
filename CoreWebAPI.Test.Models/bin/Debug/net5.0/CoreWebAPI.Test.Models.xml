@@ -1,0 +1,1242 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreWebAPI.Test.Models</name>
+    </assembly>
+    <members>
+        <member name="T:CoreWebAPI.Test.Models.Models.CodeMstr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstr.CodeId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstr.CodeCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstr.CodeDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstr.CodeName">
+            <summary>
+            描述 : 名称 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstr.CodeValue">
+            <summary>
+            描述 : 值 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstr.CodeDesc">
+            <summary>
+            描述 : 描述 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstr.CodeActive">
+            <summary>
+            描述 : 激活 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstr.CodeCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstr.CodeCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstr.CodeCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstr.CodeModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstr.CodeModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstr.CodeModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstr.CodeSalve">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.Models.CodeMstrLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstrLoad.Canpass">
+            <summary>
+            执行结果
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstrLoad.Errormessage">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.Models.CodeMstrSalve">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstrSalve.CodeSalveId">
+            <summary>
+            描述 : ID 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstrSalve.CodeSalveCorpId">
+            <summary>
+            描述 : 公司ID 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstrSalve.CodeSalveDomainId">
+            <summary>
+            描述 : 域ID 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstrSalve.CodeSalveName">
+            <summary>
+            描述 : 名称 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstrSalve.CodeSalveValue">
+            <summary>
+            描述 : 值 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstrSalve.CodeSalveDesc">
+            <summary>
+            描述 : 描述 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstrSalve.CodeSalveActive">
+            <summary>
+            描述 : 激活 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstrSalve.CodeSalveCrtDatetime">
+            <summary>
+            描述 : 创建日期 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstrSalve.CodeSalveCrtProg">
+            <summary>
+            描述 : 程序名 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstrSalve.CodeSalveCrtUser">
+            <summary>
+            描述 : 创建用户 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstrSalve.CodeSalveModDatetime">
+            <summary>
+            描述 : 修改日期 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstrSalve.CodeSalveModProg">
+            <summary>
+            描述 : 修改程序名 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.CodeMstrSalve.CodeSalveModUser">
+            <summary>
+            描述 : 修改用户 
+            空值 : True
+            默认 : 
+            </summary>        
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.Models.PiresultDet">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.Id">
+            <summary>
+            描述 : 
+            允许空值 : False
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultCorpId">
+            <summary>
+            描述 : 
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultDomainId">
+            <summary>
+            描述 : 
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultProdline">
+            <summary>
+            描述 : 产线
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultDept">
+            <summary>
+            描述 : 部门
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultMachine">
+            <summary>
+            描述 : 设备
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultOp">
+            <summary>
+            描述 : 工序
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultPart">
+            <summary>
+            描述 : 零件
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultQrcode">
+            <summary>
+            描述 : 二维码
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultLot">
+            <summary>
+            描述 : 批次号
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultDatatype">
+            <summary>
+            描述 : 检测项目
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultValue">
+            <summary>
+            描述 : 检测值
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultUm">
+            <summary>
+            描述 : 单位
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultDatetime">
+            <summary>
+            描述 : 检测时间
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultMthd">
+            <summary>
+            描述 : 采集方式
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultResult">
+            <summary>
+            描述 : 判定结果
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultType">
+            <summary>
+            描述 : 检测类型（inprocess/incoming/periodic）
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultReleased">
+            <summary>
+            描述 : 已发布
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultIssue">
+            <summary>
+            描述 : NG原因类型
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultFrequency">
+            <summary>
+            描述 : 检查频率
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultCrtDatetime">
+            <summary>
+            描述 : 创建日期
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultCrtProg">
+            <summary>
+            描述 : 程序名
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultCrtUser">
+            <summary>
+            描述 : 创建用户
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultModDatetime">
+            <summary>
+            描述 : 修改日期
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultModProg">
+            <summary>
+            描述 : 修改程序名
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultModUser">
+            <summary>
+            描述 : 修改用户
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultStudentId">
+            <summary>
+            描述 : 修改用户
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDet.PiresultStudent">
+            <summary>
+            描述 : 修改用户
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.Models.PiresultDetLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetLoad.Canpass">
+            <summary>
+            执行结果
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetLoad.Errormessage">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.Models.StudentMstr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.Id">
+            <summary>
+            描述 : 
+            允许空值 : False
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.StudentCorpId">
+            <summary>
+            描述 : 
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.StudentDomainId">
+            <summary>
+            描述 : 
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.StudentId">
+            <summary>
+            描述 : 学生号
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.StudentName">
+            <summary>
+            描述 : 姓名
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.StudentAge">
+            <summary>
+            描述 : 年龄
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.StudentEnrolmentDate">
+            <summary>
+            描述 : 入学时间
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.StudentAddr">
+            <summary>
+            描述 : 地址
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.StudentGraduated">
+            <summary>
+            描述 : 已毕业
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.StudentCrtDatetime">
+            <summary>
+            描述 : 创建日期
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.StudentCrtProg">
+            <summary>
+            描述 : 程序名
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.StudentCrtUser">
+            <summary>
+            描述 : 创建用户
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.StudentModDatetime">
+            <summary>
+            描述 : 修改日期
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.StudentModProg">
+            <summary>
+            描述 : 修改程序名
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.StudentModUser">
+            <summary>
+            描述 : 修改用户
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.Version">
+            <summary>
+            标识版本字段
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstr.StudentTest">
+            <summary>
+            描述 : 修改用户
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.Models.StudentMstrLoad">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrLoad.Canpass">
+            <summary>
+            执行结果
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrLoad.Errormessage">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.Models.StudentMstrNew">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.Id">
+            <summary>
+            描述 : 
+            允许空值 : False
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.StudentCorpId">
+            <summary>
+            描述 : 
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.StudentDomainId">
+            <summary>
+            描述 : 
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.StudentId">
+            <summary>
+            描述 : 学生号
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.StudentName">
+            <summary>
+            描述 : 姓名
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.StudentAge">
+            <summary>
+            描述 : 年龄
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.StudentEnrolmentDate">
+            <summary>
+            描述 : 入学时间
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.StudentAddr">
+            <summary>
+            描述 : 地址
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.StudentGraduated">
+            <summary>
+            描述 : 已毕业
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.StudentCrtDatetime">
+            <summary>
+            描述 : 创建日期
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.StudentCrtProg">
+            <summary>
+            描述 : 程序名
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.StudentCrtUser">
+            <summary>
+            描述 : 创建用户
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.StudentModDatetime">
+            <summary>
+            描述 : 修改日期
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.StudentModProg">
+            <summary>
+            描述 : 修改程序名
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.StudentModUser">
+            <summary>
+            描述 : 修改用户
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.StudentMstrNew.Version">
+            <summary>
+            标识版本字段
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.Models.PiresultDetViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.Id">
+            <summary>
+            描述 : 
+            允许空值 : False
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultCorpId">
+            <summary>
+            描述 : 
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultDomainId">
+            <summary>
+            描述 : 
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultProdline">
+            <summary>
+            描述 : 产线
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultDept">
+            <summary>
+            描述 : 部门
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultMachine">
+            <summary>
+            描述 : 设备
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultOp">
+            <summary>
+            描述 : 工序
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultPart">
+            <summary>
+            描述 : 零件
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultQrcode">
+            <summary>
+            描述 : 二维码
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultLot">
+            <summary>
+            描述 : 批次号
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultDatatype">
+            <summary>
+            描述 : 检测项目
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultValue">
+            <summary>
+            描述 : 检测值
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultUpperLimit">
+            <summary>
+            描述 : 检测标准上限
+            允许空值 : True
+            默认值 : 
+            </summary>       
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultLowerLimit">
+            <summary>
+            描述 : 检测标准下限
+            允许空值 : True
+            默认值 : 
+            </summary>       
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultUm">
+            <summary>
+            描述 : 单位
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultDatetime">
+            <summary>
+            描述 : 检测时间
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultMthd">
+            <summary>
+            描述 : 采集方式
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultResult">
+            <summary>
+            描述 : 判定结果
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultType">
+            <summary>
+            描述 : 检测类型（inprocess/incoming/periodic）
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultReleased">
+            <summary>
+            描述 : 已发布
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultIssue">
+            <summary>
+            描述 : NG原因类型
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultFrequency">
+            <summary>
+            描述 : 检查频率
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultCrtDatetime">
+            <summary>
+            描述 : 创建日期
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultCrtProg">
+            <summary>
+            描述 : 程序名
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultCrtUser">
+            <summary>
+            描述 : 创建用户
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultModDatetime">
+            <summary>
+            描述 : 修改日期
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultModProg">
+            <summary>
+            描述 : 修改程序名
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.Models.PiresultDetViewModel.PiresultModUser">
+            <summary>
+            描述 : 修改用户
+            允许空值 : True
+            默认值 : 
+            </summary>        
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.ResultModel">
+            <summary>
+            通用返回信息类
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ResultModel.ResultCode">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ResultModel.ResultMsg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ResultModel.Data">
+            <summary>
+            返回数据集合
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ResultModel.MethodName">
+            <summary>
+            方法名
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.ResultModelReturn`1">
+            <summary>
+            通用返回信息类
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ResultModelReturn`1.ResultCode">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ResultModelReturn`1.ResultMsg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ResultModelReturn`1.Data">
+            <summary>
+            返回数据集合
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ResultModelReturn`1.MethodName">
+            <summary>
+            方法名
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.ViewModels.CodeMstrSearchModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.CodeMstrSearchModel.CodeName">
+            <summary>
+            描述 : 名称 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.CodeMstrSearchModel.CodeValue">
+            <summary>
+            描述 : 值 
+            空值 : False
+            默认 : 
+            </summary>        
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultCorpId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultDomainId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultProdline">
+            <summary>
+            产线
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultDept">
+            <summary>
+            部门
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultMachine">
+            <summary>
+            设备
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultOp">
+            <summary>
+            工序
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultPart">
+            <summary>
+            零件
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultQrcode">
+            <summary>
+            二维码
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultLot">
+            <summary>
+            批次号
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultDatatype">
+            <summary>
+            检测项目
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultDatetimeFrom">
+            <summary>
+            描述 : 检测开始时间
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultDatetimeTo">
+            <summary>
+            描述 : 检测结束时间
+            </summary>        
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultResult">
+            <summary>
+            判定结果
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultType">
+            <summary>
+            检测类型（inprocess/incoming/periodic）
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultIssue">
+            <summary>
+            NG原因类型
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.PiresultDetSearchModel.PiresultReleased">
+            <summary>
+            已发布
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.ViewModels.BasicSearchModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.BasicSearchModel.PageIndex">
+            <summary>
+            描述 : 页码
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.BasicSearchModel.PageSize">
+            <summary>
+            描述 : 页大小
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.BasicSearchModel.SortList">
+            <summary>
+            描述 : 排序
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.BasicSearchModel.TableHead">
+            <summary>
+            描述 : 排序
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.BasicSearchModel.FieldList">
+            <summary>
+            描述 : 查询字段列表 当字段列表为空或不填写时，默认查询全部字段
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.BasicSearchModel.ConditionList">
+            <summary>
+            描述 : 查询条件列表 当条件列表为空或不填时，则不设查询条件
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.ViewModels.SortModel">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.SortModel.SortParam">
+            <summary>
+            描述 : 排序字段
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.SortModel.Ascending">
+            <summary>
+            描述 : 正序
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.ViewModels.ConditionFieldModel">
+            <summary>
+            字段条件
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.ConditionFieldModel.Field">
+            <summary>
+            描述 : 字段
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.ConditionFieldModel.Conditions">
+            <summary>
+            描述 : 条件
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.ViewModels.ConditionModel">
+            <summary>
+            条件
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.ConditionModel.Type">
+            <summary>
+            描述 : 条件类型 eq：等于，ne：不等于，lt：小于，lte：小于等于，gt：大于，gte：大于等于，like：模糊匹配，in：包含,between：在...之间
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.ConditionModel.FirstValue">
+            <summary>
+            描述 : 该参数可为任意值，当类型为boolean时，只可以使用eq类型。当类型为in时，需传输Array对象
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.ConditionModel.SecondValue">
+            <summary>
+            描述 : 该参数只在类型为between时使用，为between的第二个值
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.ConditionModel.Operation">
+            <summary>
+            描述 : 该参数设置与上一个条件的连接关系，只要and或or，默认使用and
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.ViewModels.TableHeaderModel">
+            <summary>
+            表格头信息类
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.TableHeaderModel.Label">
+            <summary>
+            描述 : 标签
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.TableHeaderModel.Property">
+            <summary>
+            描述 : 字段
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.TableHeaderModel.IsShow">
+            <summary>
+            描述 : 是否显示
+            空值 : False
+            默认 : 
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.TableHeaderModel.Width">
+            <summary>
+            列宽
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.TableHeaderModel.Type">
+            <summary>
+            字段类型
+            </summary>
+        </member>
+        <member name="T:CoreWebAPI.Test.Models.ViewModels.StudentMstrSearchModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.StudentMstrSearchModel.StudentCorpId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.StudentMstrSearchModel.StudentDomainId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.StudentMstrSearchModel.StudentId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.StudentMstrSearchModel.StudentName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.StudentMstrSearchModel.StudentAge">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.StudentMstrSearchModel.StudentEnrolmentDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.StudentMstrSearchModel.StudentAddr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CoreWebAPI.Test.Models.ViewModels.StudentMstrSearchModel.StudentGraduated">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

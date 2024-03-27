@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreWebAPI.Common\CoreWebAPI.Common.csproj" />
+    <ProjectReference Include="..\CoreWebAPI.Test.IServices\CoreWebAPI.Test.IServices.csproj" />
+  </ItemGroup>
+
+</Project>

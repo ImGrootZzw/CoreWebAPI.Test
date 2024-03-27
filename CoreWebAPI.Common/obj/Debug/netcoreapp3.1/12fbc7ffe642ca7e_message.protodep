@@ -1,0 +1,3 @@
+obj\Debug\netcoreapp3.1\Protos/Message.cs \
+obj\Debug\netcoreapp3.1\Protos/MessageGrpc.cs: C:/Users/zzw/.nuget/packages/grpc.tools/2.41.1/build/native/include/google/protobuf/timestamp.proto\
+ Protos/message.proto

@@ -1,0 +1,114 @@
+2022-08-23 14:35:59.534 RecordInfo
+{
+    "IP": "::1",
+    "User": "",
+    "API": "/api/codemstr/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"tenantId=default\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"295\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"104\\\", \\\" Not A;Brand\\\";v=\\\"99\\\", \\\"Google Chrome\\\";v=\\\"104\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":0,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"CodeName\",\"conditions\":[{\"type\":\"in\",\"operation\":[\"string\"]}]}]}",
+    "ResponseStatus": "400",
+    "ResponseHeader": "{\"Content-Type\":[\"application/problem+json; charset=utf-8\"],\"Content-Length\":[\"1465\"]}",
+    "ResponseData": "{\"errors\":{\"\":[\"Unexpected end when deserializing object. Path '', line 1, position 295.\",\"Unexpected end when deserializing array. Path '', line 1, position 295.\",\"Unexpected end when deserializing object. Path '', line 1, position 295.\"],\"0\":[\"JsonToken EndArray is not valid for closing JsonType Object. Path '', line 1, position 294.\",\"JsonToken EndObject is not valid for closing JsonType None. Path '', line 1, position 295.\"],\"conditions\":[\"Infinite loop detected from error handling. Path '', line 1, position 295.\"],\"conditionList.-1\":[\"JsonToken EndObject is not valid for closing JsonType Array. Path 'conditionList', line 1, position 293.\"],\"conditionList[0]\":[\"JsonToken EndArray is not valid for closing JsonType Object. Path 'conditionList[0]', line 1, position 292.\"],\"conditionList[0].conditions.-1\":[\"JsonToken EndObject is not valid for closing JsonType Array. Path 'conditionList[0].conditions', line 1, position 291.\"],\"conditionList[0].conditions[0]\":[\"JsonToken EndArray is not valid for closing JsonType Object. Path 'conditionList[0].conditions[0]', line 1, position 290.\"],\"conditionList[0].conditions[0].operation\":[\"Unexpected character encountered while parsing value: [. Path 'conditionList[0].conditions[0].operation', line 1, position 281.\"]},\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-ebb64150899c5547a2f386ff8829f37b-05b80fe7c334c045-00\"}",
+    "BeginTime": "2022-08-23T14:35:58.1985578+08:00",
+    "EndTime": "2022-08-23T14:35:59.4085143+08:00",
+    "OPTime": "1299ms"
+}
+2022-08-23 14:36:26.694 发送接口请求日志到消息队列 --- None of the specified endpoints were reachable
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at RabbitMQ.Client.Framing.Impl.Connection.get_Endpoint()
+   at RabbitMQ.Client.Framing.Impl.Connection.get_Protocol()
+   at RabbitMQ.Client.Impl.Session..ctor(Connection connection, UInt16 channelNumber)
+   at RabbitMQ.Client.Impl.MainSession..ctor(Connection connection)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IList`1 hostnames, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IList`1 hostnames)
+   at CoreWebAPI.Common.Helper.RabbitHelper..ctor(List`1 hostNames, String userName, String password, Int32 port, String virtualHost, String exchangeName, String queueName, String routeKey)
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2()
+2022-08-23 14:52:21.206 RecordInfo
+{
+    "IP": "::1",
+    "User": "",
+    "API": "/api/codemstr/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"tenantId=default\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"296\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"104\\\", \\\" Not A;Brand\\\";v=\\\"99\\\", \\\"Google Chrome\\\";v=\\\"104\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":0,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"codename\",\"conditions\":[{\"type\":\"in\",\"firstValue\":[\"string\"]}]}]}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"145\"]}",
+    "ResponseData": "{\"resultCode\":\"10001\",\"resultMsg\":\"Can't write CLR type Newtonsoft.Json.Linq.JArray with handler type TextHandler\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2022-08-23T14:46:40.0025025+08:00",
+    "EndTime": "2022-08-23T14:52:21.1958612+08:00",
+    "OPTime": "341280ms"
+}
+2022-08-23 15:16:11.253 RecordInfo
+{
+    "IP": "::1",
+    "User": "",
+    "API": "/api/codemstr/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"tenantId=default\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"296\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"104\\\", \\\" Not A;Brand\\\";v=\\\"99\\\", \\\"Google Chrome\\\";v=\\\"104\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":0,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"codename\",\"conditions\":[{\"type\":\"in\",\"firstvalue\":[\"string\"]}]}]}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"104\"]}",
+    "ResponseData": "{\"resultCode\":\"10001\",\"resultMsg\":\"42P01: 关系 \\\"code_mstr\\\" 不存在\",\"data\":null,\"methodName\":null}",
+    "BeginTime": "2022-08-23T15:15:36.4861526+08:00",
+    "EndTime": "2022-08-23T15:16:11.2433076+08:00",
+    "OPTime": "34845ms"
+}
+2022-08-23 15:16:13.321 发送接口请求日志到消息队列 --- None of the specified endpoints were reachable
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at RabbitMQ.Client.Framing.Impl.Connection.get_Endpoint()
+   at RabbitMQ.Client.Framing.Impl.Connection.get_Protocol()
+   at RabbitMQ.Client.Impl.Session..ctor(Connection connection, UInt16 channelNumber)
+   at RabbitMQ.Client.Impl.MainSession..ctor(Connection connection)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IList`1 hostnames, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IList`1 hostnames)
+   at CoreWebAPI.Common.Helper.RabbitHelper..ctor(List`1 hostNames, String userName, String password, Int32 port, String virtualHost, String exchangeName, String queueName, String routeKey)
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2()
+2022-08-23 15:16:24.739 RecordInfo
+{
+    "IP": "::1",
+    "User": "",
+    "API": "/api/codemstr/get",
+    "RequestQuery": "",
+    "RequestHeader": "{\"Connection\":[\"keep-alive\"],\"Content-Type\":[\"application/json-patch+json\"],\"Accept\":[\"text/plain\"],\"Accept-Encoding\":[\"gzip, deflate, br\"],\"Accept-Language\":[\"zh-CN,zh;q=0.9\"],\"Cookie\":[\"tenantId=default\"],\"Host\":[\"localhost:5051\"],\"Referer\":[\"http://localhost:5051/index.html\"],\"User-Agent\":[\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\"],\"Origin\":[\"http://localhost:5051\"],\"Content-Length\":[\"296\"],\"sec-ch-ua\":[\"\\\"Chromium\\\";v=\\\"104\\\", \\\" Not A;Brand\\\";v=\\\"99\\\", \\\"Google Chrome\\\";v=\\\"104\\\"\"],\"sec-ch-ua-mobile\":[\"?0\"],\"sec-ch-ua-platform\":[\"\\\"Windows\\\"\"],\"Sec-Fetch-Site\":[\"same-origin\"],\"Sec-Fetch-Mode\":[\"cors\"],\"Sec-Fetch-Dest\":[\"empty\"]}",
+    "RequestData": "{\"pageIndex\":0,\"pageSize\":0,\"sortList\":[{\"sortParam\":\"string\",\"ascending\":true}],\"tableHead\":[{\"label\":\"string\",\"property\":\"string\",\"isShow\":true,\"width\":\"string\",\"type\":\"string\"}],\"fieldList\":[\"string\"],\"conditionList\":[{\"field\":\"codename\",\"conditions\":[{\"type\":\"in\",\"firstvalue\":[\"string\"]}]}]}",
+    "ResponseStatus": "200",
+    "ResponseHeader": "{\"Content-Type\":[\"application/json; charset=utf-8\"],\"Content-Length\":[\"78\"]}",
+    "ResponseData": "{\"resultCode\":\"100000\",\"resultMsg\":\"执行成功\",\"data\":[],\"methodName\":null}",
+    "BeginTime": "2022-08-23T15:16:15.3914719+08:00",
+    "EndTime": "2022-08-23T15:16:24.7305838+08:00",
+    "OPTime": "9342ms"
+}
+2022-08-23 15:16:27.995 发送接口请求日志到消息队列 --- None of the specified endpoints were reachable
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at RabbitMQ.Client.Framing.Impl.Connection.get_Endpoint()
+   at RabbitMQ.Client.Framing.Impl.Connection.get_Protocol()
+   at RabbitMQ.Client.Impl.Session..ctor(Connection connection, UInt16 channelNumber)
+   at RabbitMQ.Client.Impl.MainSession..ctor(Connection connection)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IList`1 hostnames, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IList`1 hostnames)
+   at CoreWebAPI.Common.Helper.RabbitHelper..ctor(List`1 hostNames, String userName, String password, Int32 port, String virtualHost, String exchangeName, String queueName, String routeKey)
+   at CoreWebAPI.Middlewares.RecordAccessLogsMildd.<>c__DisplayClass5_0.<InvokeAsync>b__2()
